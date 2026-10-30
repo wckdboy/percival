@@ -1,0 +1,4122 @@
+[
+  {
+    "name": "Backpack screw -24 283 head",
+    "native_volume_mm3": 16.624199337967735,
+    "step_volume_mm3": 16.623812683600857,
+    "delta_mm3": -0.0003866543668777922,
+    "relative_delta": -2.325852565992268e-05,
+    "max_bbox_delta_mm": 4.934220550012469e-05
+  },
+  {
+    "name": "Backpack screw -24 283 seat",
+    "native_volume_mm3": 17.23999896370988,
+    "step_volume_mm3": 17.239720000843928,
+    "delta_mm3": -0.00027896286595208153,
+    "relative_delta": -1.618114168912058e-05,
+    "max_bbox_delta_mm": 6.578960739034301e-05
+  },
+  {
+    "name": "Backpack screw -24 283 socket",
+    "native_volume_mm3": 3.8166043670384444,
+    "step_volume_mm3": 3.816657342483845,
+    "delta_mm3": 5.297544540061594e-05,
+    "relative_delta": 1.3880255930672503e-05,
+    "max_bbox_delta_mm": 2.4070558367839112e-05
+  },
+  {
+    "name": "Backpack screw -24 331 head",
+    "native_volume_mm3": 16.624199337967887,
+    "step_volume_mm3": 16.623812683600836,
+    "delta_mm3": -0.00038665436705187517,
+    "relative_delta": -2.325852567039413e-05,
+    "max_bbox_delta_mm": 4.934222096153462e-05
+  },
+  {
+    "name": "Backpack screw -24 331 seat",
+    "native_volume_mm3": 17.23999896370985,
+    "step_volume_mm3": 17.23972000084385,
+    "delta_mm3": -0.0002789628660018195,
+    "relative_delta": -1.6181141692005642e-05,
+    "max_bbox_delta_mm": 6.578960744718643e-05
+  },
+  {
+    "name": "Backpack screw -24 331 socket",
+    "native_volume_mm3": 3.816604367038431,
+    "step_volume_mm3": 3.8166573424838073,
+    "delta_mm3": 5.297544537619103e-05,
+    "relative_delta": 1.3880255924272908e-05,
+    "max_bbox_delta_mm": 2.4070558367839112e-05
+  },
+  {
+    "name": "Backpack screw 24 283 head",
+    "native_volume_mm3": 16.624199337967823,
+    "step_volume_mm3": 16.623812683600836,
+    "delta_mm3": -0.0003866543669879263,
+    "relative_delta": -2.3258525666547485e-05,
+    "max_bbox_delta_mm": 4.934220555696811e-05
+  },
+  {
+    "name": "Backpack screw 24 283 seat",
+    "native_volume_mm3": 17.23999896370992,
+    "step_volume_mm3": 17.239720000843906,
+    "delta_mm3": -0.00027896286601247766,
+    "relative_delta": -1.61811416926238e-05,
+    "max_bbox_delta_mm": 6.578960733349959e-05
+  },
+  {
+    "name": "Backpack screw 24 283 socket",
+    "native_volume_mm3": 3.816604367038423,
+    "step_volume_mm3": 3.8166573424838215,
+    "delta_mm3": 5.297544539839549e-05,
+    "relative_delta": 1.3880255930090794e-05,
+    "max_bbox_delta_mm": 2.4070558367839112e-05
+  },
+  {
+    "name": "Backpack screw 24 331 head",
+    "native_volume_mm3": 16.624199337967866,
+    "step_volume_mm3": 16.623812683600775,
+    "delta_mm3": -0.000386654367090955,
+    "relative_delta": -2.3258525672744937e-05,
+    "max_bbox_delta_mm": 4.934222096153462e-05
+  },
+  {
+    "name": "Backpack screw 24 331 seat",
+    "native_volume_mm3": 17.239998963709898,
+    "step_volume_mm3": 17.239720000843917,
+    "delta_mm3": -0.00027896286598050324,
+    "relative_delta": -1.6181141690769154e-05,
+    "max_bbox_delta_mm": 6.578960739034301e-05
+  },
+  {
+    "name": "Backpack screw 24 331 socket",
+    "native_volume_mm3": 3.8166043670384155,
+    "step_volume_mm3": 3.8166573424838135,
+    "delta_mm3": 5.2975445397951404e-05,
+    "relative_delta": 1.3880255929974464e-05,
+    "max_bbox_delta_mm": 2.4070558367839112e-05
+  },
+  {
+    "name": "Chest cheek screw -29 -34 head",
+    "native_volume_mm3": 16.624199337967976,
+    "step_volume_mm3": 16.62381268360076,
+    "delta_mm3": -0.0003866543672153,
+    "relative_delta": -2.3258525680224543e-05,
+    "max_bbox_delta_mm": 4.934222096153462e-05
+  },
+  {
+    "name": "Chest cheek screw -29 -34 seat",
+    "native_volume_mm3": 17.239998963709787,
+    "step_volume_mm3": 17.239720000843832,
+    "delta_mm3": -0.00027896286595563424,
+    "relative_delta": -1.618114168932674e-05,
+    "max_bbox_delta_mm": 6.578960744718643e-05
+  },
+  {
+    "name": "Chest cheek screw -29 -34 socket",
+    "native_volume_mm3": 3.816604367038456,
+    "step_volume_mm3": 3.816657342483811,
+    "delta_mm3": 5.297544535487475e-05,
+    "relative_delta": 1.3880255918687674e-05,
+    "max_bbox_delta_mm": 2.4070558367839112e-05
+  },
+  {
+    "name": "Chest cheek screw -36 34 head",
+    "native_volume_mm3": 16.624199337967806,
+    "step_volume_mm3": 16.623812683600686,
+    "delta_mm3": -0.00038665436711937673,
+    "relative_delta": -2.3258525674454683e-05,
+    "max_bbox_delta_mm": 4.934222096153462e-05
+  },
+  {
+    "name": "Chest cheek screw -36 34 seat",
+    "native_volume_mm3": 17.239998963709752,
+    "step_volume_mm3": 17.23972000084378,
+    "delta_mm3": -0.0002789628659733978,
+    "relative_delta": -1.6181141690357143e-05,
+    "max_bbox_delta_mm": 6.578957840019939e-05
+  },
+  {
+    "name": "Chest cheek screw -36 34 socket",
+    "native_volume_mm3": 3.8166043670384124,
+    "step_volume_mm3": 3.8166573424838255,
+    "delta_mm3": 5.297544541305044e-05,
+    "relative_delta": 1.3880255933930618e-05,
+    "max_bbox_delta_mm": 2.407056501851912e-05
+  },
+  {
+    "name": "Chest cheek screw -45 -25 head",
+    "native_volume_mm3": 16.624199337967905,
+    "step_volume_mm3": 16.62381268360122,
+    "delta_mm3": -0.00038665436668594566,
+    "relative_delta": -2.3258525648382247e-05,
+    "max_bbox_delta_mm": 4.934220555696811e-05
+  },
+  {
+    "name": "Chest cheek screw -45 -25 seat",
+    "native_volume_mm3": 17.23999896370984,
+    "step_volume_mm3": 17.239720000843572,
+    "delta_mm3": -0.00027896286626827305,
+    "relative_delta": -1.618114170746119e-05,
+    "max_bbox_delta_mm": 6.578960739034301e-05
+  },
+  {
+    "name": "Chest cheek screw -45 -25 socket",
+    "native_volume_mm3": 3.8166043670384187,
+    "step_volume_mm3": 3.8166573424838184,
+    "delta_mm3": 5.297544539972776e-05,
+    "relative_delta": 1.3880255930439882e-05,
+    "max_bbox_delta_mm": 2.4070574283996393e-05
+  },
+  {
+    "name": "Chest cheek screw 29 -34 head",
+    "native_volume_mm3": 16.624199337967966,
+    "step_volume_mm3": 16.62381268360074,
+    "delta_mm3": -0.00038665436722595814,
+    "relative_delta": -2.325852568086568e-05,
+    "max_bbox_delta_mm": 4.934222096153462e-05
+  },
+  {
+    "name": "Chest cheek screw 29 -34 seat",
+    "native_volume_mm3": 17.239998963709798,
+    "step_volume_mm3": 17.239720000843878,
+    "delta_mm3": -0.0002789628659201071,
+    "relative_delta": -1.618114168726599e-05,
+    "max_bbox_delta_mm": 6.578960744718643e-05
+  },
+  {
+    "name": "Chest cheek screw 29 -34 socket",
+    "native_volume_mm3": 3.8166043670384187,
+    "step_volume_mm3": 3.8166573424838117,
+    "delta_mm3": 5.297544539306642e-05,
+    "relative_delta": 1.3880255928694525e-05,
+    "max_bbox_delta_mm": 2.407055842468253e-05
+  },
+  {
+    "name": "Chest cheek screw 36 34 head",
+    "native_volume_mm3": 16.62419933796788,
+    "step_volume_mm3": 16.623812683600764,
+    "delta_mm3": -0.000386654367115824,
+    "relative_delta": -2.325852567424087e-05,
+    "max_bbox_delta_mm": 4.934222096153462e-05
+  },
+  {
+    "name": "Chest cheek screw 36 34 seat",
+    "native_volume_mm3": 17.239998963709738,
+    "step_volume_mm3": 17.239720000843764,
+    "delta_mm3": -0.0002789628659733978,
+    "relative_delta": -1.6181141690357157e-05,
+    "max_bbox_delta_mm": 6.578958681302538e-05
+  },
+  {
+    "name": "Chest cheek screw 36 34 socket",
+    "native_volume_mm3": 3.8166043670383965,
+    "step_volume_mm3": 3.816657342483831,
+    "delta_mm3": 5.297544543436672e-05,
+    "relative_delta": 1.388025593951582e-05,
+    "max_bbox_delta_mm": 2.40705649616757e-05
+  },
+  {
+    "name": "Chest cheek screw 45 -25 head",
+    "native_volume_mm3": 16.624199337967934,
+    "step_volume_mm3": 16.623812683601283,
+    "delta_mm3": -0.0003866543666504185,
+    "relative_delta": -2.325852564624513e-05,
+    "max_bbox_delta_mm": 4.934220550012469e-05
+  },
+  {
+    "name": "Chest cheek screw 45 -25 seat",
+    "native_volume_mm3": 17.23999896370979,
+    "step_volume_mm3": 17.239720000843583,
+    "delta_mm3": -0.0002789628662078769,
+    "relative_delta": -1.6181141703957982e-05,
+    "max_bbox_delta_mm": 6.578960739034301e-05
+  },
+  {
+    "name": "Chest cheek screw 45 -25 socket",
+    "native_volume_mm3": 3.816604367038419,
+    "step_volume_mm3": 3.816657342483811,
+    "delta_mm3": 5.2975445391734155e-05,
+    "relative_delta": 1.388025592834545e-05,
+    "max_bbox_delta_mm": 2.4070571612355707e-05
+  },
+  {
+    "name": "Chest spine screw -12 273 head",
+    "native_volume_mm3": 16.624199337967898,
+    "step_volume_mm3": 16.623812683600793,
+    "delta_mm3": -0.0003866543671051659,
+    "relative_delta": -2.3258525673599722e-05,
+    "max_bbox_delta_mm": 4.934220561381153e-05
+  },
+  {
+    "name": "Chest spine screw -12 273 seat",
+    "native_volume_mm3": 17.239998963709812,
+    "step_volume_mm3": 17.239720000843487,
+    "delta_mm3": -0.00027896286632511647,
+    "relative_delta": -1.6181141710758403e-05,
+    "max_bbox_delta_mm": 6.578960739034301e-05
+  },
+  {
+    "name": "Chest spine screw -12 273 socket",
+    "native_volume_mm3": 3.816604367038441,
+    "step_volume_mm3": 3.8166573424838113,
+    "delta_mm3": 5.297544537041787e-05,
+    "relative_delta": 1.3880255922760229e-05,
+    "max_bbox_delta_mm": 2.407056501851912e-05
+  },
+  {
+    "name": "Chest spine screw -12 338 head",
+    "native_volume_mm3": 16.62419933796794,
+    "step_volume_mm3": 16.623812683600708,
+    "delta_mm3": -0.00038665436723306357,
+    "relative_delta": -2.325852568129313e-05,
+    "max_bbox_delta_mm": 4.934220550012469e-05
+  },
+  {
+    "name": "Chest spine screw -12 338 seat",
+    "native_volume_mm3": 17.23999896370977,
+    "step_volume_mm3": 17.239720000843803,
+    "delta_mm3": -0.0002789628659662924,
+    "relative_delta": -1.618114168994498e-05,
+    "max_bbox_delta_mm": 6.578960739034301e-05
+  },
+  {
+    "name": "Chest spine screw -12 338 socket",
+    "native_volume_mm3": 3.8166043670384173,
+    "step_volume_mm3": 3.8166573424837935,
+    "delta_mm3": 5.297544537619103e-05,
+    "relative_delta": 1.3880255924272957e-05,
+    "max_bbox_delta_mm": 2.40705649616757e-05
+  },
+  {
+    "name": "Chest spine screw 12 273 head",
+    "native_volume_mm3": 16.624199337967905,
+    "step_volume_mm3": 16.623812683600853,
+    "delta_mm3": -0.00038665436705187517,
+    "relative_delta": -2.3258525670394102e-05,
+    "max_bbox_delta_mm": 4.934220555696811e-05
+  },
+  {
+    "name": "Chest spine screw 12 273 seat",
+    "native_volume_mm3": 17.239998963709812,
+    "step_volume_mm3": 17.23972000084351,
+    "delta_mm3": -0.0002789628663038002,
+    "relative_delta": -1.6181141709521958e-05,
+    "max_bbox_delta_mm": 6.578960739034301e-05
+  },
+  {
+    "name": "Chest spine screw 12 273 socket",
+    "native_volume_mm3": 3.8166043670384417,
+    "step_volume_mm3": 3.81665734248385,
+    "delta_mm3": 5.2975445408165456e-05,
+    "relative_delta": 1.3880255932650584e-05,
+    "max_bbox_delta_mm": 2.407056501851912e-05
+  },
+  {
+    "name": "Chest spine screw 12 338 head",
+    "native_volume_mm3": 16.62419933796789,
+    "step_volume_mm3": 16.623812683600747,
+    "delta_mm3": -0.0003866543671442457,
+    "relative_delta": -2.3258525675950513e-05,
+    "max_bbox_delta_mm": 4.934220555696811e-05
+  },
+  {
+    "name": "Chest spine screw 12 338 seat",
+    "native_volume_mm3": 17.239998963709784,
+    "step_volume_mm3": 17.23972000084383,
+    "delta_mm3": -0.00027896286595563424,
+    "relative_delta": -1.6181141689326745e-05,
+    "max_bbox_delta_mm": 6.578960733349959e-05
+  },
+  {
+    "name": "Chest spine screw 12 338 socket",
+    "native_volume_mm3": 3.81660436703844,
+    "step_volume_mm3": 3.8166573424838117,
+    "delta_mm3": 5.297544537175014e-05,
+    "relative_delta": 1.3880255923109303e-05,
+    "max_bbox_delta_mm": 2.40705649616757e-05
+  },
+  {
+    "name": "Crown fixing -20 -16 head",
+    "native_volume_mm3": 16.624074037642952,
+    "step_volume_mm3": 16.62379779849856,
+    "delta_mm3": -0.0002762391443908996,
+    "relative_delta": -1.661681389083047e-05,
+    "max_bbox_delta_mm": 1.3420731193036772e-10
+  },
+  {
+    "name": "Crown fixing -20 -16 seat",
+    "native_volume_mm3": 17.239940802079925,
+    "step_volume_mm3": 17.239700105407156,
+    "delta_mm3": -0.00024069667276904738,
+    "relative_delta": -1.3961571883124353e-05,
+    "max_bbox_delta_mm": 1.7889689729599922e-10
+  },
+  {
+    "name": "Crown fixing -20 -16 socket",
+    "native_volume_mm3": 3.816604367038416,
+    "step_volume_mm3": 3.8166573424841985,
+    "delta_mm3": 5.297544578253266e-05,
+    "relative_delta": 1.3880256030739755e-05,
+    "max_bbox_delta_mm": 5.7490012750349706e-11
+  },
+  {
+    "name": "Crown fixing -20 -36 head",
+    "native_volume_mm3": 16.624074037642888,
+    "step_volume_mm3": 16.623797798503833,
+    "delta_mm3": -0.00027623913905472364,
+    "relative_delta": -1.6616813569839666e-05,
+    "max_bbox_delta_mm": 1.3417533750725852e-10
+  },
+  {
+    "name": "Crown fixing -20 -36 seat",
+    "native_volume_mm3": 17.23994080208004,
+    "step_volume_mm3": 17.239700105398548,
+    "delta_mm3": -0.00024069668149095946,
+    "relative_delta": -1.3961572389037371e-05,
+    "max_bbox_delta_mm": 1.7889334458232042e-10
+  },
+  {
+    "name": "Crown fixing -20 -36 socket",
+    "native_volume_mm3": 3.8166043670384213,
+    "step_volume_mm3": 3.816657342484221,
+    "delta_mm3": 5.297544579985214e-05,
+    "relative_delta": 1.3880256035277665e-05,
+    "max_bbox_delta_mm": 5.751843445978011e-11
+  },
+  {
+    "name": "Crown fixing 20 -16 head",
+    "native_volume_mm3": 16.62407403764282,
+    "step_volume_mm3": 16.62379779849865,
+    "delta_mm3": -0.00027623914417063133,
+    "relative_delta": -1.6616813877580644e-05,
+    "max_bbox_delta_mm": 1.3419665378933132e-10
+  },
+  {
+    "name": "Crown fixing 20 -16 seat",
+    "native_volume_mm3": 17.23994080208012,
+    "step_volume_mm3": 17.239700105398175,
+    "delta_mm3": -0.00024069668194570681,
+    "relative_delta": -1.3961572415414853e-05,
+    "max_bbox_delta_mm": 1.7890755543703563e-10
+  },
+  {
+    "name": "Crown fixing 20 -16 socket",
+    "native_volume_mm3": 3.816604367038438,
+    "step_volume_mm3": 3.816657342483802,
+    "delta_mm3": 5.2975445363756535e-05,
+    "relative_delta": 1.3880255921014882e-05,
+    "max_bbox_delta_mm": 5.751843445978011e-11
+  },
+  {
+    "name": "Crown fixing 20 -36 head",
+    "native_volume_mm3": 16.624074037642767,
+    "step_volume_mm3": 16.623797798498746,
+    "delta_mm3": -0.00027623914402141736,
+    "relative_delta": -1.6616813868604924e-05,
+    "max_bbox_delta_mm": 1.3419310107565252e-10
+  },
+  {
+    "name": "Crown fixing 20 -36 seat",
+    "native_volume_mm3": 17.23994080208006,
+    "step_volume_mm3": 17.23970011903055,
+    "delta_mm3": -0.00024068304950830566,
+    "relative_delta": -1.3960781668070832e-05,
+    "max_bbox_delta_mm": 1.7891110815071443e-10
+  },
+  {
+    "name": "Crown fixing 20 -36 socket",
+    "native_volume_mm3": 3.81660436703843,
+    "step_volume_mm3": 3.816657342483954,
+    "delta_mm3": 5.297544552362865e-05,
+    "relative_delta": 1.3880255962903485e-05,
+    "max_bbox_delta_mm": 5.7493565464028507e-11
+  },
+  {
+    "name": "Faceplate fixing -82 -26 head",
+    "native_volume_mm3": 16.624106555594295,
+    "step_volume_mm3": 16.623801893738293,
+    "delta_mm3": -0.00030466185600275253,
+    "relative_delta": -1.8326510058384377e-05,
+    "max_bbox_delta_mm": 2.6943780540023e-11
+  },
+  {
+    "name": "Faceplate fixing -82 -26 seat",
+    "native_volume_mm3": 17.239940802079733,
+    "step_volume_mm3": 17.239700105400185,
+    "delta_mm3": -0.00024069667954762508,
+    "relative_delta": -1.396157227631482e-05,
+    "max_bbox_delta_mm": 3.61666252501891e-11
+  },
+  {
+    "name": "Faceplate fixing -82 -26 socket",
+    "native_volume_mm3": 3.816604367038258,
+    "step_volume_mm3": 3.816657342483737,
+    "delta_mm3": 5.297544547921973e-05,
+    "relative_delta": 1.3880255951268397e-05,
+    "max_bbox_delta_mm": 1.0345502232667059e-11
+  },
+  {
+    "name": "Faceplate fixing -82 26 head",
+    "native_volume_mm3": 16.62410655559424,
+    "step_volume_mm3": 16.62380189373871,
+    "delta_mm3": -0.0003046618555266889,
+    "relative_delta": -1.8326510029747494e-05,
+    "max_bbox_delta_mm": 2.7114310796605423e-11
+  },
+  {
+    "name": "Faceplate fixing -82 26 seat",
+    "native_volume_mm3": 17.23994080207999,
+    "step_volume_mm3": 17.23970010539863,
+    "delta_mm3": -0.00024069668135950906,
+    "relative_delta": -1.3961572381412652e-05,
+    "max_bbox_delta_mm": 3.61524143954739e-11
+  },
+  {
+    "name": "Faceplate fixing -82 26 socket",
+    "native_volume_mm3": 3.8166043670382894,
+    "step_volume_mm3": 3.816657342484015,
+    "delta_mm3": 5.297544572568924e-05,
+    "relative_delta": 1.38802560158465e-05,
+    "max_bbox_delta_mm": 1.0317080523236655e-11
+  },
+  {
+    "name": "Faceplate fixing 82 -26 head",
+    "native_volume_mm3": 16.624106555594178,
+    "step_volume_mm3": 16.623801893743423,
+    "delta_mm3": -0.0003046618507553944,
+    "relative_delta": -1.832650974273698e-05,
+    "max_bbox_delta_mm": 2.708588908717502e-11
+  },
+  {
+    "name": "Faceplate fixing 82 -26 seat",
+    "native_volume_mm3": 17.239940802079936,
+    "step_volume_mm3": 17.23970010539849,
+    "delta_mm3": -0.00024069668144477419,
+    "relative_delta": -1.3961572386358485e-05,
+    "max_bbox_delta_mm": 3.609557097661309e-11
+  },
+  {
+    "name": "Faceplate fixing 82 -26 socket",
+    "native_volume_mm3": 3.8166043670383476,
+    "step_volume_mm3": 3.8166573424841697,
+    "delta_mm3": 5.29754458220566e-05,
+    "relative_delta": 1.388025604109579e-05,
+    "max_bbox_delta_mm": 1.1624479157035239e-11
+  },
+  {
+    "name": "Faceplate fixing 82 26 head",
+    "native_volume_mm3": 16.62410655559418,
+    "step_volume_mm3": 16.623801912326183,
+    "delta_mm3": -0.00030464326799872765,
+    "relative_delta": -1.8325391922864694e-05,
+    "max_bbox_delta_mm": 2.702904566831421e-11
+  },
+  {
+    "name": "Faceplate fixing 82 26 seat",
+    "native_volume_mm3": 17.239940802080017,
+    "step_volume_mm3": 17.239700105398963,
+    "delta_mm3": -0.00024069668105397568,
+    "relative_delta": -1.3961572363690215e-05,
+    "max_bbox_delta_mm": 3.6067149267182685e-11
+  },
+  {
+    "name": "Faceplate fixing 82 26 socket",
+    "native_volume_mm3": 3.816604367038336,
+    "step_volume_mm3": 3.816657342484136,
+    "delta_mm3": 5.297544579985214e-05,
+    "relative_delta": 1.3880256035277975e-05,
+    "max_bbox_delta_mm": 1.1539214028744027e-11
+  },
+  {
+    "name": "H01 hollow head shell",
+    "native_volume_mm3": 185442.91237721965,
+    "step_volume_mm3": 185442.9123772209,
+    "delta_mm3": 1.2514647096395493e-09,
+    "relative_delta": 6.748517339362509e-15,
+    "max_bbox_delta_mm": 2.4158453015843406e-13
+  },
+  {
+    "name": "H02 face frame",
+    "native_volume_mm3": 27617.101056740765,
+    "step_volume_mm3": 27617.09240199829,
+    "delta_mm3": -0.008654742476210231,
+    "relative_delta": -3.133834524640589e-07,
+    "max_bbox_delta_mm": 2.984279490192421e-13
+  },
+  {
+    "name": "H03 rear service lid",
+    "native_volume_mm3": 53226.00000000012,
+    "step_volume_mm3": 53225.99999999944,
+    "delta_mm3": -6.766640581190586e-10,
+    "relative_delta": -1.2713036074832923e-14,
+    "max_bbox_delta_mm": 5.684341886080802e-14
+  },
+  {
+    "name": "H04 black faceplate",
+    "native_volume_mm3": 40969.740000000056,
+    "step_volume_mm3": 40969.73999999939,
+    "delta_mm3": -6.693881005048752e-10,
+    "relative_delta": -1.633859771882551e-14,
+    "max_bbox_delta_mm": 1.2647660696529783e-12
+  },
+  {
+    "name": "H05 ear fin -1",
+    "native_volume_mm3": 8423.999999999995,
+    "step_volume_mm3": 8423.999999999965,
+    "delta_mm3": -2.9103830456733704e-11,
+    "relative_delta": -3.4548706620054275e-15,
+    "max_bbox_delta_mm": 7.416289804496046e-14
+  },
+  {
+    "name": "H05 ear fin 1",
+    "native_volume_mm3": 8423.999999999996,
+    "step_volume_mm3": 8424.00000000002,
+    "delta_mm3": 2.3646862246096134e-11,
+    "relative_delta": 2.807082412879409e-15,
+    "max_bbox_delta_mm": 1.7053025658242404e-13
+  },
+  {
+    "name": "H06 crown hatch",
+    "native_volume_mm3": 4275.0000000000355,
+    "step_volume_mm3": 4275.000000000019,
+    "delta_mm3": -1.6370904631912708e-11,
+    "relative_delta": -3.829451375885982e-15,
+    "max_bbox_delta_mm": 1.6342482922482304e-13
+  },
+  {
+    "name": "Handle upright -22",
+    "native_volume_mm3": 504.0,
+    "step_volume_mm3": 504.0,
+    "delta_mm3": 0.0,
+    "relative_delta": 0.0,
+    "max_bbox_delta_mm": 0.0
+  },
+  {
+    "name": "Handle upright 22",
+    "native_volume_mm3": 504.0,
+    "step_volume_mm3": 504.0,
+    "delta_mm3": 0.0,
+    "relative_delta": 0.0,
+    "max_bbox_delta_mm": 0.0
+  },
+  {
+    "name": "Head frame fixing -1 -39 head",
+    "native_volume_mm3": 16.62410655559426,
+    "step_volume_mm3": 16.62380188060084,
+    "delta_mm3": -0.00030467499341924054,
+    "relative_delta": -1.8327300321394587e-05,
+    "max_bbox_delta_mm": 2.701483481359901e-11
+  },
+  {
+    "name": "Head frame fixing -1 -39 seat",
+    "native_volume_mm3": 17.239940802079854,
+    "step_volume_mm3": 17.239700105398423,
+    "delta_mm3": -0.00024069668143056333,
+    "relative_delta": -1.3961572385534253e-05,
+    "max_bbox_delta_mm": 3.601030584832188e-11
+  },
+  {
+    "name": "Head frame fixing -1 -39 socket",
+    "native_volume_mm3": 3.8166043670384475,
+    "step_volume_mm3": 3.8166573424836554,
+    "delta_mm3": 5.297544520788122e-05,
+    "relative_delta": 1.3880255880173488e-05,
+    "max_bbox_delta_mm": 1.1624479157035239e-11
+  },
+  {
+    "name": "Head frame fixing -1 39 head",
+    "native_volume_mm3": 16.624106555594288,
+    "step_volume_mm3": 16.62380189374605,
+    "delta_mm3": -0.00030466184823652043,
+    "relative_delta": -1.83265095912175e-05,
+    "max_bbox_delta_mm": 2.7114310796605423e-11
+  },
+  {
+    "name": "Head frame fixing -1 39 seat",
+    "native_volume_mm3": 17.239940802079854,
+    "step_volume_mm3": 17.239700105398462,
+    "delta_mm3": -0.00024069668139148348,
+    "relative_delta": -1.3961572383267433e-05,
+    "max_bbox_delta_mm": 3.6123992686043493e-11
+  },
+  {
+    "name": "Head frame fixing -1 39 socket",
+    "native_volume_mm3": 3.816604367038441,
+    "step_volume_mm3": 3.816657342483713,
+    "delta_mm3": 5.297544527227416e-05,
+    "relative_delta": 1.3880255897045298e-05,
+    "max_bbox_delta_mm": 1.1596057447604835e-11
+  },
+  {
+    "name": "Head frame fixing 1 -39 head",
+    "native_volume_mm3": 16.624106555594178,
+    "step_volume_mm3": 16.623801893743945,
+    "delta_mm3": -0.0003046618502331455,
+    "relative_delta": -1.8326509711321826e-05,
+    "max_bbox_delta_mm": 2.710009994189022e-11
+  },
+  {
+    "name": "Head frame fixing 1 -39 seat",
+    "native_volume_mm3": 17.23994080207975,
+    "step_volume_mm3": 17.23970009976086,
+    "delta_mm3": -0.0002407023188908397,
+    "relative_delta": -1.3961899385513112e-05,
+    "max_bbox_delta_mm": 3.61666252501891e-11
+  },
+  {
+    "name": "Head frame fixing 1 -39 socket",
+    "native_volume_mm3": 3.8166043670384284,
+    "step_volume_mm3": 3.816657342484018,
+    "delta_mm3": 5.2975445589353853e-05,
+    "relative_delta": 1.388025598012435e-05,
+    "max_bbox_delta_mm": 1.1624479157035239e-11
+  },
+  {
+    "name": "Head frame fixing 1 39 head",
+    "native_volume_mm3": 16.624106555594377,
+    "step_volume_mm3": 16.623801906888946,
+    "delta_mm3": -0.00030464870543056577,
+    "relative_delta": -1.8325719004011363e-05,
+    "max_bbox_delta_mm": 2.7043256523029413e-11
+  },
+  {
+    "name": "Head frame fixing 1 39 seat",
+    "native_volume_mm3": 17.23994080207986,
+    "step_volume_mm3": 17.239700105408033,
+    "delta_mm3": -0.00024069667182757826,
+    "relative_delta": -1.396157182851464e-05,
+    "max_bbox_delta_mm": 3.610978183132829e-11
+  },
+  {
+    "name": "Head frame fixing 1 39 socket",
+    "native_volume_mm3": 3.8166043670384275,
+    "step_volume_mm3": 3.8166573424842305,
+    "delta_mm3": 5.297544580296076e-05,
+    "relative_delta": 1.3880256036092143e-05,
+    "max_bbox_delta_mm": 1.1596057447604835e-11
+  },
+  {
+    "name": "L ankle actuator envelope",
+    "native_volume_mm3": 36438.3626811995,
+    "step_volume_mm3": 36438.87543420839,
+    "delta_mm3": 0.5127530088939238,
+    "relative_delta": 1.407179058455556e-05,
+    "max_bbox_delta_mm": 0.0005349014450715117
+  },
+  {
+    "name": "L ankle axle cap",
+    "native_volume_mm3": 425.700595737543,
+    "step_volume_mm3": 425.7065045706711,
+    "delta_mm3": 0.005908833128103197,
+    "relative_delta": 1.3880255717908761e-05,
+    "max_bbox_delta_mm": 0.00011767836355858208
+  },
+  {
+    "name": "L ankle axle ring",
+    "native_volume_mm3": 977.0903444910305,
+    "step_volume_mm3": 977.0692506007293,
+    "delta_mm3": -0.02109389030113107,
+    "relative_delta": -2.1588474822273416e-05,
+    "max_bbox_delta_mm": 0.00019256452021920722
+  },
+  {
+    "name": "L ankle bearing rim",
+    "native_volume_mm3": 4156.071178767067,
+    "step_volume_mm3": 4156.050991670214,
+    "delta_mm3": -0.0201870968530784,
+    "relative_delta": -4.857254841113446e-06,
+    "max_bbox_delta_mm": 0.0004934222093240237
+  },
+  {
+    "name": "L ankle cover",
+    "native_volume_mm3": 4300.57554324942,
+    "step_volume_mm3": 4300.505955021005,
+    "delta_mm3": -0.0695882284144318,
+    "relative_delta": -1.6181143131798697e-05,
+    "max_bbox_delta_mm": 0.0004346813344113798
+  },
+  {
+    "name": "L ankle fixing 1 head",
+    "native_volume_mm3": 16.624199337967706,
+    "step_volume_mm3": 16.623812683600818,
+    "delta_mm3": -0.00038665436688845034,
+    "relative_delta": -2.3258525660563844e-05,
+    "max_bbox_delta_mm": 4.9342205542757256e-05
+  },
+  {
+    "name": "L ankle fixing 1 seat",
+    "native_volume_mm3": 17.23999896370996,
+    "step_volume_mm3": 17.239720000843835,
+    "delta_mm3": -0.0002789628661261645,
+    "relative_delta": -1.6181141699218124e-05,
+    "max_bbox_delta_mm": 6.578957834335597e-05
+  },
+  {
+    "name": "L ankle fixing 1 socket",
+    "native_volume_mm3": 3.816604367038455,
+    "step_volume_mm3": 3.816657342483738,
+    "delta_mm3": 5.29754452829323e-05,
+    "relative_delta": 1.3880255899837818e-05,
+    "max_bbox_delta_mm": 2.407056501851912e-05
+  },
+  {
+    "name": "L ankle fixing 2 head",
+    "native_volume_mm3": 16.62419933796765,
+    "step_volume_mm3": 16.623812683600846,
+    "delta_mm3": -0.0003866543668031852,
+    "relative_delta": -2.3258525655434944e-05,
+    "max_bbox_delta_mm": 4.934219012397989e-05
+  },
+  {
+    "name": "L ankle fixing 2 seat",
+    "native_volume_mm3": 17.23999896370995,
+    "step_volume_mm3": 17.239720000843842,
+    "delta_mm3": -0.00027896286610840093,
+    "relative_delta": -1.6181141698187763e-05,
+    "max_bbox_delta_mm": 6.578960737613215e-05
+  },
+  {
+    "name": "L ankle fixing 2 socket",
+    "native_volume_mm3": 3.8166043670384533,
+    "step_volume_mm3": 3.8166573424837567,
+    "delta_mm3": 5.29754453033604e-05,
+    "relative_delta": 1.3880255905190253e-05,
+    "max_bbox_delta_mm": 2.4070565025624546e-05
+  },
+  {
+    "name": "L ankle fixing 3 head",
+    "native_volume_mm3": 16.624199337967678,
+    "step_volume_mm3": 16.623812683600843,
+    "delta_mm3": -0.00038665436683515964,
+    "relative_delta": -2.325852565735827e-05,
+    "max_bbox_delta_mm": 4.93422055285464e-05
+  },
+  {
+    "name": "L ankle fixing 3 seat",
+    "native_volume_mm3": 17.239998963709958,
+    "step_volume_mm3": 17.239720000843786,
+    "delta_mm3": -0.0002789628661723498,
+    "relative_delta": -1.6181141701897086e-05,
+    "max_bbox_delta_mm": 6.578956627834032e-05
+  },
+  {
+    "name": "L ankle fixing 3 socket",
+    "native_volume_mm3": 3.8166043670384533,
+    "step_volume_mm3": 3.81665734248379,
+    "delta_mm3": 5.297544533666709e-05,
+    "relative_delta": 1.388025591391704e-05,
+    "max_bbox_delta_mm": 2.4070565025624546e-05
+  },
+  {
+    "name": "L ankle fixing 4 head",
+    "native_volume_mm3": 16.624199337967703,
+    "step_volume_mm3": 16.623812683600818,
+    "delta_mm3": -0.0003866543668848976,
+    "relative_delta": -2.325852566035014e-05,
+    "max_bbox_delta_mm": 4.9342205542757256e-05
+  },
+  {
+    "name": "L ankle fixing 4 seat",
+    "native_volume_mm3": 17.239998963710008,
+    "step_volume_mm3": 17.23972000084387,
+    "delta_mm3": -0.00027896286613682264,
+    "relative_delta": -1.6181141699836302e-05,
+    "max_bbox_delta_mm": 6.57896073619213e-05
+  },
+  {
+    "name": "L ankle fixing 4 socket",
+    "native_volume_mm3": 3.8166043670384524,
+    "step_volume_mm3": 3.8166573424837793,
+    "delta_mm3": 5.297544532689713e-05,
+    "relative_delta": 1.3880255911357187e-05,
+    "max_bbox_delta_mm": 2.407056501851912e-05
+  },
+  {
+    "name": "L ankle recessed hub",
+    "native_volume_mm3": 2654.4779368717172,
+    "step_volume_mm3": 2654.423383430478,
+    "delta_mm3": -0.054553441239022504,
+    "relative_delta": -2.055147661287904e-05,
+    "max_bbox_delta_mm": 0.00030545174849549994
+  },
+  {
+    "name": "L boot hatch screw -14 -35 head",
+    "native_volume_mm3": 16.624199337967685,
+    "step_volume_mm3": 16.623812683600864,
+    "delta_mm3": -0.0003866543668209488,
+    "relative_delta": -2.3258525656503432e-05,
+    "max_bbox_delta_mm": 3.69952427803355e-05
+  },
+  {
+    "name": "L boot hatch screw -14 -35 seat",
+    "native_volume_mm3": 17.239998963709905,
+    "step_volume_mm3": 17.239720000843793,
+    "delta_mm3": -0.00027896286611195364,
+    "relative_delta": -1.618114169839388e-05,
+    "max_bbox_delta_mm": 4.932699032877963e-05
+  },
+  {
+    "name": "L boot hatch screw -14 -35 socket",
+    "native_volume_mm3": 3.81660436703844,
+    "step_volume_mm3": 3.816657342483786,
+    "delta_mm3": 5.2975445345992966e-05,
+    "relative_delta": 1.3880255916360588e-05,
+    "max_bbox_delta_mm": 3.0972624522007663e-05
+  },
+  {
+    "name": "L boot hatch screw -14 -9 head",
+    "native_volume_mm3": 16.624199337967735,
+    "step_volume_mm3": 16.623812683600857,
+    "delta_mm3": -0.0003866543668777922,
+    "relative_delta": -2.325852565992268e-05,
+    "max_bbox_delta_mm": 3.699524275901922e-05
+  },
+  {
+    "name": "L boot hatch screw -14 -9 seat",
+    "native_volume_mm3": 17.239998963709915,
+    "step_volume_mm3": 17.239720000843835,
+    "delta_mm3": -0.0002789628660799792,
+    "relative_delta": -1.6181141696539206e-05,
+    "max_bbox_delta_mm": 4.932657512313199e-05
+  },
+  {
+    "name": "L boot hatch screw -14 -9 socket",
+    "native_volume_mm3": 3.8166043670384355,
+    "step_volume_mm3": 3.816657342483753,
+    "delta_mm3": 5.297544531757126e-05,
+    "relative_delta": 1.3880255908913747e-05,
+    "max_bbox_delta_mm": 3.0972594519340646e-05
+  },
+  {
+    "name": "L boot hatch screw 14 -35 head",
+    "native_volume_mm3": 16.62419933796772,
+    "step_volume_mm3": 16.623812683600935,
+    "delta_mm3": -0.00038665436678542164,
+    "relative_delta": -2.325852565436631e-05,
+    "max_bbox_delta_mm": 3.699524279454636e-05
+  },
+  {
+    "name": "L boot hatch screw 14 -35 seat",
+    "native_volume_mm3": 17.23999896370994,
+    "step_volume_mm3": 17.239720000843732,
+    "delta_mm3": -0.0002789628662078769,
+    "relative_delta": -1.6181141703957843e-05,
+    "max_bbox_delta_mm": 4.9326696725415786e-05
+  },
+  {
+    "name": "L boot hatch screw 14 -35 socket",
+    "native_volume_mm3": 3.8166043670384457,
+    "step_volume_mm3": 3.8166573424838464,
+    "delta_mm3": 5.297544540061594e-05,
+    "relative_delta": 1.3880255930672497e-05,
+    "max_bbox_delta_mm": 3.097275801167143e-05
+  },
+  {
+    "name": "L boot hatch screw 14 -9 head",
+    "native_volume_mm3": 16.624199337967728,
+    "step_volume_mm3": 16.62381268360085,
+    "delta_mm3": -0.0003866543668777922,
+    "relative_delta": -2.325852565992269e-05,
+    "max_bbox_delta_mm": 3.699524276612465e-05
+  },
+  {
+    "name": "L boot hatch screw 14 -9 seat",
+    "native_volume_mm3": 17.239998963709954,
+    "step_volume_mm3": 17.23972000084386,
+    "delta_mm3": -0.0002789628660941901,
+    "relative_delta": -1.6181141697363464e-05,
+    "max_bbox_delta_mm": 4.932699035009591e-05
+  },
+  {
+    "name": "L boot hatch screw 14 -9 socket",
+    "native_volume_mm3": 3.816604367038422,
+    "step_volume_mm3": 3.816657342483787,
+    "delta_mm3": 5.297544536464471e-05,
+    "relative_delta": 1.3880255921247653e-05,
+    "max_bbox_delta_mm": 3.097275798324972e-05
+  },
+  {
+    "name": "L boot heel cap",
+    "native_volume_mm3": 2367.500000000002,
+    "step_volume_mm3": 2367.499999999999,
+    "delta_mm3": -2.7284841053187847e-12,
+    "relative_delta": -1.1524748068928332e-15,
+    "max_bbox_delta_mm": 7.815970093361102e-14
+  },
+  {
+    "name": "L boot midsole gasket",
+    "native_volume_mm3": 78911.99999999997,
+    "step_volume_mm3": 78912.00000000007,
+    "delta_mm3": 1.0186340659856796e-10,
+    "relative_delta": 1.2908481168715532e-15,
+    "max_bbox_delta_mm": 2.4513724383723456e-13
+  },
+  {
+    "name": "L boot toe cap",
+    "native_volume_mm3": 2347.4999999999995,
+    "step_volume_mm3": 2347.500000000002,
+    "delta_mm3": 2.2737367544323206e-12,
+    "relative_delta": 9.68577957159668e-16,
+    "max_bbox_delta_mm": 8.526512829121202e-14
+  },
+  {
+    "name": "L elbow actuator envelope",
+    "native_volume_mm3": 14776.384314853341,
+    "step_volume_mm3": 14776.588235602261,
+    "delta_mm3": 0.2039207489196997,
+    "relative_delta": 1.3800449729418374e-05,
+    "max_bbox_delta_mm": 0.0003744310114939253
+  },
+  {
+    "name": "L elbow axle cap",
+    "native_volume_mm3": 208.59329191126335,
+    "step_volume_mm3": 208.59609984263463,
+    "delta_mm3": 0.0028079313712794374,
+    "relative_delta": 1.3461273589152358e-05,
+    "max_bbox_delta_mm": 8.237479988792984e-05
+  },
+  {
+    "name": "L elbow axle ring",
+    "native_volume_mm3": 478.7683337773121,
+    "step_volume_mm3": 478.7625927741495,
+    "delta_mm3": -0.005741003162597735,
+    "relative_delta": -1.199119231070121e-05,
+    "max_bbox_delta_mm": 0.00013479516411507575
+  },
+  {
+    "name": "L elbow bearing rim",
+    "native_volume_mm3": 2120.444478957887,
+    "step_volume_mm3": 2120.41016774226,
+    "delta_mm3": -0.03431121562698536,
+    "relative_delta": -1.6181143136484263e-05,
+    "max_bbox_delta_mm": 0.0003524443252445053
+  },
+  {
+    "name": "L elbow cover",
+    "native_volume_mm3": 1963.3712550840012,
+    "step_volume_mm3": 1963.3309049041727,
+    "delta_mm3": -0.040350179828465116,
+    "relative_delta": -2.055147732451587e-05,
+    "max_bbox_delta_mm": 0.00029370360431357767
+  },
+  {
+    "name": "L elbow fixing 1 head",
+    "native_volume_mm3": 16.624199337967752,
+    "step_volume_mm3": 16.623812683600885,
+    "delta_mm3": -0.00038665436686713406,
+    "relative_delta": -2.3258525659281534e-05,
+    "max_bbox_delta_mm": 4.93421901524016e-05
+  },
+  {
+    "name": "L elbow fixing 1 seat",
+    "native_volume_mm3": 17.239998963710008,
+    "step_volume_mm3": 17.239720000843274,
+    "delta_mm3": -0.00027896286673367854,
+    "relative_delta": -1.6181141734456714e-05,
+    "max_bbox_delta_mm": 6.578960739034301e-05
+  },
+  {
+    "name": "L elbow fixing 1 socket",
+    "native_volume_mm3": 3.8166043670384546,
+    "step_volume_mm3": 3.816657342483768,
+    "delta_mm3": 5.2975445313574454e-05,
+    "relative_delta": 1.3880255907866464e-05,
+    "max_bbox_delta_mm": 2.40705649616757e-05
+  },
+  {
+    "name": "L elbow fixing 2 head",
+    "native_volume_mm3": 16.624199337967806,
+    "step_volume_mm3": 16.62381268360075,
+    "delta_mm3": -0.0003866543670554279,
+    "relative_delta": -2.325852567060795e-05,
+    "max_bbox_delta_mm": 4.934220555696811e-05
+  },
+  {
+    "name": "L elbow fixing 2 seat",
+    "native_volume_mm3": 17.239998963709915,
+    "step_volume_mm3": 17.239720000843253,
+    "delta_mm3": -0.00027896286666262426,
+    "relative_delta": -1.6181141730335326e-05,
+    "max_bbox_delta_mm": 6.578960739034301e-05
+  },
+  {
+    "name": "L elbow fixing 2 socket",
+    "native_volume_mm3": 3.816604367038414,
+    "step_volume_mm3": 3.8166573424837735,
+    "delta_mm3": 5.297544535931564e-05,
+    "relative_delta": 1.3880255919851397e-05,
+    "max_bbox_delta_mm": 2.40705649616757e-05
+  },
+  {
+    "name": "L elbow fixing 3 head",
+    "native_volume_mm3": 16.624199337967756,
+    "step_volume_mm3": 16.623812683601003,
+    "delta_mm3": -0.0003866543667534472,
+    "relative_delta": -2.3258525652442892e-05,
+    "max_bbox_delta_mm": 4.934220550012469e-05
+  },
+  {
+    "name": "L elbow fixing 3 seat",
+    "native_volume_mm3": 17.23999896371,
+    "step_volume_mm3": 17.23972000084322,
+    "delta_mm3": -0.0002789628667798638,
+    "relative_delta": -1.6181141737135683e-05,
+    "max_bbox_delta_mm": 6.578960744718643e-05
+  },
+  {
+    "name": "L elbow fixing 3 socket",
+    "native_volume_mm3": 3.8166043670384204,
+    "step_volume_mm3": 3.8166573424838357,
+    "delta_mm3": 5.297544541527088e-05,
+    "relative_delta": 1.3880255934512376e-05,
+    "max_bbox_delta_mm": 2.40705649616757e-05
+  },
+  {
+    "name": "L elbow fixing 4 head",
+    "native_volume_mm3": 16.624199337967735,
+    "step_volume_mm3": 16.623812683600885,
+    "delta_mm3": -0.0003866543668493705,
+    "relative_delta": -2.3258525658213023e-05,
+    "max_bbox_delta_mm": 4.934218378593869e-05
+  },
+  {
+    "name": "L elbow fixing 4 seat",
+    "native_volume_mm3": 17.239998963709926,
+    "step_volume_mm3": 17.23972000084355,
+    "delta_mm3": -0.00027896286637485446,
+    "relative_delta": -1.618114171364333e-05,
+    "max_bbox_delta_mm": 6.578960744718643e-05
+  },
+  {
+    "name": "L elbow fixing 4 socket",
+    "native_volume_mm3": 3.816604367038446,
+    "step_volume_mm3": 3.8166573424837726,
+    "delta_mm3": 5.297544532645304e-05,
+    "relative_delta": 1.3880255911240852e-05,
+    "max_bbox_delta_mm": 2.40705649616757e-05
+  },
+  {
+    "name": "L elbow recessed hub",
+    "native_volume_mm3": 769.6374639174809,
+    "step_volume_mm3": 769.6188169154733,
+    "delta_mm3": -0.01864700200758307,
+    "relative_delta": -2.4228293036398196e-05,
+    "max_bbox_delta_mm": 0.00018721550571854095
+  },
+  {
+    "name": "L forearm faceplate",
+    "native_volume_mm3": 1099.0000000000055,
+    "step_volume_mm3": 1098.999999999999,
+    "delta_mm3": -6.366462912410498e-12,
+    "relative_delta": -5.792959883903973e-15,
+    "max_bbox_delta_mm": 5.684341886080802e-14
+  },
+  {
+    "name": "L forearm orange control",
+    "native_volume_mm3": 531.9999999999999,
+    "step_volume_mm3": 532.0000000000015,
+    "delta_mm3": 1.5916157281026244e-12,
+    "relative_delta": 2.9917588874109488e-15,
+    "max_bbox_delta_mm": 1.7053025658242404e-13
+  },
+  {
+    "name": "L forearm screw -9 head",
+    "native_volume_mm3": 16.62400672922481,
+    "step_volume_mm3": 16.623786145595314,
+    "delta_mm3": -0.0002205836294955077,
+    "relative_delta": -1.326898100370257e-05,
+    "max_bbox_delta_mm": 1.7053025658242404e-13
+  },
+  {
+    "name": "L forearm screw -9 seat",
+    "native_volume_mm3": 17.239910424635895,
+    "step_volume_mm3": 17.23968934620842,
+    "delta_mm3": -0.0002210784274758737,
+    "relative_delta": -1.2823641308481037e-05,
+    "max_bbox_delta_mm": 1.0089706847793423e-12
+  },
+  {
+    "name": "L forearm screw -9 socket",
+    "native_volume_mm3": 3.8166043670384053,
+    "step_volume_mm3": 3.816657342484218,
+    "delta_mm3": 5.2975445812730726e-05,
+    "relative_delta": 1.388025603865208e-05,
+    "max_bbox_delta_mm": 8.526512829121202e-14
+  },
+  {
+    "name": "L forearm screw 9 head",
+    "native_volume_mm3": 16.624006729224757,
+    "step_volume_mm3": 16.623786145596842,
+    "delta_mm3": -0.0002205836279145501,
+    "relative_delta": -1.3268980908601737e-05,
+    "max_bbox_delta_mm": 1.7053025658242404e-13
+  },
+  {
+    "name": "L forearm screw 9 seat",
+    "native_volume_mm3": 17.23991042463607,
+    "step_volume_mm3": 17.239689346208493,
+    "delta_mm3": -0.00022107842757534968,
+    "relative_delta": -1.2823641314251005e-05,
+    "max_bbox_delta_mm": 9.663381206337363e-13
+  },
+  {
+    "name": "L forearm screw 9 socket",
+    "native_volume_mm3": 3.816604367038453,
+    "step_volume_mm3": 3.816657342484245,
+    "delta_mm3": 5.297544579230262e-05,
+    "relative_delta": 1.3880256033299479e-05,
+    "max_bbox_delta_mm": 1.5631940186722204e-13
+  },
+  {
+    "name": "L hip actuator envelope",
+    "native_volume_mm3": 102640.14769517539,
+    "step_volume_mm3": 102638.53458099853,
+    "delta_mm3": -1.6131141768564703,
+    "relative_delta": -1.5716210596726323e-05,
+    "max_bbox_delta_mm": 0.000829097239886778
+  },
+  {
+    "name": "L hip axle cap",
+    "native_volume_mm3": 1022.7810193001952,
+    "step_volume_mm3": 1022.7633389508796,
+    "delta_mm3": -0.017680349315583044,
+    "relative_delta": -1.7286544218116454e-05,
+    "max_bbox_delta_mm": 0.00018240139272052147
+  },
+  {
+    "name": "L hip axle ring",
+    "native_volume_mm3": 2347.476790620229,
+    "step_volume_mm3": 2347.418788030926,
+    "delta_mm3": -0.058002589303214336,
+    "relative_delta": -2.4708482543884666e-05,
+    "max_bbox_delta_mm": 0.0002622185780012387
+  },
+  {
+    "name": "L hip bearing rim",
+    "native_volume_mm3": 9650.37844415318,
+    "step_volume_mm3": 9650.378444109643,
+    "delta_mm3": -4.3537511373870075e-08,
+    "relative_delta": -4.511482282878543e-12,
+    "max_bbox_delta_mm": 3.802824721788056e-11
+  },
+  {
+    "name": "L hip cover",
+    "native_volume_mm3": 10935.210712935981,
+    "step_volume_mm3": 10935.157597886668,
+    "delta_mm3": -0.05311504931341915,
+    "relative_delta": -4.857249732790778e-06,
+    "max_bbox_delta_mm": 0.0006931405062289286
+  },
+  {
+    "name": "L hip fixing 1 head",
+    "native_volume_mm3": 16.624199337967735,
+    "step_volume_mm3": 16.623812683600907,
+    "delta_mm3": -0.0003866543668280542,
+    "relative_delta": -2.3258525656930777e-05,
+    "max_bbox_delta_mm": 4.93422055285464e-05
+  },
+  {
+    "name": "L hip fixing 1 seat",
+    "native_volume_mm3": 17.239998963710008,
+    "step_volume_mm3": 17.239720000843914,
+    "delta_mm3": -0.0002789628660941901,
+    "relative_delta": -1.6181141697363417e-05,
+    "max_bbox_delta_mm": 6.57896073619213e-05
+  },
+  {
+    "name": "L hip fixing 1 socket",
+    "native_volume_mm3": 3.8166043670384453,
+    "step_volume_mm3": 3.8166573424838077,
+    "delta_mm3": 5.297544536242427e-05,
+    "relative_delta": 1.3880255920665784e-05,
+    "max_bbox_delta_mm": 2.407055839626082e-05
+  },
+  {
+    "name": "L hip fixing 2 head",
+    "native_volume_mm3": 16.624199337967784,
+    "step_volume_mm3": 16.62381268360092,
+    "delta_mm3": -0.00038665436686358134,
+    "relative_delta": -2.325852565906778e-05,
+    "max_bbox_delta_mm": 4.934220555696811e-05
+  },
+  {
+    "name": "L hip fixing 2 seat",
+    "native_volume_mm3": 17.23999896371002,
+    "step_volume_mm3": 17.239720000843942,
+    "delta_mm3": -0.0002789628660764265,
+    "relative_delta": -1.6181141696333035e-05,
+    "max_bbox_delta_mm": 6.578960744718643e-05
+  },
+  {
+    "name": "L hip fixing 2 socket",
+    "native_volume_mm3": 3.816604367038433,
+    "step_volume_mm3": 3.8166573424838446,
+    "delta_mm3": 5.297544541171817e-05,
+    "relative_delta": 1.3880255933581473e-05,
+    "max_bbox_delta_mm": 2.4070558367839112e-05
+  },
+  {
+    "name": "L hip fixing 3 head",
+    "native_volume_mm3": 16.624199337967738,
+    "step_volume_mm3": 16.623812683600878,
+    "delta_mm3": -0.00038665436686002863,
+    "relative_delta": -2.325852565885414e-05,
+    "max_bbox_delta_mm": 4.934220558538982e-05
+  },
+  {
+    "name": "L hip fixing 3 seat",
+    "native_volume_mm3": 17.23999896371,
+    "step_volume_mm3": 17.239720000843956,
+    "delta_mm3": -0.0002789628660444521,
+    "relative_delta": -1.618114169447839e-05,
+    "max_bbox_delta_mm": 6.578960741876472e-05
+  },
+  {
+    "name": "L hip fixing 3 socket",
+    "native_volume_mm3": 3.8166043670384204,
+    "step_volume_mm3": 3.8166573424838224,
+    "delta_mm3": 5.297544540194821e-05,
+    "relative_delta": 1.3880255931021661e-05,
+    "max_bbox_delta_mm": 2.407055839626082e-05
+  },
+  {
+    "name": "L hip fixing 4 head",
+    "native_volume_mm3": 16.62419933796774,
+    "step_volume_mm3": 16.623812683600892,
+    "delta_mm3": -0.0003866543668493705,
+    "relative_delta": -2.3258525658213013e-05,
+    "max_bbox_delta_mm": 4.934220550012469e-05
+  },
+  {
+    "name": "L hip fixing 4 seat",
+    "native_volume_mm3": 17.239998963709976,
+    "step_volume_mm3": 17.239720000843935,
+    "delta_mm3": -0.00027896286604089937,
+    "relative_delta": -1.6181141694272336e-05,
+    "max_bbox_delta_mm": 6.578960739034301e-05
+  },
+  {
+    "name": "L hip fixing 4 socket",
+    "native_volume_mm3": 3.816604367038431,
+    "step_volume_mm3": 3.816657342483792,
+    "delta_mm3": 5.2975445361092e-05,
+    "relative_delta": 1.3880255920316764e-05,
+    "max_bbox_delta_mm": 2.407055839626082e-05
+  },
+  {
+    "name": "L hip recessed hub",
+    "native_volume_mm3": 9047.229776887025,
+    "step_volume_mm3": 9047.083382366995,
+    "delta_mm3": -0.14639452003029874,
+    "relative_delta": -1.6181143138896846e-05,
+    "max_bbox_delta_mm": 0.0005639109203343651
+  },
+  {
+    "name": "L hollow forearm",
+    "native_volume_mm3": 11934.31735623023,
+    "step_volume_mm3": 11934.31735623019,
+    "delta_mm3": -4.001776687800884e-11,
+    "relative_delta": -3.3531676495193783e-15,
+    "max_bbox_delta_mm": 1.1368683772161603e-13
+  },
+  {
+    "name": "L hollow upper arm",
+    "native_volume_mm3": 10016.451845484264,
+    "step_volume_mm3": 10016.451845484282,
+    "delta_mm3": 1.8189894035458565e-11,
+    "relative_delta": 1.8160017455341882e-15,
+    "max_bbox_delta_mm": 2.6645352591003757e-13
+  },
+  {
+    "name": "L knee actuator envelope",
+    "native_volume_mm3": 86197.61889228107,
+    "step_volume_mm3": 86196.94005860406,
+    "delta_mm3": -0.6788336770114256,
+    "relative_delta": -7.875318201767807e-06,
+    "max_bbox_delta_mm": 0.0007488620231157483
+  },
+  {
+    "name": "L knee axle cap",
+    "native_volume_mm3": 834.3984750413093,
+    "step_volume_mm3": 834.387042196312,
+    "delta_mm3": -0.011432844997329994,
+    "relative_delta": -1.3701900637778584e-05,
+    "max_bbox_delta_mm": 0.0001647496450516428
+  },
+  {
+    "name": "L knee axle ring",
+    "native_volume_mm3": 1915.107763733877,
+    "step_volume_mm3": 1915.0603663028132,
+    "delta_mm3": -0.047397431063700424,
+    "relative_delta": -2.4749224018229588e-05,
+    "max_bbox_delta_mm": 0.00023684258653133838
+  },
+  {
+    "name": "L knee bearing rim",
+    "native_volume_mm3": 7925.750252457726,
+    "step_volume_mm3": 7925.711755089943,
+    "delta_mm3": -0.03849736778283841,
+    "relative_delta": -4.8572521914755785e-06,
+    "max_bbox_delta_mm": 0.0006813923620541118
+  },
+  {
+    "name": "L knee cover",
+    "native_volume_mm3": 8824.190431700938,
+    "step_volume_mm3": 8824.147570371651,
+    "delta_mm3": -0.042861329286097316,
+    "relative_delta": -4.857253435070692e-06,
+    "max_bbox_delta_mm": 0.000622651304468036
+  },
+  {
+    "name": "L knee fixing 1 head",
+    "native_volume_mm3": 16.6241993379678,
+    "step_volume_mm3": 16.62381268360099,
+    "delta_mm3": -0.00038665436681029064,
+    "relative_delta": -2.325852565586215e-05,
+    "max_bbox_delta_mm": 4.934220555696811e-05
+  },
+  {
+    "name": "L knee fixing 1 seat",
+    "native_volume_mm3": 17.239998963710065,
+    "step_volume_mm3": 17.239720000843928,
+    "delta_mm3": -0.00027896286613682264,
+    "relative_delta": -1.6181141699836248e-05,
+    "max_bbox_delta_mm": 6.578962793923893e-05
+  },
+  {
+    "name": "L knee fixing 1 socket",
+    "native_volume_mm3": 3.8166043670384653,
+    "step_volume_mm3": 3.816657342483864,
+    "delta_mm3": 5.297544539883958e-05,
+    "relative_delta": 1.3880255930206997e-05,
+    "max_bbox_delta_mm": 2.407056499009741e-05
+  },
+  {
+    "name": "L knee fixing 2 head",
+    "native_volume_mm3": 16.62419933796774,
+    "step_volume_mm3": 16.623812683600807,
+    "delta_mm3": -0.0003866543669346356,
+    "relative_delta": -2.325852566334199e-05,
+    "max_bbox_delta_mm": 4.93422055285464e-05
+  },
+  {
+    "name": "L knee fixing 2 seat",
+    "native_volume_mm3": 17.239998963710047,
+    "step_volume_mm3": 17.239720000843942,
+    "delta_mm3": -0.0002789628661048482,
+    "relative_delta": -1.6181141697981602e-05,
+    "max_bbox_delta_mm": 6.578960733349959e-05
+  },
+  {
+    "name": "L knee fixing 2 socket",
+    "native_volume_mm3": 3.8166043670384435,
+    "step_volume_mm3": 3.8166573424837806,
+    "delta_mm3": 5.297544533711118e-05,
+    "relative_delta": 1.3880255914033433e-05,
+    "max_bbox_delta_mm": 2.407056499009741e-05
+  },
+  {
+    "name": "L knee fixing 3 head",
+    "native_volume_mm3": 16.624199337967823,
+    "step_volume_mm3": 16.62381268360073,
+    "delta_mm3": -0.00038665436709450773,
+    "relative_delta": -2.3258525672958704e-05,
+    "max_bbox_delta_mm": 4.9342205514335546e-05
+  },
+  {
+    "name": "L knee fixing 3 seat",
+    "native_volume_mm3": 17.23999896370998,
+    "step_volume_mm3": 17.239720000843842,
+    "delta_mm3": -0.00027896286613682264,
+    "relative_delta": -1.618114169983633e-05,
+    "max_bbox_delta_mm": 6.578957832914512e-05
+  },
+  {
+    "name": "L knee fixing 3 socket",
+    "native_volume_mm3": 3.81660436703846,
+    "step_volume_mm3": 3.8166573424838077,
+    "delta_mm3": 5.297544534776932e-05,
+    "relative_delta": 1.3880255916825945e-05,
+    "max_bbox_delta_mm": 2.407056499009741e-05
+  },
+  {
+    "name": "L knee fixing 4 head",
+    "native_volume_mm3": 16.62419933796765,
+    "step_volume_mm3": 16.623812683600836,
+    "delta_mm3": -0.00038665436681384335,
+    "relative_delta": -2.3258525656076067e-05,
+    "max_bbox_delta_mm": 4.934220558538982e-05
+  },
+  {
+    "name": "L knee fixing 4 seat",
+    "native_volume_mm3": 17.239998963710047,
+    "step_volume_mm3": 17.2397200008439,
+    "delta_mm3": -0.0002789628661474808,
+    "relative_delta": -1.6181141700454487e-05,
+    "max_bbox_delta_mm": 6.57896073619213e-05
+  },
+  {
+    "name": "L knee fixing 4 socket",
+    "native_volume_mm3": 3.8166043670384355,
+    "step_volume_mm3": 3.8166573424838237,
+    "delta_mm3": 5.297544538818144e-05,
+    "relative_delta": 1.3880255927414534e-05,
+    "max_bbox_delta_mm": 2.4070555696198426e-05
+  },
+  {
+    "name": "L knee panel screw -12 -16 head",
+    "native_volume_mm3": 16.624199337967728,
+    "step_volume_mm3": 16.623812683600743,
+    "delta_mm3": -0.0003866543669843736,
+    "relative_delta": -2.325852566633391e-05,
+    "max_bbox_delta_mm": 4.9342205514335546e-05
+  },
+  {
+    "name": "L knee panel screw -12 -16 seat",
+    "native_volume_mm3": 17.239998963709855,
+    "step_volume_mm3": 17.239720000843835,
+    "delta_mm3": -0.0002789628660195831,
+    "relative_delta": -1.6181141693036007e-05,
+    "max_bbox_delta_mm": 6.578960737613215e-05
+  },
+  {
+    "name": "L knee panel screw -12 -16 socket",
+    "native_volume_mm3": 3.816604367038474,
+    "step_volume_mm3": 3.8166573424837775,
+    "delta_mm3": 5.29754453033604e-05,
+    "relative_delta": 1.3880255905190179e-05,
+    "max_bbox_delta_mm": 2.407056499009741e-05
+  },
+  {
+    "name": "L knee panel screw -12 11 head",
+    "native_volume_mm3": 16.624199337967607,
+    "step_volume_mm3": 16.6238126836008,
+    "delta_mm3": -0.0003866543668067379,
+    "relative_delta": -2.3258525655648712e-05,
+    "max_bbox_delta_mm": 4.93421901524016e-05
+  },
+  {
+    "name": "L knee panel screw -12 11 seat",
+    "native_volume_mm3": 17.239998963709947,
+    "step_volume_mm3": 17.23972000084387,
+    "delta_mm3": -0.0002789628660764265,
+    "relative_delta": -1.6181141696333103e-05,
+    "max_bbox_delta_mm": 6.578960741876472e-05
+  },
+  {
+    "name": "L knee panel screw -12 11 socket",
+    "native_volume_mm3": 3.81660436703843,
+    "step_volume_mm3": 3.8166573424838304,
+    "delta_mm3": 5.297544540017185e-05,
+    "relative_delta": 1.3880255930556196e-05,
+    "max_bbox_delta_mm": 2.4070555667776716e-05
+  },
+  {
+    "name": "L knee panel screw 12 -16 head",
+    "native_volume_mm3": 16.62419933796762,
+    "step_volume_mm3": 16.62381268360077,
+    "delta_mm3": -0.0003866543668493705,
+    "relative_delta": -2.3258525658213182e-05,
+    "max_bbox_delta_mm": 4.9342205542757256e-05
+  },
+  {
+    "name": "L knee panel screw 12 -16 seat",
+    "native_volume_mm3": 17.239998963709997,
+    "step_volume_mm3": 17.239720000843906,
+    "delta_mm3": -0.00027896286609063736,
+    "relative_delta": -1.618114169715735e-05,
+    "max_bbox_delta_mm": 6.57896073619213e-05
+  },
+  {
+    "name": "L knee panel screw 12 -16 socket",
+    "native_volume_mm3": 3.8166043670384497,
+    "step_volume_mm3": 3.8166573424837478,
+    "delta_mm3": 5.297544529803133e-05,
+    "relative_delta": 1.388025590379398e-05,
+    "max_bbox_delta_mm": 2.4070564975886555e-05
+  },
+  {
+    "name": "L knee panel screw 12 11 head",
+    "native_volume_mm3": 16.624199337967514,
+    "step_volume_mm3": 16.62381268360081,
+    "delta_mm3": -0.00038665436670370923,
+    "relative_delta": -2.3258525649451327e-05,
+    "max_bbox_delta_mm": 4.934218378593869e-05
+  },
+  {
+    "name": "L knee panel screw 12 11 seat",
+    "native_volume_mm3": 17.239998963709855,
+    "step_volume_mm3": 17.23972000084391,
+    "delta_mm3": -0.0002789628659449761,
+    "relative_delta": -1.6181141688708455e-05,
+    "max_bbox_delta_mm": 6.578960741876472e-05
+  },
+  {
+    "name": "L knee panel screw 12 11 socket",
+    "native_volume_mm3": 3.8166043670383805,
+    "step_volume_mm3": 3.8166573424837975,
+    "delta_mm3": 5.297544541704724e-05,
+    "relative_delta": 1.3880255934977949e-05,
+    "max_bbox_delta_mm": 2.407056504694083e-05
+  },
+  {
+    "name": "L knee recessed hub",
+    "native_volume_mm3": 6926.785297928977,
+    "step_volume_mm3": 6926.673214624719,
+    "delta_mm3": -0.11208330425870372,
+    "relative_delta": -1.618114311875889e-05,
+    "max_bbox_delta_mm": 0.0004934220553138857
+  },
+  {
+    "name": "L orange heel latch",
+    "native_volume_mm3": 3007.9999999999977,
+    "step_volume_mm3": 3007.9999999999873,
+    "delta_mm3": -1.0459189070388675e-11,
+    "relative_delta": -3.4771240260600674e-15,
+    "max_bbox_delta_mm": 2.842170943040401e-14
+  },
+  {
+    "name": "L palm armor",
+    "native_volume_mm3": 1361.9999999999998,
+    "step_volume_mm3": 1362.0000000000005,
+    "delta_mm3": 6.821210263296962e-13,
+    "relative_delta": 5.008230736635068e-16,
+    "max_bbox_delta_mm": 4.263256414560601e-14
+  },
+  {
+    "name": "L palm mechanism",
+    "native_volume_mm3": 9760.0,
+    "step_volume_mm3": 9760.000000000025,
+    "delta_mm3": 2.546585164964199e-11,
+    "relative_delta": 2.6092061116436465e-15,
+    "max_bbox_delta_mm": 9.237055564881302e-14
+  },
+  {
+    "name": "L palm screw -8 head",
+    "native_volume_mm3": 16.62400672922487,
+    "step_volume_mm3": 16.623786145590568,
+    "delta_mm3": -0.0002205836343023293,
+    "relative_delta": -1.3268981292851924e-05,
+    "max_bbox_delta_mm": 2.2936319510336034e-11
+  },
+  {
+    "name": "L palm screw -8 seat",
+    "native_volume_mm3": 17.239910424636083,
+    "step_volume_mm3": 17.23968934056496,
+    "delta_mm3": -0.00022108407112142459,
+    "relative_delta": -1.2823968667812348e-05,
+    "max_bbox_delta_mm": 1.7905676941154525e-12
+  },
+  {
+    "name": "L palm screw -8 socket",
+    "native_volume_mm3": 3.8166043670385057,
+    "step_volume_mm3": 3.816657342483797,
+    "delta_mm3": 5.2975445291369994e-05,
+    "relative_delta": 1.388025590204842e-05,
+    "max_bbox_delta_mm": 1.1870611160702538e-09
+  },
+  {
+    "name": "L palm screw 8 head",
+    "native_volume_mm3": 16.624006729224863,
+    "step_volume_mm3": 16.623786145590717,
+    "delta_mm3": -0.0002205836341460099,
+    "relative_delta": -1.3268981283448697e-05,
+    "max_bbox_delta_mm": 2.2879476091475226e-11
+  },
+  {
+    "name": "L palm screw 8 seat",
+    "native_volume_mm3": 17.23991042463619,
+    "step_volume_mm3": 17.23968934620098,
+    "delta_mm3": -0.00022107843521013137,
+    "relative_delta": -1.2823641757105983e-05,
+    "max_bbox_delta_mm": 1.8189894035458565e-12
+  },
+  {
+    "name": "L palm screw 8 socket",
+    "native_volume_mm3": 3.816604367038393,
+    "step_volume_mm3": 3.8166573424837957,
+    "delta_mm3": 5.2975445402836385e-05,
+    "relative_delta": 1.3880255931254475e-05,
+    "max_bbox_delta_mm": 1.1870326943608234e-09
+  },
+  {
+    "name": "L shin mechanism recess",
+    "native_volume_mm3": 1964.0000000000018,
+    "step_volume_mm3": 1963.999999999999,
+    "delta_mm3": -2.7284841053187847e-12,
+    "relative_delta": -1.3892485261297262e-15,
+    "max_bbox_delta_mm": 3.552713678800501e-14
+  },
+  {
+    "name": "L shin rail screw -19 -13 head",
+    "native_volume_mm3": 16.623971987887614,
+    "step_volume_mm3": 16.623782285441866,
+    "delta_mm3": -0.00018970244574845196,
+    "relative_delta": -1.1411379054697096e-05,
+    "max_bbox_delta_mm": 9.00968188943807e-11
+  },
+  {
+    "name": "L shin rail screw -19 -13 seat",
+    "native_volume_mm3": 17.239910424635703,
+    "step_volume_mm3": 17.23968935983386,
+    "delta_mm3": -0.00022106480184191923,
+    "relative_delta": -1.282285095437731e-05,
+    "max_bbox_delta_mm": 1.2009593319817213e-10
+  },
+  {
+    "name": "L shin rail screw -19 -13 socket",
+    "native_volume_mm3": 3.816604367038437,
+    "step_volume_mm3": 3.8166573424842087,
+    "delta_mm3": 5.297544577187452e-05,
+    "relative_delta": 1.3880256027947108e-05,
+    "max_bbox_delta_mm": 3.8610892261203844e-11
+  },
+  {
+    "name": "L shin rail screw -19 13 head",
+    "native_volume_mm3": 16.62397198788764,
+    "step_volume_mm3": 16.62378228544188,
+    "delta_mm3": -0.0001897024457591101,
+    "relative_delta": -1.1411379055338209e-05,
+    "max_bbox_delta_mm": 9.00968188943807e-11
+  },
+  {
+    "name": "L shin rail screw -19 13 seat",
+    "native_volume_mm3": 17.239910424635784,
+    "step_volume_mm3": 17.23968934620007,
+    "delta_mm3": -0.00022107843571461672,
+    "relative_delta": -1.2823641786368928e-05,
+    "max_bbox_delta_mm": 1.2011014405288734e-10
+  },
+  {
+    "name": "L shin rail screw -19 13 socket",
+    "native_volume_mm3": 3.8166043670384244,
+    "step_volume_mm3": 3.8166573424842976,
+    "delta_mm3": 5.297544587312686e-05,
+    "relative_delta": 1.3880256054476583e-05,
+    "max_bbox_delta_mm": 3.859668140648864e-11
+  },
+  {
+    "name": "L shin rail screw 19 -13 head",
+    "native_volume_mm3": 16.62397198788766,
+    "step_volume_mm3": 16.62378228544218,
+    "delta_mm3": -0.00018970244548199844,
+    "relative_delta": -1.1411379038668794e-05,
+    "max_bbox_delta_mm": 9.00897134670231e-11
+  },
+  {
+    "name": "L shin rail screw 19 -13 seat",
+    "native_volume_mm3": 17.239910424635692,
+    "step_volume_mm3": 17.239689346201075,
+    "delta_mm3": -0.0002210784346168282,
+    "relative_delta": -1.2823641722691837e-05,
+    "max_bbox_delta_mm": 1.2013146033496014e-10
+  },
+  {
+    "name": "L shin rail screw 19 -13 socket",
+    "native_volume_mm3": 3.816604367038455,
+    "step_volume_mm3": 3.816657342483761,
+    "delta_mm3": 5.297544530602494e-05,
+    "relative_delta": 1.388025590588839e-05,
+    "max_bbox_delta_mm": 3.8610892261203844e-11
+  },
+  {
+    "name": "L shin rail screw 19 13 head",
+    "native_volume_mm3": 16.623971987887618,
+    "step_volume_mm3": 16.623782285442243,
+    "delta_mm3": -0.00018970244537541703,
+    "relative_delta": -1.1411379032257515e-05,
+    "max_bbox_delta_mm": 9.00968188943807e-11
+  },
+  {
+    "name": "L shin rail screw 19 13 seat",
+    "native_volume_mm3": 17.2399104246357,
+    "step_volume_mm3": 17.239689346200663,
+    "delta_mm3": -0.0002210784350360484,
+    "relative_delta": -1.2823641747008676e-05,
+    "max_bbox_delta_mm": 1.2011724948024494e-10
+  },
+  {
+    "name": "L shin rail screw 19 13 socket",
+    "native_volume_mm3": 3.816604367038435,
+    "step_volume_mm3": 3.816657341234673,
+    "delta_mm3": 5.2974196238064764e-05,
+    "relative_delta": 1.387992863383193e-05,
+    "max_bbox_delta_mm": 3.8625103115919046e-11
+  },
+  {
+    "name": "L shoulder actuator envelope",
+    "native_volume_mm3": 44867.56812786386,
+    "step_volume_mm3": 44867.04404032954,
+    "delta_mm3": -0.5240875343151856,
+    "relative_delta": -1.168076533191275e-05,
+    "max_bbox_delta_mm": 0.0006151366618496468
+  },
+  {
+    "name": "L shoulder axle cap",
+    "native_volume_mm3": 562.9931307621235,
+    "step_volume_mm3": 562.9971692772864,
+    "delta_mm3": 0.004038515162847034,
+    "relative_delta": 7.173293850637392e-06,
+    "max_bbox_delta_mm": 0.0001353300656887768
+  },
+  {
+    "name": "L shoulder axle ring",
+    "native_volume_mm3": 1292.20685158112,
+    "step_volume_mm3": 1292.1755436151536,
+    "delta_mm3": -0.03130796596633445,
+    "relative_delta": -2.4228292806238114e-05,
+    "max_bbox_delta_mm": 0.00022144919824995668
+  },
+  {
+    "name": "L shoulder bearing rim",
+    "native_volume_mm3": 5428.337866144736,
+    "step_volume_mm3": 5428.311499324388,
+    "delta_mm3": -0.02636682034790283,
+    "relative_delta": -4.857254835286963e-06,
+    "max_bbox_delta_mm": 0.0005639109203912085
+  },
+  {
+    "name": "L shoulder cover",
+    "native_volume_mm3": 5808.447172743985,
+    "step_volume_mm3": 5808.418959635873,
+    "delta_mm3": -0.028213108112140617,
+    "relative_delta": -4.8572548347396575e-06,
+    "max_bbox_delta_mm": 0.0005051701994602809
+  },
+  {
+    "name": "L shoulder fixing 1 head",
+    "native_volume_mm3": 16.624199337967855,
+    "step_volume_mm3": 16.623812683600782,
+    "delta_mm3": -0.00038665436707319145,
+    "relative_delta": -2.3258525671676415e-05,
+    "max_bbox_delta_mm": 4.934220561381153e-05
+  },
+  {
+    "name": "L shoulder fixing 1 seat",
+    "native_volume_mm3": 17.23999896370977,
+    "step_volume_mm3": 17.23972000084386,
+    "delta_mm3": -0.00027896286590944896,
+    "relative_delta": -1.6181141686647796e-05,
+    "max_bbox_delta_mm": 6.578960744718643e-05
+  },
+  {
+    "name": "L shoulder fixing 1 socket",
+    "native_volume_mm3": 3.816604367038483,
+    "step_volume_mm3": 3.816657342483822,
+    "delta_mm3": 5.297544533888754e-05,
+    "relative_delta": 1.3880255914498718e-05,
+    "max_bbox_delta_mm": 2.4070558310995693e-05
+  },
+  {
+    "name": "L shoulder fixing 2 head",
+    "native_volume_mm3": 16.624199337967863,
+    "step_volume_mm3": 16.623812683601205,
+    "delta_mm3": -0.00038665436665752395,
+    "relative_delta": -2.3258525646672646e-05,
+    "max_bbox_delta_mm": 4.934220561381153e-05
+  },
+  {
+    "name": "L shoulder fixing 2 seat",
+    "native_volume_mm3": 17.239998963709816,
+    "step_volume_mm3": 17.23972000084354,
+    "delta_mm3": -0.0002789628662753785,
+    "relative_delta": -1.6181141707873364e-05,
+    "max_bbox_delta_mm": 6.578963643733005e-05
+  },
+  {
+    "name": "L shoulder fixing 2 socket",
+    "native_volume_mm3": 3.8166043670384835,
+    "step_volume_mm3": 3.816657342483788,
+    "delta_mm3": 5.297544530469267e-05,
+    "relative_delta": 1.3880255905539216e-05,
+    "max_bbox_delta_mm": 2.407055842468253e-05
+  },
+  {
+    "name": "L shoulder fixing 3 head",
+    "native_volume_mm3": 16.62419933796789,
+    "step_volume_mm3": 16.62381268360117,
+    "delta_mm3": -0.0003866543667214728,
+    "relative_delta": -2.3258525650519338e-05,
+    "max_bbox_delta_mm": 4.934220561381153e-05
+  },
+  {
+    "name": "L shoulder fixing 3 seat",
+    "native_volume_mm3": 17.239998963709933,
+    "step_volume_mm3": 17.239720000843565,
+    "delta_mm3": -0.00027896286636774903,
+    "relative_delta": -1.6181141713231176e-05,
+    "max_bbox_delta_mm": 6.578960739034301e-05
+  },
+  {
+    "name": "L shoulder fixing 3 socket",
+    "native_volume_mm3": 3.8166043670384475,
+    "step_volume_mm3": 3.8166573424838384,
+    "delta_mm3": 5.2975445390845977e-05,
+    "relative_delta": 1.3880255928112633e-05,
+    "max_bbox_delta_mm": 2.407056501851912e-05
+  },
+  {
+    "name": "L shoulder fixing 4 head",
+    "native_volume_mm3": 16.624199337967895,
+    "step_volume_mm3": 16.62381268360083,
+    "delta_mm3": -0.000386654367066086,
+    "relative_delta": -2.3258525671248948e-05,
+    "max_bbox_delta_mm": 4.934220555696811e-05
+  },
+  {
+    "name": "L shoulder fixing 4 seat",
+    "native_volume_mm3": 17.23999896370974,
+    "step_volume_mm3": 17.23972000084383,
+    "delta_mm3": -0.0002789628659130017,
+    "relative_delta": -1.6181141686853896e-05,
+    "max_bbox_delta_mm": 6.578958692671222e-05
+  },
+  {
+    "name": "L shoulder fixing 4 socket",
+    "native_volume_mm3": 3.816604367038537,
+    "step_volume_mm3": 3.8166573424838255,
+    "delta_mm3": 5.297544528870546e-05,
+    "relative_delta": 1.3880255901350165e-05,
+    "max_bbox_delta_mm": 2.4070558310995693e-05
+  },
+  {
+    "name": "L shoulder recessed hub",
+    "native_volume_mm3": 4020.9843304120145,
+    "step_volume_mm3": 4020.901693243733,
+    "delta_mm3": -0.08263716828150791,
+    "relative_delta": -2.055147732272819e-05,
+    "max_bbox_delta_mm": 0.0003759406135372956
+  },
+  {
+    "name": "L small claw -8",
+    "native_volume_mm3": 3552.000000000003,
+    "step_volume_mm3": 3551.999999999989,
+    "delta_mm3": -1.4097167877480388e-11,
+    "relative_delta": -3.96879726280416e-15,
+    "max_bbox_delta_mm": 5.684341886080802e-14
+  },
+  {
+    "name": "L small claw 8",
+    "native_volume_mm3": 3551.999999999998,
+    "step_volume_mm3": 3552.0000000000095,
+    "delta_mm3": 1.1368683772161603e-11,
+    "relative_delta": 3.2006429538743268e-15,
+    "max_bbox_delta_mm": 4.973799150320701e-14
+  },
+  {
+    "name": "L thigh screw -16 -18 head",
+    "native_volume_mm3": 16.623936560034064,
+    "step_volume_mm3": 16.623778330433694,
+    "delta_mm3": -0.00015822960036970812,
+    "relative_delta": -9.518178789860823e-06,
+    "max_bbox_delta_mm": 7.0912165028858e-11
+  },
+  {
+    "name": "L thigh screw -16 -18 seat",
+    "native_volume_mm3": 17.239879191834802,
+    "step_volume_mm3": 17.239681427833748,
+    "delta_mm3": -0.0001977640010544235,
+    "relative_delta": -1.1471310143988075e-05,
+    "max_bbox_delta_mm": 9.453060556552373e-11
+  },
+  {
+    "name": "L thigh screw -16 -18 socket",
+    "native_volume_mm3": 3.8166043670384333,
+    "step_volume_mm3": 3.8166573424837775,
+    "delta_mm3": 5.297544534421661e-05,
+    "relative_delta": 1.3880255915895184e-05,
+    "max_bbox_delta_mm": 8.196252565539908e-10
+  },
+  {
+    "name": "L thigh screw -16 18 head",
+    "native_volume_mm3": 16.623936560034085,
+    "step_volume_mm3": 16.623778349018504,
+    "delta_mm3": -0.00015821101558088912,
+    "relative_delta": -9.517060836315219e-06,
+    "max_bbox_delta_mm": 7.08979541741428e-11
+  },
+  {
+    "name": "L thigh screw -16 18 seat",
+    "native_volume_mm3": 17.23987919183485,
+    "step_volume_mm3": 17.239681427834196,
+    "delta_mm3": -0.00019776400065296684,
+    "relative_delta": -1.1471310120701531e-05,
+    "max_bbox_delta_mm": 9.450218385609332e-11
+  },
+  {
+    "name": "L thigh screw -16 18 socket",
+    "native_volume_mm3": 3.816604367038428,
+    "step_volume_mm3": 3.8166573424837558,
+    "delta_mm3": 5.297544532778531e-05,
+    "relative_delta": 1.3880255911589989e-05,
+    "max_bbox_delta_mm": 8.196252565539908e-10
+  },
+  {
+    "name": "L thigh screw 16 -18 head",
+    "native_volume_mm3": 16.623936560033997,
+    "step_volume_mm3": 16.623778349013943,
+    "delta_mm3": -0.00015821102005375565,
+    "relative_delta": -9.517061105377083e-06,
+    "max_bbox_delta_mm": 7.08979541741428e-11
+  },
+  {
+    "name": "L thigh screw 16 -18 seat",
+    "native_volume_mm3": 17.23987919183487,
+    "step_volume_mm3": 17.239681408568245,
+    "delta_mm3": -0.00019778326662489576,
+    "relative_delta": -1.147242764430563e-05,
+    "max_bbox_delta_mm": 9.453771099288133e-11
+  },
+  {
+    "name": "L thigh screw 16 -18 socket",
+    "native_volume_mm3": 3.8166043670384577,
+    "step_volume_mm3": 3.816657342483832,
+    "delta_mm3": 5.2975445374414676e-05,
+    "relative_delta": 1.3880255923807382e-05,
+    "max_bbox_delta_mm": 8.196820999728516e-10
+  },
+  {
+    "name": "L thigh screw 16 18 head",
+    "native_volume_mm3": 16.62393656003407,
+    "step_volume_mm3": 16.623778349018497,
+    "delta_mm3": -0.0001582110155737837,
+    "relative_delta": -9.517060835887804e-06,
+    "max_bbox_delta_mm": 7.08979541741428e-11
+  },
+  {
+    "name": "L thigh screw 16 18 seat",
+    "native_volume_mm3": 17.239879191834778,
+    "step_volume_mm3": 17.239681408552727,
+    "delta_mm3": -0.00019778328205077855,
+    "relative_delta": -1.1472428539084745e-05,
+    "max_bbox_delta_mm": 9.453771099288133e-11
+  },
+  {
+    "name": "L thigh screw 16 18 socket",
+    "native_volume_mm3": 3.8166043670384275,
+    "step_volume_mm3": 3.8166573424841306,
+    "delta_mm3": 5.297544570304069e-05,
+    "relative_delta": 1.3880256009911783e-05,
+    "max_bbox_delta_mm": 8.196252565539908e-10
+  },
+  {
+    "name": "L toe bumper",
+    "native_volume_mm3": 2103.999999999995,
+    "step_volume_mm3": 2103.999999999997,
+    "delta_mm3": 1.8189894035458565e-12,
+    "relative_delta": 8.645386898982228e-16,
+    "max_bbox_delta_mm": 8.526512829121202e-14
+  },
+  {
+    "name": "L upper arm faceplate",
+    "native_volume_mm3": 1099.0000000000007,
+    "step_volume_mm3": 1098.9999999999968,
+    "delta_mm3": -3.865352482534945e-12,
+    "relative_delta": -3.5171542152274274e-15,
+    "max_bbox_delta_mm": 6.750155989720952e-14
+  },
+  {
+    "name": "L upper arm screw -9 head",
+    "native_volume_mm3": 16.624138288736592,
+    "step_volume_mm3": 16.62380541964343,
+    "delta_mm3": -0.0003328690931638789,
+    "relative_delta": -2.002323894221987e-05,
+    "max_bbox_delta_mm": 5.684341886080802e-14
+  },
+  {
+    "name": "L upper arm screw -9 seat",
+    "native_volume_mm3": 17.23997031665744,
+    "step_volume_mm3": 17.239711495344817,
+    "delta_mm3": -0.0002588213126237804,
+    "relative_delta": -1.5012863007873309e-05,
+    "max_bbox_delta_mm": 3.730349362740526e-13
+  },
+  {
+    "name": "L upper arm screw -9 socket",
+    "native_volume_mm3": 3.816604367038471,
+    "step_volume_mm3": 3.8166573455004555,
+    "delta_mm3": 5.2978461984487524e-05,
+    "relative_delta": 1.388104631489395e-05,
+    "max_bbox_delta_mm": 5.684341886080802e-14
+  },
+  {
+    "name": "L upper arm screw 9 head",
+    "native_volume_mm3": 16.624138288736578,
+    "step_volume_mm3": 16.62380541965543,
+    "delta_mm3": -0.00033286908114860125,
+    "relative_delta": -2.0023238219458954e-05,
+    "max_bbox_delta_mm": 1.7763568394002505e-14
+  },
+  {
+    "name": "L upper arm screw 9 seat",
+    "native_volume_mm3": 17.23997031665745,
+    "step_volume_mm3": 17.23971149533698,
+    "delta_mm3": -0.0002588213204681722,
+    "relative_delta": -1.5012863462885212e-05,
+    "max_bbox_delta_mm": 3.872457909892546e-13
+  },
+  {
+    "name": "L upper arm screw 9 socket",
+    "native_volume_mm3": 3.8166043670384213,
+    "step_volume_mm3": 3.8166573424841634,
+    "delta_mm3": 5.297544574212054e-05,
+    "relative_delta": 1.3880256020151235e-05,
+    "max_bbox_delta_mm": 4.263256414560601e-14
+  },
+  {
+    "name": "L wrist joint",
+    "native_volume_mm3": 5340.104875691613,
+    "step_volume_mm3": 5340.178571539744,
+    "delta_mm3": 0.07369584813022811,
+    "relative_delta": 1.3800449587740267e-05,
+    "max_bbox_delta_mm": 0.000267450618764542
+  },
+  {
+    "name": "L01 hollow thigh",
+    "native_volume_mm3": 37045.565681601256,
+    "step_volume_mm3": 37045.56568160124,
+    "delta_mm3": -1.4551915228366852e-11,
+    "relative_delta": -3.9281125718088534e-16,
+    "max_bbox_delta_mm": 8.526512829121202e-14
+  },
+  {
+    "name": "L02 thigh panel",
+    "native_volume_mm3": 4998.400000000008,
+    "step_volume_mm3": 4998.40000000003,
+    "delta_mm3": 2.1827872842550278e-11,
+    "relative_delta": 4.366971999549905e-15,
+    "max_bbox_delta_mm": 1.8474111129762605e-13
+  },
+  {
+    "name": "L03 purple kneecap",
+    "native_volume_mm3": 3985.8000000000025,
+    "step_volume_mm3": 3985.800000000003,
+    "delta_mm3": 4.547473508864641e-13,
+    "relative_delta": 1.1409186383824172e-16,
+    "max_bbox_delta_mm": 1.4210854715202004e-13
+  },
+  {
+    "name": "L04 hollow shin",
+    "native_volume_mm3": 24186.574403058297,
+    "step_volume_mm3": 24186.574403058283,
+    "delta_mm3": -1.4551915228366852e-11,
+    "relative_delta": -6.016525939500891e-16,
+    "max_bbox_delta_mm": 1.1368683772161603e-13
+  },
+  {
+    "name": "L05 shin rail -19",
+    "native_volume_mm3": 720.0000000000005,
+    "step_volume_mm3": 720.0000000000015,
+    "delta_mm3": 1.0231815394945443e-12,
+    "relative_delta": 1.4210854715201995e-15,
+    "max_bbox_delta_mm": 4.263256414560601e-14
+  },
+  {
+    "name": "L05 shin rail 19",
+    "native_volume_mm3": 719.9999999999994,
+    "step_volume_mm3": 720.0000000000001,
+    "delta_mm3": 6.821210263296962e-13,
+    "relative_delta": 9.47390314346801e-16,
+    "max_bbox_delta_mm": 2.842170943040401e-14
+  },
+  {
+    "name": "L06 rubber sole",
+    "native_volume_mm3": 101491.66666666609,
+    "step_volume_mm3": 101491.66666666622,
+    "delta_mm3": 1.3096723705530167e-10,
+    "relative_delta": 1.290423552560661e-15,
+    "max_bbox_delta_mm": 4.263256414560601e-14
+  },
+  {
+    "name": "L07 hollow boot",
+    "native_volume_mm3": 61725.17550718306,
+    "step_volume_mm3": 61725.17550718308,
+    "delta_mm3": 1.4551915228366852e-11,
+    "relative_delta": 2.3575332283459316e-16,
+    "max_bbox_delta_mm": 3.197442310920451e-13
+  },
+  {
+    "name": "L08 purple instep hatch",
+    "native_volume_mm3": 3097.999999999995,
+    "step_volume_mm3": 3097.999999999996,
+    "delta_mm3": 9.094947017729282e-13,
+    "relative_delta": 2.935747907594996e-16,
+    "max_bbox_delta_mm": 1.7763568394002505e-14
+  },
+  {
+    "name": "Neck lower trim",
+    "native_volume_mm3": 4156.071178767051,
+    "step_volume_mm3": 4156.050991670215,
+    "delta_mm3": -0.020187096835798002,
+    "relative_delta": -4.857254836955596e-06,
+    "max_bbox_delta_mm": 0.0004934220552819113
+  },
+  {
+    "name": "Neck pitch axle",
+    "native_volume_mm3": 26234.724621799203,
+    "step_volume_mm3": 26235.94338215017,
+    "delta_mm3": 1.2187603509664768,
+    "relative_delta": 4.645599938768837e-05,
+    "max_bbox_delta_mm": 0.00032094086697043167
+  },
+  {
+    "name": "Neck pitch fork envelope",
+    "native_volume_mm3": 31280.0,
+    "step_volume_mm3": 31280.0,
+    "delta_mm3": 0.0,
+    "relative_delta": 0.0,
+    "max_bbox_delta_mm": 0.0
+  },
+  {
+    "name": "Neck rim -1",
+    "native_volume_mm3": 603.1476495613844,
+    "step_volume_mm3": 603.1352539865621,
+    "delta_mm3": -0.012395574822221533,
+    "relative_delta": -2.0551476626387806e-05,
+    "max_bbox_delta_mm": 0.0001879703067970695
+  },
+  {
+    "name": "Neck rim 1",
+    "native_volume_mm3": 603.1476495613857,
+    "step_volume_mm3": 603.1352539865622,
+    "delta_mm3": -0.012395574823472089,
+    "relative_delta": -2.055147662846114e-05,
+    "max_bbox_delta_mm": 0.00018797030685391292
+  },
+  {
+    "name": "Neck yaw envelope",
+    "native_volume_mm3": 28950.98660216678,
+    "step_volume_mm3": 28950.270087722107,
+    "delta_mm3": -0.7165144446735212,
+    "relative_delta": -2.4749223731805224e-05,
+    "max_bbox_delta_mm": 0.000563910671328216
+  },
+  {
+    "name": "Orange carrying handle",
+    "native_volume_mm3": 2100.0,
+    "step_volume_mm3": 2100.0,
+    "delta_mm3": 0.0,
+    "relative_delta": 0.0,
+    "max_bbox_delta_mm": 0.0
+  },
+  {
+    "name": "Pelvis screw -17 202 head",
+    "native_volume_mm3": 16.62419933796785,
+    "step_volume_mm3": 16.623812683600864,
+    "delta_mm3": -0.0003866543669843736,
+    "relative_delta": -2.325852566633374e-05,
+    "max_bbox_delta_mm": 4.934220558538982e-05
+  },
+  {
+    "name": "Pelvis screw -17 202 seat",
+    "native_volume_mm3": 17.239998963709944,
+    "step_volume_mm3": 17.23972000084383,
+    "delta_mm3": -0.00027896286611550636,
+    "relative_delta": -1.618114169859992e-05,
+    "max_bbox_delta_mm": 6.578962793923893e-05
+  },
+  {
+    "name": "Pelvis screw -17 202 socket",
+    "native_volume_mm3": 3.816604367038451,
+    "step_volume_mm3": 3.81665734248382,
+    "delta_mm3": 5.2975445369085605e-05,
+    "relative_delta": 1.3880255922411121e-05,
+    "max_bbox_delta_mm": 2.407056499009741e-05
+  },
+  {
+    "name": "Pelvis screw -17 230 head",
+    "native_volume_mm3": 16.62419933796784,
+    "step_volume_mm3": 16.623812683600878,
+    "delta_mm3": -0.00038665436696305733,
+    "relative_delta": -2.325852566505151e-05,
+    "max_bbox_delta_mm": 4.934220558538982e-05
+  },
+  {
+    "name": "Pelvis screw -17 230 seat",
+    "native_volume_mm3": 17.239998963709947,
+    "step_volume_mm3": 17.239720000843793,
+    "delta_mm3": -0.0002789628661545862,
+    "relative_delta": -1.6181141700866728e-05,
+    "max_bbox_delta_mm": 6.578960741876472e-05
+  },
+  {
+    "name": "Pelvis screw -17 230 socket",
+    "native_volume_mm3": 3.816604367038474,
+    "step_volume_mm3": 3.816657342483826,
+    "delta_mm3": 5.2975445351766126e-05,
+    "relative_delta": 1.3880255917873108e-05,
+    "max_bbox_delta_mm": 2.407055839626082e-05
+  },
+  {
+    "name": "Pelvis screw 17 202 head",
+    "native_volume_mm3": 16.624199337967838,
+    "step_volume_mm3": 16.62381268360087,
+    "delta_mm3": -0.00038665436696661004,
+    "relative_delta": -2.325852566526522e-05,
+    "max_bbox_delta_mm": 4.934220555696811e-05
+  },
+  {
+    "name": "Pelvis screw 17 202 seat",
+    "native_volume_mm3": 17.23999896370994,
+    "step_volume_mm3": 17.23972000084385,
+    "delta_mm3": -0.00027896286609063736,
+    "relative_delta": -1.6181141697157405e-05,
+    "max_bbox_delta_mm": 6.57896073619213e-05
+  },
+  {
+    "name": "Pelvis screw 17 202 socket",
+    "native_volume_mm3": 3.816604367038464,
+    "step_volume_mm3": 3.8166573424838326,
+    "delta_mm3": 5.2975445368641516e-05,
+    "relative_delta": 1.3880255922294717e-05,
+    "max_bbox_delta_mm": 2.407056499009741e-05
+  },
+  {
+    "name": "Pelvis screw 17 230 head",
+    "native_volume_mm3": 16.624199337967873,
+    "step_volume_mm3": 16.623812683600907,
+    "delta_mm3": -0.00038665436696661004,
+    "relative_delta": -2.3258525665265172e-05,
+    "max_bbox_delta_mm": 4.934220555696811e-05
+  },
+  {
+    "name": "Pelvis screw 17 230 seat",
+    "native_volume_mm3": 17.239998963709947,
+    "step_volume_mm3": 17.239720000843846,
+    "delta_mm3": -0.0002789628661012955,
+    "relative_delta": -1.618114169777562e-05,
+    "max_bbox_delta_mm": 6.578960739034301e-05
+  },
+  {
+    "name": "Pelvis screw 17 230 socket",
+    "native_volume_mm3": 3.816604367038455,
+    "step_volume_mm3": 3.816657342483793,
+    "delta_mm3": 5.297544533799936e-05,
+    "relative_delta": 1.3880255914266105e-05,
+    "max_bbox_delta_mm": 2.407055839626082e-05
+  },
+  {
+    "name": "R ankle actuator envelope",
+    "native_volume_mm3": 36438.36268119951,
+    "step_volume_mm3": 36438.875434208334,
+    "delta_mm3": 0.5127530088211643,
+    "relative_delta": 1.407179058255877e-05,
+    "max_bbox_delta_mm": 0.0005349011909672186
+  },
+  {
+    "name": "R ankle axle cap",
+    "native_volume_mm3": 425.7005957375425,
+    "step_volume_mm3": 425.70650457067063,
+    "delta_mm3": 0.005908833128103197,
+    "relative_delta": 1.3880255717908777e-05,
+    "max_bbox_delta_mm": 0.00011767831791331673
+  },
+  {
+    "name": "R ankle axle ring",
+    "native_volume_mm3": 977.0903444910317,
+    "step_volume_mm3": 977.0692506007293,
+    "delta_mm3": -0.021093890302381624,
+    "relative_delta": -2.1588474823553262e-05,
+    "max_bbox_delta_mm": 0.0001925645202121018
+  },
+  {
+    "name": "R ankle bearing rim",
+    "native_volume_mm3": 4156.071178767067,
+    "step_volume_mm3": 4156.050991670215,
+    "delta_mm3": -0.020187096852168906,
+    "relative_delta": -4.8572548408946105e-06,
+    "max_bbox_delta_mm": 0.0004934220552641477
+  },
+  {
+    "name": "R ankle cover",
+    "native_volume_mm3": 4300.575543249421,
+    "step_volume_mm3": 4300.505955020999,
+    "delta_mm3": -0.06958822842170775,
+    "relative_delta": -1.618114313349055e-05,
+    "max_bbox_delta_mm": 0.0004346813344113798
+  },
+  {
+    "name": "R ankle fixing 1 head",
+    "native_volume_mm3": 16.62419933796777,
+    "step_volume_mm3": 16.623812683600804,
+    "delta_mm3": -0.00038665436696661004,
+    "relative_delta": -2.3258525665265314e-05,
+    "max_bbox_delta_mm": 4.93422055285464e-05
+  },
+  {
+    "name": "R ankle fixing 1 seat",
+    "native_volume_mm3": 17.23999896371004,
+    "step_volume_mm3": 17.239720000843835,
+    "delta_mm3": -0.0002789628662043242,
+    "relative_delta": -1.6181141703751675e-05,
+    "max_bbox_delta_mm": 6.57895783007234e-05
+  },
+  {
+    "name": "R ankle fixing 1 socket",
+    "native_volume_mm3": 3.8166043670384475,
+    "step_volume_mm3": 3.8166573424837633,
+    "delta_mm3": 5.29754453157949e-05,
+    "relative_delta": 1.3880255908448276e-05,
+    "max_bbox_delta_mm": 2.407056501851912e-05
+  },
+  {
+    "name": "R ankle fixing 2 head",
+    "native_volume_mm3": 16.62419933796777,
+    "step_volume_mm3": 16.6238126836009,
+    "delta_mm3": -0.00038665436687068677,
+    "relative_delta": -2.3258525659495217e-05,
+    "max_bbox_delta_mm": 4.9342205542757256e-05
+  },
+  {
+    "name": "R ankle fixing 2 seat",
+    "native_volume_mm3": 17.239998963709986,
+    "step_volume_mm3": 17.239720000843814,
+    "delta_mm3": -0.0002789628661723498,
+    "relative_delta": -1.6181141701897062e-05,
+    "max_bbox_delta_mm": 6.578957832203969e-05
+  },
+  {
+    "name": "R ankle fixing 2 socket",
+    "native_volume_mm3": 3.8166043670384333,
+    "step_volume_mm3": 3.816657342483752,
+    "delta_mm3": 5.2975445318903525e-05,
+    "relative_delta": 1.3880255909262827e-05,
+    "max_bbox_delta_mm": 2.407056501851912e-05
+  },
+  {
+    "name": "R ankle fixing 3 head",
+    "native_volume_mm3": 16.62419933796774,
+    "step_volume_mm3": 16.623812683600903,
+    "delta_mm3": -0.00038665436683871235,
+    "relative_delta": -2.325852565757189e-05,
+    "max_bbox_delta_mm": 4.93422055285464e-05
+  },
+  {
+    "name": "R ankle fixing 3 seat",
+    "native_volume_mm3": 17.239998963709915,
+    "step_volume_mm3": 17.23972000084381,
+    "delta_mm3": -0.0002789628661048482,
+    "relative_delta": -1.6181141697981724e-05,
+    "max_bbox_delta_mm": 6.578958683434166e-05
+  },
+  {
+    "name": "R ankle fixing 3 socket",
+    "native_volume_mm3": 3.8166043670384435,
+    "step_volume_mm3": 3.81665734248376,
+    "delta_mm3": 5.297544531668308e-05,
+    "relative_delta": 1.3880255908681003e-05,
+    "max_bbox_delta_mm": 2.4070565025624546e-05
+  },
+  {
+    "name": "R ankle fixing 4 head",
+    "native_volume_mm3": 16.624199337967703,
+    "step_volume_mm3": 16.62381268360081,
+    "delta_mm3": -0.00038665436689200305,
+    "relative_delta": -2.3258525660777554e-05,
+    "max_bbox_delta_mm": 4.93422055285464e-05
+  },
+  {
+    "name": "R ankle fixing 4 seat",
+    "native_volume_mm3": 17.23999896371004,
+    "step_volume_mm3": 17.239720000843857,
+    "delta_mm3": -0.0002789628661830079,
+    "relative_delta": -1.6181141702515234e-05,
+    "max_bbox_delta_mm": 6.57896073619213e-05
+  },
+  {
+    "name": "R ankle fixing 4 socket",
+    "native_volume_mm3": 3.8166043670384386,
+    "step_volume_mm3": 3.816657342483749,
+    "delta_mm3": 5.297544531046583e-05,
+    "relative_delta": 1.3880255907052022e-05,
+    "max_bbox_delta_mm": 2.4070574355050667e-05
+  },
+  {
+    "name": "R ankle recessed hub",
+    "native_volume_mm3": 2654.477936871719,
+    "step_volume_mm3": 2654.4233834304805,
+    "delta_mm3": -0.05455344123856776,
+    "relative_delta": -2.0551476612707712e-05,
+    "max_bbox_delta_mm": 0.0003054517485097108
+  },
+  {
+    "name": "R boot hatch screw -14 -35 head",
+    "native_volume_mm3": 16.62419933796767,
+    "step_volume_mm3": 16.62381268360082,
+    "delta_mm3": -0.0003866543668493705,
+    "relative_delta": -2.325852565821311e-05,
+    "max_bbox_delta_mm": 2.842170943040401e-14
+  },
+  {
+    "name": "R boot hatch screw -14 -35 seat",
+    "native_volume_mm3": 17.239998963709937,
+    "step_volume_mm3": 17.239720000843842,
+    "delta_mm3": -0.0002789628660941901,
+    "relative_delta": -1.618114169736348e-05,
+    "max_bbox_delta_mm": 2.842170943040401e-14
+  },
+  {
+    "name": "R boot hatch screw -14 -35 socket",
+    "native_volume_mm3": 3.816604367038453,
+    "step_volume_mm3": 3.8166573424837877,
+    "delta_mm3": 5.2975445334890736e-05,
+    "relative_delta": 1.3880255913451613e-05,
+    "max_bbox_delta_mm": 2.842170943040401e-14
+  },
+  {
+    "name": "R boot hatch screw -14 -9 head",
+    "native_volume_mm3": 16.624199337967685,
+    "step_volume_mm3": 16.62381268360085,
+    "delta_mm3": -0.00038665436683515964,
+    "relative_delta": -2.325852565735826e-05,
+    "max_bbox_delta_mm": 2.842170943040401e-14
+  },
+  {
+    "name": "R boot hatch screw -14 -9 seat",
+    "native_volume_mm3": 17.239998963709926,
+    "step_volume_mm3": 17.23972000084387,
+    "delta_mm3": -0.0002789628660551102,
+    "relative_delta": -1.618114169509668e-05,
+    "max_bbox_delta_mm": 2.1316282072803006e-14
+  },
+  {
+    "name": "R boot hatch screw -14 -9 socket",
+    "native_volume_mm3": 3.8166043670384213,
+    "step_volume_mm3": 3.8166573424837615,
+    "delta_mm3": 5.297544534021981e-05,
+    "relative_delta": 1.3880255914848013e-05,
+    "max_bbox_delta_mm": 2.842170943040401e-14
+  },
+  {
+    "name": "R boot hatch screw 14 -35 head",
+    "native_volume_mm3": 16.62419933796772,
+    "step_volume_mm3": 16.623812683600868,
+    "delta_mm3": -0.0003866543668529232,
+    "relative_delta": -2.325852565842675e-05,
+    "max_bbox_delta_mm": 3.552713678800501e-14
+  },
+  {
+    "name": "R boot hatch screw 14 -35 seat",
+    "native_volume_mm3": 17.239998963709947,
+    "step_volume_mm3": 17.239720000843818,
+    "delta_mm3": -0.0002789628661297172,
+    "relative_delta": -1.618114169942421e-05,
+    "max_bbox_delta_mm": 3.552713678800501e-14
+  },
+  {
+    "name": "R boot hatch screw 14 -35 socket",
+    "native_volume_mm3": 3.8166043670384417,
+    "step_volume_mm3": 3.8166573424837846,
+    "delta_mm3": 5.297544534288434e-05,
+    "relative_delta": 1.3880255915546081e-05,
+    "max_bbox_delta_mm": 2.842170943040401e-14
+  },
+  {
+    "name": "R boot hatch screw 14 -9 head",
+    "native_volume_mm3": 16.624199337967692,
+    "step_volume_mm3": 16.623812683600868,
+    "delta_mm3": -0.0003866543668245015,
+    "relative_delta": -2.325852565671713e-05,
+    "max_bbox_delta_mm": 3.552713678800501e-14
+  },
+  {
+    "name": "R boot hatch screw 14 -9 seat",
+    "native_volume_mm3": 17.239998963709933,
+    "step_volume_mm3": 17.239720000843853,
+    "delta_mm3": -0.0002789628660799792,
+    "relative_delta": -1.618114169653919e-05,
+    "max_bbox_delta_mm": 4.263256414560601e-14
+  },
+  {
+    "name": "R boot hatch screw 14 -9 socket",
+    "native_volume_mm3": 3.8166043670384298,
+    "step_volume_mm3": 3.8166573424837416,
+    "delta_mm3": 5.29754453117981e-05,
+    "relative_delta": 1.3880255907401124e-05,
+    "max_bbox_delta_mm": 4.263256414560601e-14
+  },
+  {
+    "name": "R boot heel cap",
+    "native_volume_mm3": 2367.500000000002,
+    "step_volume_mm3": 2367.5000000000005,
+    "delta_mm3": -1.3642420526593924e-12,
+    "relative_delta": -5.762374034464166e-16,
+    "max_bbox_delta_mm": 1.1368683772161603e-13
+  },
+  {
+    "name": "R boot midsole gasket",
+    "native_volume_mm3": 78911.99999999996,
+    "step_volume_mm3": 78911.99999999996,
+    "delta_mm3": 0.0,
+    "relative_delta": 0.0,
+    "max_bbox_delta_mm": 1.4210854715202004e-14
+  },
+  {
+    "name": "R boot toe cap",
+    "native_volume_mm3": 2347.5000000000036,
+    "step_volume_mm3": 2347.499999999934,
+    "delta_mm3": -6.957634468562901e-11,
+    "relative_delta": -2.963848548908579e-14,
+    "max_bbox_delta_mm": 1.4210854715202004e-14
+  },
+  {
+    "name": "R elbow actuator envelope",
+    "native_volume_mm3": 14776.384314853354,
+    "step_volume_mm3": 14776.588235602261,
+    "delta_mm3": 0.20392074890696676,
+    "relative_delta": 1.3800449728556653e-05,
+    "max_bbox_delta_mm": 0.00037443101155076874
+  },
+  {
+    "name": "R elbow axle cap",
+    "native_volume_mm3": 208.5932919112628,
+    "step_volume_mm3": 208.5960998426343,
+    "delta_mm3": 0.0028079313714783893,
+    "relative_delta": 1.346127359010617e-05,
+    "max_bbox_delta_mm": 8.237485445761195e-05
+  },
+  {
+    "name": "R elbow axle ring",
+    "native_volume_mm3": 478.7683337773107,
+    "step_volume_mm3": 478.76259277414596,
+    "delta_mm3": -0.005741003164757785,
+    "relative_delta": -1.1991192315212926e-05,
+    "max_bbox_delta_mm": 0.0001347951642287626
+  },
+  {
+    "name": "R elbow bearing rim",
+    "native_volume_mm3": 2120.44447895789,
+    "step_volume_mm3": 2120.4101677422636,
+    "delta_mm3": -0.03431121562653061,
+    "relative_delta": -1.6181143136269777e-05,
+    "max_bbox_delta_mm": 0.00035244416960722447
+  },
+  {
+    "name": "R elbow cover",
+    "native_volume_mm3": 1963.371255084,
+    "step_volume_mm3": 1963.3309049041711,
+    "delta_mm3": -0.04035017982891986,
+    "relative_delta": -2.0551477324747497e-05,
+    "max_bbox_delta_mm": 0.0002937036043704211
+  },
+  {
+    "name": "R elbow fixing 1 head",
+    "native_volume_mm3": 16.624199337967855,
+    "step_volume_mm3": 16.623812683600537,
+    "delta_mm3": -0.0003866543673183287,
+    "relative_delta": -2.3258525686422225e-05,
+    "max_bbox_delta_mm": 4.934220555696811e-05
+  },
+  {
+    "name": "R elbow fixing 1 seat",
+    "native_volume_mm3": 17.239998963709812,
+    "step_volume_mm3": 17.239720000843487,
+    "delta_mm3": -0.00027896286632511647,
+    "relative_delta": -1.6181141710758403e-05,
+    "max_bbox_delta_mm": 6.578960739034301e-05
+  },
+  {
+    "name": "R elbow fixing 1 socket",
+    "native_volume_mm3": 3.8166043670384675,
+    "step_volume_mm3": 3.816657342483861,
+    "delta_mm3": 5.297544539351051e-05,
+    "relative_delta": 1.3880255928810704e-05,
+    "max_bbox_delta_mm": 2.40705649616757e-05
+  },
+  {
+    "name": "R elbow fixing 2 head",
+    "native_volume_mm3": 16.624199337967866,
+    "step_volume_mm3": 16.62381268360097,
+    "delta_mm3": -0.00038665436689555577,
+    "relative_delta": -2.3258525660991033e-05,
+    "max_bbox_delta_mm": 4.934220555696811e-05
+  },
+  {
+    "name": "R elbow fixing 2 seat",
+    "native_volume_mm3": 17.239998963709905,
+    "step_volume_mm3": 17.239720000843473,
+    "delta_mm3": -0.0002789628664316979,
+    "relative_delta": -1.618114171694053e-05,
+    "max_bbox_delta_mm": 6.578960750402985e-05
+  },
+  {
+    "name": "R elbow fixing 2 socket",
+    "native_volume_mm3": 3.8166043670384506,
+    "step_volume_mm3": 3.8166573424838126,
+    "delta_mm3": 5.297544536198018e-05,
+    "relative_delta": 1.3880255920549407e-05,
+    "max_bbox_delta_mm": 2.40705649616757e-05
+  },
+  {
+    "name": "R elbow fixing 3 head",
+    "native_volume_mm3": 16.624199337967728,
+    "step_volume_mm3": 16.62381268360095,
+    "delta_mm3": -0.0003866543667783162,
+    "relative_delta": -2.3258525653938884e-05,
+    "max_bbox_delta_mm": 4.934220561381153e-05
+  },
+  {
+    "name": "R elbow fixing 3 seat",
+    "native_volume_mm3": 17.239998963709777,
+    "step_volume_mm3": 17.23972000084349,
+    "delta_mm3": -0.0002789628662860366,
+    "relative_delta": -1.6181141708491624e-05,
+    "max_bbox_delta_mm": 6.578960739034301e-05
+  },
+  {
+    "name": "R elbow fixing 3 socket",
+    "native_volume_mm3": 3.816604367038439,
+    "step_volume_mm3": 3.816657342483806,
+    "delta_mm3": 5.297544536686516e-05,
+    "relative_delta": 1.3880255921829379e-05,
+    "max_bbox_delta_mm": 2.40705649616757e-05
+  },
+  {
+    "name": "R elbow fixing 4 head",
+    "native_volume_mm3": 16.624199337967863,
+    "step_volume_mm3": 16.623812683600992,
+    "delta_mm3": -0.00038665436687068677,
+    "relative_delta": -2.325852565949509e-05,
+    "max_bbox_delta_mm": 4.93421901524016e-05
+  },
+  {
+    "name": "R elbow fixing 4 seat",
+    "native_volume_mm3": 17.23999896370984,
+    "step_volume_mm3": 17.239720000843523,
+    "delta_mm3": -0.00027896286631801104,
+    "relative_delta": -1.6181141710346226e-05,
+    "max_bbox_delta_mm": 6.578957834335597e-05
+  },
+  {
+    "name": "R elbow fixing 4 socket",
+    "native_volume_mm3": 3.816604367038391,
+    "step_volume_mm3": 3.8166573424838166,
+    "delta_mm3": 5.2975445425484935e-05,
+    "relative_delta": 1.3880255937188697e-05,
+    "max_bbox_delta_mm": 2.40705649616757e-05
+  },
+  {
+    "name": "R elbow recessed hub",
+    "native_volume_mm3": 769.6374639174816,
+    "step_volume_mm3": 769.6188169154815,
+    "delta_mm3": -0.018647002000079738,
+    "relative_delta": -2.4228293026648995e-05,
+    "max_bbox_delta_mm": 0.00018721550577538437
+  },
+  {
+    "name": "R forearm faceplate",
+    "native_volume_mm3": 1099.0000000000014,
+    "step_volume_mm3": 1099.0000000000011,
+    "delta_mm3": -2.2737367544323206e-13,
+    "relative_delta": -2.0689142442514265e-16,
+    "max_bbox_delta_mm": 1.7053025658242404e-13
+  },
+  {
+    "name": "R forearm orange control",
+    "native_volume_mm3": 531.9999999999997,
+    "step_volume_mm3": 532.0000000000045,
+    "delta_mm3": 4.888534022029489e-12,
+    "relative_delta": 9.188973725619347e-15,
+    "max_bbox_delta_mm": 3.126388037344441e-13
+  },
+  {
+    "name": "R forearm screw -9 head",
+    "native_volume_mm3": 16.624006729224735,
+    "step_volume_mm3": 16.623786145596764,
+    "delta_mm3": -0.00022058362797139353,
+    "relative_delta": -1.3268980912021111e-05,
+    "max_bbox_delta_mm": 8.08739741842146e-11
+  },
+  {
+    "name": "R forearm screw -9 seat",
+    "native_volume_mm3": 17.23991042463589,
+    "step_volume_mm3": 17.239689379114896,
+    "delta_mm3": -0.00022104552099477814,
+    "relative_delta": -1.282173256996181e-05,
+    "max_bbox_delta_mm": 1.0794565241667442e-10
+  },
+  {
+    "name": "R forearm screw -9 socket",
+    "native_volume_mm3": 3.816604367038393,
+    "step_volume_mm3": 3.816657342484067,
+    "delta_mm3": 5.297544567417489e-05,
+    "relative_delta": 1.3880256002348695e-05,
+    "max_bbox_delta_mm": 3.470290721452329e-11
+  },
+  {
+    "name": "R forearm screw 9 head",
+    "native_volume_mm3": 16.624006729224828,
+    "step_volume_mm3": 16.62378614559074,
+    "delta_mm3": -0.00022058363408916648,
+    "relative_delta": -1.3268981280029368e-05,
+    "max_bbox_delta_mm": 8.091660674836021e-11
+  },
+  {
+    "name": "R forearm screw 9 seat",
+    "native_volume_mm3": 17.239910424635855,
+    "step_volume_mm3": 17.23968934620167,
+    "delta_mm3": -0.00022107843418694983,
+    "relative_delta": -1.2823641697756646e-05,
+    "max_bbox_delta_mm": 1.0788880899781361e-10
+  },
+  {
+    "name": "R forearm screw 9 socket",
+    "native_volume_mm3": 3.816604367038449,
+    "step_volume_mm3": 3.816657342484095,
+    "delta_mm3": 5.297544564619727e-05,
+    "relative_delta": 1.388025599501799e-05,
+    "max_bbox_delta_mm": 3.467448550509289e-11
+  },
+  {
+    "name": "R hip actuator envelope",
+    "native_volume_mm3": 102640.14769517533,
+    "step_volume_mm3": 102638.53458099857,
+    "delta_mm3": -1.6131141767546069,
+    "relative_delta": -1.57162105957339e-05,
+    "max_bbox_delta_mm": 0.000829097239886778
+  },
+  {
+    "name": "R hip axle cap",
+    "native_volume_mm3": 1022.781019300196,
+    "step_volume_mm3": 1022.7633389508796,
+    "delta_mm3": -0.01768034931637885,
+    "relative_delta": -1.7286544218894525e-05,
+    "max_bbox_delta_mm": 0.00018240139272052147
+  },
+  {
+    "name": "R hip axle ring",
+    "native_volume_mm3": 2347.476790620231,
+    "step_volume_mm3": 2347.418788030926,
+    "delta_mm3": -0.058002589305033325,
+    "relative_delta": -2.470848254465952e-05,
+    "max_bbox_delta_mm": 0.000262218577972817
+  },
+  {
+    "name": "R hip bearing rim",
+    "native_volume_mm3": 9650.378444153179,
+    "step_volume_mm3": 9650.37844410964,
+    "delta_mm3": -4.353933036327362e-08,
+    "relative_delta": -4.511670771797821e-12,
+    "max_bbox_delta_mm": 3.802824721788056e-11
+  },
+  {
+    "name": "R hip cover",
+    "native_volume_mm3": 10935.210712935965,
+    "step_volume_mm3": 10935.157597886668,
+    "delta_mm3": -0.053115049297048245,
+    "relative_delta": -4.8572497312937035e-06,
+    "max_bbox_delta_mm": 0.0006931405062573504
+  },
+  {
+    "name": "R hip fixing 1 head",
+    "native_volume_mm3": 16.624199337967763,
+    "step_volume_mm3": 16.623812683600914,
+    "delta_mm3": -0.0003866543668493705,
+    "relative_delta": -2.3258525658212982e-05,
+    "max_bbox_delta_mm": 4.934220558538982e-05
+  },
+  {
+    "name": "R hip fixing 1 seat",
+    "native_volume_mm3": 17.239998963709976,
+    "step_volume_mm3": 17.239720000843914,
+    "delta_mm3": -0.00027896286606221565,
+    "relative_delta": -1.618114169550878e-05,
+    "max_bbox_delta_mm": 6.578960747560814e-05
+  },
+  {
+    "name": "R hip fixing 1 socket",
+    "native_volume_mm3": 3.81660436703846,
+    "step_volume_mm3": 3.8166573424838077,
+    "delta_mm3": 5.297544534776932e-05,
+    "relative_delta": 1.3880255916825945e-05,
+    "max_bbox_delta_mm": 2.407055839626082e-05
+  },
+  {
+    "name": "R hip fixing 2 head",
+    "native_volume_mm3": 16.624199337967788,
+    "step_volume_mm3": 16.62381268360093,
+    "delta_mm3": -0.0003866543668564759,
+    "relative_delta": -2.325852565864036e-05,
+    "max_bbox_delta_mm": 4.93422055285464e-05
+  },
+  {
+    "name": "R hip fixing 2 seat",
+    "native_volume_mm3": 17.239998963709986,
+    "step_volume_mm3": 17.239720000843942,
+    "delta_mm3": -0.0002789628660444521,
+    "relative_delta": -1.6181141694478402e-05,
+    "max_bbox_delta_mm": 6.578960741876472e-05
+  },
+  {
+    "name": "R hip fixing 2 socket",
+    "native_volume_mm3": 3.816604367038431,
+    "step_volume_mm3": 3.8166573424838446,
+    "delta_mm3": 5.2975445413494526e-05,
+    "relative_delta": 1.3880255934046907e-05,
+    "max_bbox_delta_mm": 2.4070558367839112e-05
+  },
+  {
+    "name": "R hip fixing 3 head",
+    "native_volume_mm3": 16.62419933796777,
+    "step_volume_mm3": 16.623812683600878,
+    "delta_mm3": -0.00038665436689200305,
+    "relative_delta": -2.325852566077746e-05,
+    "max_bbox_delta_mm": 4.934220555696811e-05
+  },
+  {
+    "name": "R hip fixing 3 seat",
+    "native_volume_mm3": 17.239998963709997,
+    "step_volume_mm3": 17.239720000843956,
+    "delta_mm3": -0.00027896286604089937,
+    "relative_delta": -1.6181141694272316e-05,
+    "max_bbox_delta_mm": 6.578960744718643e-05
+  },
+  {
+    "name": "R hip fixing 3 socket",
+    "native_volume_mm3": 3.8166043670384338,
+    "step_volume_mm3": 3.8166573424838224,
+    "delta_mm3": 5.297544538862553e-05,
+    "relative_delta": 1.3880255927530898e-05,
+    "max_bbox_delta_mm": 2.407055842468253e-05
+  },
+  {
+    "name": "R hip fixing 4 head",
+    "native_volume_mm3": 16.624199337967756,
+    "step_volume_mm3": 16.623812683600892,
+    "delta_mm3": -0.00038665436686358134,
+    "relative_delta": -2.325852565906782e-05,
+    "max_bbox_delta_mm": 4.93422055285464e-05
+  },
+  {
+    "name": "R hip fixing 4 seat",
+    "native_volume_mm3": 17.239998963709965,
+    "step_volume_mm3": 17.239720000843935,
+    "delta_mm3": -0.00027896286603024123,
+    "relative_delta": -1.6181141693654124e-05,
+    "max_bbox_delta_mm": 6.578960739034301e-05
+  },
+  {
+    "name": "R hip fixing 4 socket",
+    "native_volume_mm3": 3.816604367038432,
+    "step_volume_mm3": 3.816657342483792,
+    "delta_mm3": 5.297544536020382e-05,
+    "relative_delta": 1.3880255920084047e-05,
+    "max_bbox_delta_mm": 2.407055839626082e-05
+  },
+  {
+    "name": "R hip recessed hub",
+    "native_volume_mm3": 9047.229776887016,
+    "step_volume_mm3": 9047.083382366995,
+    "delta_mm3": -0.1463945200212038,
+    "relative_delta": -1.6181143137891588e-05,
+    "max_bbox_delta_mm": 0.0005639109203627868
+  },
+  {
+    "name": "R hollow forearm",
+    "native_volume_mm3": 12379.549359493221,
+    "step_volume_mm3": 12379.549359493314,
+    "delta_mm3": 9.276845958083868e-11,
+    "relative_delta": 7.493686311747644e-15,
+    "max_bbox_delta_mm": 1.7053025658242404e-13
+  },
+  {
+    "name": "R hollow upper arm",
+    "native_volume_mm3": 7471.385434766566,
+    "step_volume_mm3": 7471.3854347665665,
+    "delta_mm3": 9.094947017729282e-13,
+    "relative_delta": 1.217303952143575e-16,
+    "max_bbox_delta_mm": 1.9895196601282805e-13
+  },
+  {
+    "name": "R knee actuator envelope",
+    "native_volume_mm3": 86197.61889228101,
+    "step_volume_mm3": 86196.94005860404,
+    "delta_mm3": -0.6788336769677699,
+    "relative_delta": -7.87531820126135e-06,
+    "max_bbox_delta_mm": 0.0007488620231015375
+  },
+  {
+    "name": "R knee axle cap",
+    "native_volume_mm3": 834.3984750413118,
+    "step_volume_mm3": 834.3870421963093,
+    "delta_mm3": -0.011432845002559588,
+    "relative_delta": -1.3701900644046045e-05,
+    "max_bbox_delta_mm": 0.0001647495811312183
+  },
+  {
+    "name": "R knee axle ring",
+    "native_volume_mm3": 1915.1077637338792,
+    "step_volume_mm3": 1915.060366302816,
+    "delta_mm3": -0.047397431063245676,
+    "relative_delta": -2.4749224017992107e-05,
+    "max_bbox_delta_mm": 0.00023684251254962874
+  },
+  {
+    "name": "R knee bearing rim",
+    "native_volume_mm3": 7925.750252457725,
+    "step_volume_mm3": 7925.711755089935,
+    "delta_mm3": -0.03849736779011437,
+    "relative_delta": -4.8572521923935945e-06,
+    "max_bbox_delta_mm": 0.0006813923620683227
+  },
+  {
+    "name": "R knee cover",
+    "native_volume_mm3": 8824.190431700934,
+    "step_volume_mm3": 8824.147570371648,
+    "delta_mm3": -0.042861329286097316,
+    "relative_delta": -4.857253435070695e-06,
+    "max_bbox_delta_mm": 0.000622651304468036
+  },
+  {
+    "name": "R knee fixing 1 head",
+    "native_volume_mm3": 16.624199337967767,
+    "step_volume_mm3": 16.623812683600836,
+    "delta_mm3": -0.0003866543669310829,
+    "relative_delta": -2.3258525663128246e-05,
+    "max_bbox_delta_mm": 4.934220555696811e-05
+  },
+  {
+    "name": "R knee fixing 1 seat",
+    "native_volume_mm3": 17.239998963710022,
+    "step_volume_mm3": 17.2397200008439,
+    "delta_mm3": -0.0002789628661226118,
+    "relative_delta": -1.6181141699011994e-05,
+    "max_bbox_delta_mm": 6.578960744718643e-05
+  },
+  {
+    "name": "R knee fixing 1 socket",
+    "native_volume_mm3": 3.816604367038462,
+    "step_volume_mm3": 3.8166573424838375,
+    "delta_mm3": 5.2975445375302854e-05,
+    "relative_delta": 1.388025592404008e-05,
+    "max_bbox_delta_mm": 2.407056501851912e-05
+  },
+  {
+    "name": "R knee fixing 2 head",
+    "native_volume_mm3": 16.624199337967678,
+    "step_volume_mm3": 16.623812683600757,
+    "delta_mm3": -0.00038665436692042476,
+    "relative_delta": -2.325852566248725e-05,
+    "max_bbox_delta_mm": 4.93422055285464e-05
+  },
+  {
+    "name": "R knee fixing 2 seat",
+    "native_volume_mm3": 17.23999896371002,
+    "step_volume_mm3": 17.23972000084382,
+    "delta_mm3": -0.00027896286619721877,
+    "relative_delta": -1.618114170333955e-05,
+    "max_bbox_delta_mm": 6.578960734771044e-05
+  },
+  {
+    "name": "R knee fixing 2 socket",
+    "native_volume_mm3": 3.816604367038431,
+    "step_volume_mm3": 3.8166573424837478,
+    "delta_mm3": 5.297544531668308e-05,
+    "relative_delta": 1.3880255908681049e-05,
+    "max_bbox_delta_mm": 2.4070565004308264e-05
+  },
+  {
+    "name": "R knee fixing 3 head",
+    "native_volume_mm3": 16.624199337967834,
+    "step_volume_mm3": 16.623812683600747,
+    "delta_mm3": -0.0003866543670874023,
+    "relative_delta": -2.3258525672531274e-05,
+    "max_bbox_delta_mm": 4.9342205542757256e-05
+  },
+  {
+    "name": "R knee fixing 3 seat",
+    "native_volume_mm3": 17.239998963709954,
+    "step_volume_mm3": 17.23972000084384,
+    "delta_mm3": -0.00027896286611550636,
+    "relative_delta": -1.618114169859991e-05,
+    "max_bbox_delta_mm": 6.578957831493426e-05
+  },
+  {
+    "name": "R knee fixing 3 socket",
+    "native_volume_mm3": 3.816604367038471,
+    "step_volume_mm3": 3.8166573424838055,
+    "delta_mm3": 5.297544533444665e-05,
+    "relative_delta": 1.388025591333519e-05,
+    "max_bbox_delta_mm": 2.4070564975886555e-05
+  },
+  {
+    "name": "R knee fixing 4 head",
+    "native_volume_mm3": 16.624199337967692,
+    "step_volume_mm3": 16.62381268360082,
+    "delta_mm3": -0.00038665436687068677,
+    "relative_delta": -2.3258525659495326e-05,
+    "max_bbox_delta_mm": 4.93421901524016e-05
+  },
+  {
+    "name": "R knee fixing 4 seat",
+    "native_volume_mm3": 17.239998963710033,
+    "step_volume_mm3": 17.239720000843892,
+    "delta_mm3": -0.00027896286614037535,
+    "relative_delta": -1.618114170004235e-05,
+    "max_bbox_delta_mm": 6.578960739034301e-05
+  },
+  {
+    "name": "R knee fixing 4 socket",
+    "native_volume_mm3": 3.8166043670384497,
+    "step_volume_mm3": 3.816657342483793,
+    "delta_mm3": 5.297544534332843e-05,
+    "relative_delta": 1.388025591566241e-05,
+    "max_bbox_delta_mm": 2.4070555667776716e-05
+  },
+  {
+    "name": "R knee panel screw -12 -16 head",
+    "native_volume_mm3": 16.624199337967635,
+    "step_volume_mm3": 16.623812683600732,
+    "delta_mm3": -0.0003866543669026612,
+    "relative_delta": -2.325852566141877e-05,
+    "max_bbox_delta_mm": 4.9342205542757256e-05
+  },
+  {
+    "name": "R knee panel screw -12 -16 seat",
+    "native_volume_mm3": 17.23999896370998,
+    "step_volume_mm3": 17.239720000843885,
+    "delta_mm3": -0.0002789628660941901,
+    "relative_delta": -1.618114169736344e-05,
+    "max_bbox_delta_mm": 6.578960739034301e-05
+  },
+  {
+    "name": "R knee panel screw -12 -16 socket",
+    "native_volume_mm3": 3.816604367038435,
+    "step_volume_mm3": 3.8166573424838206,
+    "delta_mm3": 5.2975445385516906e-05,
+    "relative_delta": 1.3880255926716393e-05,
+    "max_bbox_delta_mm": 2.407056499009741e-05
+  },
+  {
+    "name": "R knee panel screw -12 11 head",
+    "native_volume_mm3": 16.624199337967447,
+    "step_volume_mm3": 16.623812683600807,
+    "delta_mm3": -0.0003866543666397604,
+    "relative_delta": -2.325852564560469e-05,
+    "max_bbox_delta_mm": 4.9342183814360396e-05
+  },
+  {
+    "name": "R knee panel screw -12 11 seat",
+    "native_volume_mm3": 17.239998963709834,
+    "step_volume_mm3": 17.2397200008437,
+    "delta_mm3": -0.0002789628661332699,
+    "relative_delta": -1.6181141699630392e-05,
+    "max_bbox_delta_mm": 6.57896073619213e-05
+  },
+  {
+    "name": "R knee panel screw -12 11 socket",
+    "native_volume_mm3": 3.8166043670383645,
+    "step_volume_mm3": 3.8166573424838397,
+    "delta_mm3": 5.2975445475222926e-05,
+    "relative_delta": 1.3880255950220795e-05,
+    "max_bbox_delta_mm": 2.407056501851912e-05
+  },
+  {
+    "name": "R knee panel screw 12 -16 head",
+    "native_volume_mm3": 16.624199337967738,
+    "step_volume_mm3": 16.623812683600782,
+    "delta_mm3": -0.0003866543669559519,
+    "relative_delta": -2.325852566462424e-05,
+    "max_bbox_delta_mm": 4.93422055285464e-05
+  },
+  {
+    "name": "R knee panel screw 12 -16 seat",
+    "native_volume_mm3": 17.239998963709862,
+    "step_volume_mm3": 17.23972000084383,
+    "delta_mm3": -0.00027896286603379394,
+    "relative_delta": -1.6181141693860295e-05,
+    "max_bbox_delta_mm": 6.57895783007234e-05
+  },
+  {
+    "name": "R knee panel screw 12 -16 socket",
+    "native_volume_mm3": 3.816604367038471,
+    "step_volume_mm3": 3.816657342483795,
+    "delta_mm3": 5.2975445323788506e-05,
+    "relative_delta": 1.3880255910542619e-05,
+    "max_bbox_delta_mm": 2.407056501851912e-05
+  },
+  {
+    "name": "R knee panel screw 12 11 head",
+    "native_volume_mm3": 16.62419933796758,
+    "step_volume_mm3": 16.62381268360083,
+    "delta_mm3": -0.0003866543667498945,
+    "relative_delta": -2.3258525652229436e-05,
+    "max_bbox_delta_mm": 4.934220555696811e-05
+  },
+  {
+    "name": "R knee panel screw 12 11 seat",
+    "native_volume_mm3": 17.239998963709944,
+    "step_volume_mm3": 17.239720000843928,
+    "delta_mm3": -0.0002789628660160304,
+    "relative_delta": -1.618114169282985e-05,
+    "max_bbox_delta_mm": 6.578960741876472e-05
+  },
+  {
+    "name": "R knee panel screw 12 11 socket",
+    "native_volume_mm3": 3.816604367038433,
+    "step_volume_mm3": 3.816657342483819,
+    "delta_mm3": 5.2975445385960995e-05,
+    "relative_delta": 1.3880255926832758e-05,
+    "max_bbox_delta_mm": 2.407056501851912e-05
+  },
+  {
+    "name": "R knee recessed hub",
+    "native_volume_mm3": 6926.7852979289855,
+    "step_volume_mm3": 6926.673214624712,
+    "delta_mm3": -0.11208330427325564,
+    "relative_delta": -1.618114312085969e-05,
+    "max_bbox_delta_mm": 0.0004934220553138857
+  },
+  {
+    "name": "R orange heel latch",
+    "native_volume_mm3": 3007.999999999997,
+    "step_volume_mm3": 3007.999999999987,
+    "delta_mm3": -1.000444171950221e-11,
+    "relative_delta": -3.325944720579196e-15,
+    "max_bbox_delta_mm": 1.4210854715202004e-14
+  },
+  {
+    "name": "R palm armor",
+    "native_volume_mm3": 1362.000000000001,
+    "step_volume_mm3": 1361.9999999999955,
+    "delta_mm3": -5.4569682106375694e-12,
+    "relative_delta": -4.006584589308051e-15,
+    "max_bbox_delta_mm": 3.552713678800501e-14
+  },
+  {
+    "name": "R palm mechanism",
+    "native_volume_mm3": 9760.000000000013,
+    "step_volume_mm3": 9759.999999999976,
+    "delta_mm3": -3.637978807091713e-11,
+    "relative_delta": -3.727437302348062e-15,
+    "max_bbox_delta_mm": 1.1368683772161603e-13
+  },
+  {
+    "name": "R palm screw -8 head",
+    "native_volume_mm3": 16.62404075454221,
+    "step_volume_mm3": 16.62379162237204,
+    "delta_mm3": -0.00024913217017186184,
+    "relative_delta": -1.4986258386294626e-05,
+    "max_bbox_delta_mm": 1.5197088032437023e-10
+  },
+  {
+    "name": "R palm screw -8 seat",
+    "native_volume_mm3": 17.239910424636175,
+    "step_volume_mm3": 17.23968934620046,
+    "delta_mm3": -0.00022107843571461672,
+    "relative_delta": -1.2823641786368636e-05,
+    "max_bbox_delta_mm": 2.0267520994821098e-10
+  },
+  {
+    "name": "R palm screw -8 socket",
+    "native_volume_mm3": 3.816604367038346,
+    "step_volume_mm3": 3.8166573424836545,
+    "delta_mm3": 5.297544530868947e-05,
+    "relative_delta": 1.3880255906586931e-05,
+    "max_bbox_delta_mm": 5.092033461551182e-10
+  },
+  {
+    "name": "R palm screw 8 head",
+    "native_volume_mm3": 16.624040754542243,
+    "step_volume_mm3": 16.623791635514145,
+    "delta_mm3": -0.0002491190280977662,
+    "relative_delta": -1.4985467839983403e-05,
+    "max_bbox_delta_mm": 1.5199930203380063e-10
+  },
+  {
+    "name": "R palm screw 8 seat",
+    "native_volume_mm3": 17.239910424636136,
+    "step_volume_mm3": 17.239689346200333,
+    "delta_mm3": -0.00022107843580343456,
+    "relative_delta": -1.282364179152054e-05,
+    "max_bbox_delta_mm": 2.0267520994821098e-10
+  },
+  {
+    "name": "R palm screw 8 socket",
+    "native_volume_mm3": 3.816604367038508,
+    "step_volume_mm3": 3.8166573424839556,
+    "delta_mm3": 5.2975445447689395e-05,
+    "relative_delta": 1.3880255943006129e-05,
+    "max_bbox_delta_mm": 5.09260189573979e-10
+  },
+  {
+    "name": "R shin mechanism recess",
+    "native_volume_mm3": 1963.9999999999998,
+    "step_volume_mm3": 1963.9999999999893,
+    "delta_mm3": -1.0459189070388675e-11,
+    "relative_delta": -5.3254526834972895e-15,
+    "max_bbox_delta_mm": 3.552713678800501e-14
+  },
+  {
+    "name": "R shin rail screw -19 -13 head",
+    "native_volume_mm3": 16.623936560034014,
+    "step_volume_mm3": 16.62377834901387,
+    "delta_mm3": -0.0001582110201425735,
+    "relative_delta": -9.517061110719841e-06,
+    "max_bbox_delta_mm": 6.448885869758669e-11
+  },
+  {
+    "name": "R shin rail screw -19 -13 seat",
+    "native_volume_mm3": 17.239879191834756,
+    "step_volume_mm3": 17.239681408552727,
+    "delta_mm3": -0.00019778328202946227,
+    "relative_delta": -1.1472428537848307e-05,
+    "max_bbox_delta_mm": 8.598988188168732e-11
+  },
+  {
+    "name": "R shin rail screw -19 -13 socket",
+    "native_volume_mm3": 3.816604367038439,
+    "step_volume_mm3": 3.816657342483849,
+    "delta_mm3": 5.297544540994181e-05,
+    "relative_delta": 1.3880255933116022e-05,
+    "max_bbox_delta_mm": 2.7682744985213503e-11
+  },
+  {
+    "name": "R shin rail screw -19 13 head",
+    "native_volume_mm3": 16.623936560033993,
+    "step_volume_mm3": 16.62377834901378,
+    "delta_mm3": -0.00015821102021362776,
+    "relative_delta": -9.517061114994068e-06,
+    "max_bbox_delta_mm": 6.448885869758669e-11
+  },
+  {
+    "name": "R shin rail screw -19 13 seat",
+    "native_volume_mm3": 17.23987919183477,
+    "step_volume_mm3": 17.239681408552702,
+    "delta_mm3": -0.00019778328206854212,
+    "relative_delta": -1.1472428540115126e-05,
+    "max_bbox_delta_mm": 8.603251444583293e-11
+  },
+  {
+    "name": "R shin rail screw -19 13 socket",
+    "native_volume_mm3": 3.8166043670384355,
+    "step_volume_mm3": 3.816657342484209,
+    "delta_mm3": 5.2975445773650875e-05,
+    "relative_delta": 1.388025602841254e-05,
+    "max_bbox_delta_mm": 2.7640112421067897e-11
+  },
+  {
+    "name": "R shin rail screw 19 -13 head",
+    "native_volume_mm3": 16.623936560034,
+    "step_volume_mm3": 16.62377834901388,
+    "delta_mm3": -0.0001582110201212572,
+    "relative_delta": -9.517061109437584e-06,
+    "max_bbox_delta_mm": 6.448885869758669e-11
+  },
+  {
+    "name": "R shin rail screw 19 -13 seat",
+    "native_volume_mm3": 17.239879191834763,
+    "step_volume_mm3": 17.239681408552702,
+    "delta_mm3": -0.0001977832820614367,
+    "relative_delta": -1.147242853970298e-05,
+    "max_bbox_delta_mm": 8.598988188168732e-11
+  },
+  {
+    "name": "R shin rail screw 19 -13 socket",
+    "native_volume_mm3": 3.8166043670384227,
+    "step_volume_mm3": 3.8166573424842234,
+    "delta_mm3": 5.297544580074032e-05,
+    "relative_delta": 1.3880256035510374e-05,
+    "max_bbox_delta_mm": 2.7625901566352695e-11
+  },
+  {
+    "name": "R shin rail screw 19 13 head",
+    "native_volume_mm3": 16.623936560033975,
+    "step_volume_mm3": 16.623778343576074,
+    "delta_mm3": -0.00015821645790126126,
+    "relative_delta": -9.51738821487285e-06,
+    "max_bbox_delta_mm": 6.45030695523019e-11
+  },
+  {
+    "name": "R shin rail screw 19 13 seat",
+    "native_volume_mm3": 17.239879191834774,
+    "step_volume_mm3": 17.239681408553167,
+    "delta_mm3": -0.00019778328160668934,
+    "relative_delta": -1.1472428513325333e-05,
+    "max_bbox_delta_mm": 8.601830359111773e-11
+  },
+  {
+    "name": "R shin rail screw 19 13 socket",
+    "native_volume_mm3": 3.816604367038432,
+    "step_volume_mm3": 3.8166573424837686,
+    "delta_mm3": 5.297544533666709e-05,
+    "relative_delta": 1.3880255913917117e-05,
+    "max_bbox_delta_mm": 2.7625901566352695e-11
+  },
+  {
+    "name": "R shoulder actuator envelope",
+    "native_volume_mm3": 44867.56812786402,
+    "step_volume_mm3": 44867.04404032956,
+    "delta_mm3": -0.5240875344607048,
+    "relative_delta": -1.1680765335156012e-05,
+    "max_bbox_delta_mm": 0.0006151366617928034
+  },
+  {
+    "name": "R shoulder axle cap",
+    "native_volume_mm3": 562.9931307621231,
+    "step_volume_mm3": 562.9971692772864,
+    "delta_mm3": 0.004038515163301781,
+    "relative_delta": 7.17329385144513e-06,
+    "max_bbox_delta_mm": 0.0001353300656887768
+  },
+  {
+    "name": "R shoulder axle ring",
+    "native_volume_mm3": 1292.206851581117,
+    "step_volume_mm3": 1292.1755436151536,
+    "delta_mm3": -0.03130796596337859,
+    "relative_delta": -2.4228292803950718e-05,
+    "max_bbox_delta_mm": 0.00022144919824995668
+  },
+  {
+    "name": "R shoulder bearing rim",
+    "native_volume_mm3": 5428.337866144738,
+    "step_volume_mm3": 5428.311499324388,
+    "delta_mm3": -0.02636682034972182,
+    "relative_delta": -4.857254835622052e-06,
+    "max_bbox_delta_mm": 0.0005639109203912085
+  },
+  {
+    "name": "R shoulder cover",
+    "native_volume_mm3": 5808.447172743988,
+    "step_volume_mm3": 5808.418959635873,
+    "delta_mm3": -0.0282131081148691,
+    "relative_delta": -4.8572548352094e-06,
+    "max_bbox_delta_mm": 0.0005051701995171243
+  },
+  {
+    "name": "R shoulder fixing 1 head",
+    "native_volume_mm3": 16.624199337967934,
+    "step_volume_mm3": 16.623812683600786,
+    "delta_mm3": -0.00038665436714779844,
+    "relative_delta": -2.325852567616416e-05,
+    "max_bbox_delta_mm": 4.934220561381153e-05
+  },
+  {
+    "name": "R shoulder fixing 1 seat",
+    "native_volume_mm3": 17.239998963709876,
+    "step_volume_mm3": 17.23972000084386,
+    "delta_mm3": -0.0002789628660160304,
+    "relative_delta": -1.6181141692829914e-05,
+    "max_bbox_delta_mm": 6.578960750402985e-05
+  },
+  {
+    "name": "R shoulder fixing 1 socket",
+    "native_volume_mm3": 3.816604367038496,
+    "step_volume_mm3": 3.816657342483822,
+    "delta_mm3": 5.297544532600895e-05,
+    "relative_delta": 1.3880255911124314e-05,
+    "max_bbox_delta_mm": 2.4070558367839112e-05
+  },
+  {
+    "name": "R shoulder fixing 2 head",
+    "native_volume_mm3": 16.624199337967934,
+    "step_volume_mm3": 16.623812683601205,
+    "delta_mm3": -0.0003866543667285782,
+    "relative_delta": -2.3258525650946693e-05,
+    "max_bbox_delta_mm": 4.934220567065495e-05
+  },
+  {
+    "name": "R shoulder fixing 2 seat",
+    "native_volume_mm3": 17.23999896370988,
+    "step_volume_mm3": 17.239720000843537,
+    "delta_mm3": -0.00027896286634288003,
+    "relative_delta": -1.6181141711788706e-05,
+    "max_bbox_delta_mm": 6.578963643733005e-05
+  },
+  {
+    "name": "R shoulder fixing 2 socket",
+    "native_volume_mm3": 3.8166043670384284,
+    "step_volume_mm3": 3.816657342483788,
+    "delta_mm3": 5.297544535975973e-05,
+    "relative_delta": 1.3880255919967702e-05,
+    "max_bbox_delta_mm": 2.407055842468253e-05
+  },
+  {
+    "name": "R shoulder fixing 3 head",
+    "native_volume_mm3": 16.624199337967852,
+    "step_volume_mm3": 16.62381268360117,
+    "delta_mm3": -0.00038665436668239295,
+    "relative_delta": -2.325852564816861e-05,
+    "max_bbox_delta_mm": 4.934220561381153e-05
+  },
+  {
+    "name": "R shoulder fixing 3 seat",
+    "native_volume_mm3": 17.239998963709873,
+    "step_volume_mm3": 17.239720000843565,
+    "delta_mm3": -0.0002789628663073529,
+    "relative_delta": -1.6181141709727977e-05,
+    "max_bbox_delta_mm": 6.578960739034301e-05
+  },
+  {
+    "name": "R shoulder fixing 3 socket",
+    "native_volume_mm3": 3.816604367038446,
+    "step_volume_mm3": 3.8166573424838384,
+    "delta_mm3": 5.2975445392178244e-05,
+    "relative_delta": 1.388025592846171e-05,
+    "max_bbox_delta_mm": 2.407056501851912e-05
+  },
+  {
+    "name": "R shoulder fixing 4 head",
+    "native_volume_mm3": 16.62419933796794,
+    "step_volume_mm3": 16.623812683600818,
+    "delta_mm3": -0.00038665436712292944,
+    "relative_delta": -2.32585256746682e-05,
+    "max_bbox_delta_mm": 4.934220550012469e-05
+  },
+  {
+    "name": "R shoulder fixing 4 seat",
+    "native_volume_mm3": 17.23999896370979,
+    "step_volume_mm3": 17.239720000843832,
+    "delta_mm3": -0.00027896286595918696,
+    "relative_delta": -1.618114168953281e-05,
+    "max_bbox_delta_mm": 6.578958692671222e-05
+  },
+  {
+    "name": "R shoulder fixing 4 socket",
+    "native_volume_mm3": 3.8166043670385457,
+    "step_volume_mm3": 3.8166573424838255,
+    "delta_mm3": 5.2975445279823674e-05,
+    "relative_delta": 1.388025589902299e-05,
+    "max_bbox_delta_mm": 2.4070558310995693e-05
+  },
+  {
+    "name": "R shoulder recessed hub",
+    "native_volume_mm3": 4020.9843304120172,
+    "step_volume_mm3": 4020.901693243733,
+    "delta_mm3": -0.0826371682842364,
+    "relative_delta": -2.0551477323406736e-05,
+    "max_bbox_delta_mm": 0.000375940613594139
+  },
+  {
+    "name": "R small claw -8",
+    "native_volume_mm3": 3552.0,
+    "step_volume_mm3": 3551.9999999999673,
+    "delta_mm3": -3.2741809263825417e-11,
+    "relative_delta": -9.217851707158057e-15,
+    "max_bbox_delta_mm": 1.1368683772161603e-13
+  },
+  {
+    "name": "R small claw 8",
+    "native_volume_mm3": 3552.000000000002,
+    "step_volume_mm3": 3551.9999999999764,
+    "delta_mm3": -2.546585164964199e-11,
+    "relative_delta": -7.169440216678485e-15,
+    "max_bbox_delta_mm": 6.394884621840902e-14
+  },
+  {
+    "name": "R thigh screw -16 -18 head",
+    "native_volume_mm3": 16.62397198788763,
+    "step_volume_mm3": 16.623782285442257,
+    "delta_mm3": -0.00018970244537186431,
+    "relative_delta": -1.1411379032043797e-05,
+    "max_bbox_delta_mm": 2.842170943040401e-14
+  },
+  {
+    "name": "R thigh screw -16 -18 seat",
+    "native_volume_mm3": 17.239879191834774,
+    "step_volume_mm3": 17.239681408565282,
+    "delta_mm3": -0.0001977832694919357,
+    "relative_delta": -1.147242781060848e-05,
+    "max_bbox_delta_mm": 8.526512829121202e-14
+  },
+  {
+    "name": "R thigh screw -16 -18 socket",
+    "native_volume_mm3": 3.8166043670384213,
+    "step_volume_mm3": 3.816657345500436,
+    "delta_mm3": 5.297846201468559e-05,
+    "relative_delta": 1.3881046322806417e-05,
+    "max_bbox_delta_mm": 7.105427357601002e-15
+  },
+  {
+    "name": "R thigh screw -16 18 head",
+    "native_volume_mm3": 16.62397198788766,
+    "step_volume_mm3": 16.623782285448264,
+    "delta_mm3": -0.0001897024393961999,
+    "relative_delta": -1.1411378672583087e-05,
+    "max_bbox_delta_mm": 2.842170943040401e-14
+  },
+  {
+    "name": "R thigh screw -16 18 seat",
+    "native_volume_mm3": 17.23987919183484,
+    "step_volume_mm3": 17.239681422187733,
+    "delta_mm3": -0.00019776964710871425,
+    "relative_delta": -1.1471637643631632e-05,
+    "max_bbox_delta_mm": 1.6342482922482304e-13
+  },
+  {
+    "name": "R thigh screw -16 18 socket",
+    "native_volume_mm3": 3.8166043670384444,
+    "step_volume_mm3": 3.816657342483728,
+    "delta_mm3": 5.297544528337639e-05,
+    "relative_delta": 1.3880255899954214e-05,
+    "max_bbox_delta_mm": 0.0
+  },
+  {
+    "name": "R thigh screw 16 -18 head",
+    "native_volume_mm3": 16.623971987887582,
+    "step_volume_mm3": 16.62378228544639,
+    "delta_mm3": -0.00018970244119387303,
+    "relative_delta": -1.141137878072054e-05,
+    "max_bbox_delta_mm": 5.684341886080802e-14
+  },
+  {
+    "name": "R thigh screw 16 -18 seat",
+    "native_volume_mm3": 17.239879191834863,
+    "step_volume_mm3": 17.239681394927803,
+    "delta_mm3": -0.0001977969070594554,
+    "relative_delta": -1.1473218858351154e-05,
+    "max_bbox_delta_mm": 7.105427357601002e-14
+  },
+  {
+    "name": "R thigh screw 16 -18 socket",
+    "native_volume_mm3": 3.8166043670384187,
+    "step_volume_mm3": 3.816657342483738,
+    "delta_mm3": 5.2975445319347614e-05,
+    "relative_delta": 1.3880255909379238e-05,
+    "max_bbox_delta_mm": 5.684341886080802e-14
+  },
+  {
+    "name": "R thigh screw 16 18 head",
+    "native_volume_mm3": 16.623971987887614,
+    "step_volume_mm3": 16.62378228544212,
+    "delta_mm3": -0.00018970244549265658,
+    "relative_delta": -1.1411379039309955e-05,
+    "max_bbox_delta_mm": 8.526512829121202e-14
+  },
+  {
+    "name": "R thigh screw 16 18 seat",
+    "native_volume_mm3": 17.239879191834785,
+    "step_volume_mm3": 17.239681389283064,
+    "delta_mm3": -0.0001978025517210824,
+    "relative_delta": -1.1473546277213264e-05,
+    "max_bbox_delta_mm": 2.842170943040401e-14
+  },
+  {
+    "name": "R thigh screw 16 18 socket",
+    "native_volume_mm3": 3.816604367038405,
+    "step_volume_mm3": 3.8166573394673784,
+    "delta_mm3": 5.2972428973507846e-05,
+    "relative_delta": 1.3879465587525175e-05,
+    "max_bbox_delta_mm": 2.842170943040401e-14
+  },
+  {
+    "name": "R toe bumper",
+    "native_volume_mm3": 2103.9999999999977,
+    "step_volume_mm3": 2103.9999999999945,
+    "delta_mm3": -3.183231456205249e-12,
+    "relative_delta": -1.512942707321888e-15,
+    "max_bbox_delta_mm": 1.1368683772161603e-13
+  },
+  {
+    "name": "R upper arm faceplate",
+    "native_volume_mm3": 1098.9999999999993,
+    "step_volume_mm3": 1098.9999999999973,
+    "delta_mm3": -2.0463630789890885e-12,
+    "relative_delta": -1.8620228198262874e-15,
+    "max_bbox_delta_mm": 5.684341886080802e-14
+  },
+  {
+    "name": "R upper arm screw -9 head",
+    "native_volume_mm3": 16.624040754542253,
+    "step_volume_mm3": 16.623791622376114,
+    "delta_mm3": -0.0002491321661395318,
+    "relative_delta": -1.4986258143734424e-05,
+    "max_bbox_delta_mm": 5.684341886080802e-14
+  },
+  {
+    "name": "R upper arm screw -9 seat",
+    "native_volume_mm3": 17.239910424636133,
+    "step_volume_mm3": 17.23968934057505,
+    "delta_mm3": -0.00022108406108145573,
+    "relative_delta": -1.2823968085444501e-05,
+    "max_bbox_delta_mm": 6.714628852932947e-13
+  },
+  {
+    "name": "R upper arm screw -9 socket",
+    "native_volume_mm3": 3.81660436703844,
+    "step_volume_mm3": 3.8166573424836883,
+    "delta_mm3": 5.297544524829334e-05,
+    "relative_delta": 1.3880255890762016e-05,
+    "max_bbox_delta_mm": 7.105427357601002e-14
+  },
+  {
+    "name": "R upper arm screw 9 head",
+    "native_volume_mm3": 16.624040754542154,
+    "step_volume_mm3": 16.623791622372938,
+    "delta_mm3": -0.00024913216921618186,
+    "relative_delta": -1.498625832880685e-05,
+    "max_bbox_delta_mm": 5.684341886080802e-14
+  },
+  {
+    "name": "R upper arm screw 9 seat",
+    "native_volume_mm3": 17.23991042463612,
+    "step_volume_mm3": 17.2396893462039,
+    "delta_mm3": -0.00022107843221874646,
+    "relative_delta": -1.2823641583590928e-05,
+    "max_bbox_delta_mm": 7.496225862269057e-13
+  },
+  {
+    "name": "R upper arm screw 9 socket",
+    "native_volume_mm3": 3.8166043670384258,
+    "step_volume_mm3": 3.816657342484317,
+    "delta_mm3": 5.2975445891334516e-05,
+    "relative_delta": 1.3880256059247222e-05,
+    "max_bbox_delta_mm": 5.684341886080802e-14
+  },
+  {
+    "name": "R wrist joint",
+    "native_volume_mm3": 5340.104875691606,
+    "step_volume_mm3": 5340.178571539937,
+    "delta_mm3": 0.07369584833122644,
+    "relative_delta": 1.3800449625379683e-05,
+    "max_bbox_delta_mm": 0.00026745082624302086
+  },
+  {
+    "name": "R01 hollow thigh",
+    "native_volume_mm3": 32018.14838838688,
+    "step_volume_mm3": 32018.148388386882,
+    "delta_mm3": 3.637978807091713e-12,
+    "relative_delta": 1.1362239823996893e-16,
+    "max_bbox_delta_mm": 1.9895196601282805e-13
+  },
+  {
+    "name": "R02 thigh panel",
+    "native_volume_mm3": 4998.40000000001,
+    "step_volume_mm3": 4998.399999999994,
+    "delta_mm3": -1.546140993013978e-11,
+    "relative_delta": -3.0932718330145147e-15,
+    "max_bbox_delta_mm": 8.526512829121202e-14
+  },
+  {
+    "name": "R03 purple kneecap",
+    "native_volume_mm3": 3985.8000000000025,
+    "step_volume_mm3": 3985.799999999997,
+    "delta_mm3": -5.4569682106375694e-12,
+    "relative_delta": -1.3691023660589007e-15,
+    "max_bbox_delta_mm": 4.263256414560601e-14
+  },
+  {
+    "name": "R04 hollow shin",
+    "native_volume_mm3": 27383.909649819736,
+    "step_volume_mm3": 27383.909649819732,
+    "delta_mm3": -3.637978807091713e-12,
+    "relative_delta": -1.3285096443909941e-16,
+    "max_bbox_delta_mm": 6.572520305780927e-13
+  },
+  {
+    "name": "R05 shin rail -19",
+    "native_volume_mm3": 719.9999999999999,
+    "step_volume_mm3": 719.9999999999967,
+    "delta_mm3": -3.183231456205249e-12,
+    "relative_delta": -4.421154800285069e-15,
+    "max_bbox_delta_mm": 4.973799150320701e-14
+  },
+  {
+    "name": "R05 shin rail 19",
+    "native_volume_mm3": 720.0000000000003,
+    "step_volume_mm3": 719.9999999999912,
+    "delta_mm3": -9.094947017729282e-12,
+    "relative_delta": -1.2631870857957331e-14,
+    "max_bbox_delta_mm": 1.4210854715202004e-14
+  },
+  {
+    "name": "R06 rubber sole",
+    "native_volume_mm3": 101491.66666666606,
+    "step_volume_mm3": 101491.6666666662,
+    "delta_mm3": 1.4551915228366852e-10,
+    "relative_delta": 1.4338039472896236e-15,
+    "max_bbox_delta_mm": 2.842170943040401e-14
+  },
+  {
+    "name": "R07 hollow boot",
+    "native_volume_mm3": 61725.1755071831,
+    "step_volume_mm3": 61725.17550718319,
+    "delta_mm3": 8.731149137020111e-11,
+    "relative_delta": 1.414519937007558e-15,
+    "max_bbox_delta_mm": 3.339550858072471e-13
+  },
+  {
+    "name": "R08 purple instep hatch",
+    "native_volume_mm3": 3097.999999999995,
+    "step_volume_mm3": 3097.9999999999995,
+    "delta_mm3": 4.547473508864641e-12,
+    "relative_delta": 1.467873953797498e-15,
+    "max_bbox_delta_mm": 1.2789769243681803e-13
+  },
+  {
+    "name": "T01 hollow torso",
+    "native_volume_mm3": 104457.7588565958,
+    "step_volume_mm3": 104457.75885659551,
+    "delta_mm3": -2.9103830456733704e-10,
+    "relative_delta": -2.786181780588335e-15,
+    "max_bbox_delta_mm": 6.394884621840902e-14
+  },
+  {
+    "name": "T02 chest cheek -1",
+    "native_volume_mm3": 6057.5,
+    "step_volume_mm3": 6057.500000000005,
+    "delta_mm3": 4.547473508864641e-12,
+    "relative_delta": 7.507178718720002e-16,
+    "max_bbox_delta_mm": 3.410605131648481e-13
+  },
+  {
+    "name": "T02 chest cheek 1",
+    "native_volume_mm3": 5867.483013451023,
+    "step_volume_mm3": 5867.505992302021,
+    "delta_mm3": 0.02297885099778796,
+    "relative_delta": 3.916304648025338e-06,
+    "max_bbox_delta_mm": 3.410605131648481e-13
+  },
+  {
+    "name": "T03 purple service spine",
+    "native_volume_mm3": 6682.5,
+    "step_volume_mm3": 6682.5,
+    "delta_mm3": 0.0,
+    "relative_delta": 0.0,
+    "max_bbox_delta_mm": 5.684341886080802e-14
+  },
+  {
+    "name": "T04 hollow pelvic pod",
+    "native_volume_mm3": 41335.15280608531,
+    "step_volume_mm3": 41335.15280608529,
+    "delta_mm3": -2.1827872842550278e-11,
+    "relative_delta": -5.280704524052662e-16,
+    "max_bbox_delta_mm": 2.842170943040401e-14
+  },
+  {
+    "name": "T05 pelvis access hatch",
+    "native_volume_mm3": 4690.0,
+    "step_volume_mm3": 4690.0,
+    "delta_mm3": 0.0,
+    "relative_delta": 0.0,
+    "max_bbox_delta_mm": 2.842170943040401e-14
+  },
+  {
+    "name": "T06 hollow battery backpack",
+    "native_volume_mm3": 55779.46666324988,
+    "step_volume_mm3": 55779.46666324998,
+    "delta_mm3": 1.0186340659856796e-10,
+    "relative_delta": 1.8261810786670777e-15,
+    "max_bbox_delta_mm": 5.684341886080802e-14
+  },
+  {
+    "name": "T07 rear backpack hatch",
+    "native_volume_mm3": 12876.0,
+    "step_volume_mm3": 12876.000000000002,
+    "delta_mm3": 1.8189894035458565e-12,
+    "relative_delta": 1.4126975796410814e-16,
+    "max_bbox_delta_mm": 5.684341886080802e-14
+  },
+  {
+    "name": "Waist alloy trim",
+    "native_volume_mm3": 5890.123552702185,
+    "step_volume_mm3": 5890.094942843269,
+    "delta_mm3": -0.028609858916752273,
+    "relative_delta": -4.857259556741735e-06,
+    "max_bbox_delta_mm": 0.0005874072086626825
+  },
+  {
+    "name": "Waist gimbal envelope",
+    "native_volume_mm3": 61440.0,
+    "step_volume_mm3": 61440.0,
+    "delta_mm3": 0.0,
+    "relative_delta": 0.0,
+    "max_bbox_delta_mm": 0.0
+  },
+  {
+    "name": "Waist yaw envelope",
+    "native_volume_mm3": 39628.61756876036,
+    "step_volume_mm3": 39627.63840581301,
+    "delta_mm3": -0.9791629473475041,
+    "relative_delta": -2.470848107806284e-05,
+    "max_bbox_delta_mm": 0.0006813923620470064
+  },
+  {
+    "name": "antenna base",
+    "native_volume_mm3": 549.7166783802531,
+    "step_volume_mm3": 549.7244138781684,
+    "delta_mm3": 0.007735497915291489,
+    "relative_delta": 1.4071790468654194e-05,
+    "max_bbox_delta_mm": 3.1946001399774104e-10
+  },
+  {
+    "name": "antenna lower",
+    "native_volume_mm3": 424.672775332949,
+    "step_volume_mm3": 424.70033942769504,
+    "delta_mm3": 0.027564094746026058,
+    "relative_delta": 6.490666778536827e-05,
+    "max_bbox_delta_mm": 1.6611068076599622e-10
+  },
+  {
+    "name": "antenna whip",
+    "native_volume_mm3": 417.25983731190667,
+    "step_volume_mm3": 417.2869311359844,
+    "delta_mm3": 0.027093824077724094,
+    "relative_delta": 6.493273891939698e-05,
+    "max_bbox_delta_mm": 1.1500844721012982e-10
+  },
+  {
+    "name": "blue head status",
+    "native_volume_mm3": 25.130327478662803,
+    "step_volume_mm3": 25.130304934324887,
+    "delta_mm3": -2.25443379164858e-05,
+    "relative_delta": -8.970968617749743e-07,
+    "max_bbox_delta_mm": 2.5799806735449238e-11
+  },
+  {
+    "name": "central sensor bezel",
+    "native_volume_mm3": 1338.5999999999967,
+    "step_volume_mm3": 1338.599999999983,
+    "delta_mm3": -1.3642420526593924e-11,
+    "relative_delta": -1.0191558737930642e-14,
+    "max_bbox_delta_mm": 3.126388037344441e-13
+  },
+  {
+    "name": "chest status light",
+    "native_volume_mm3": 68.80000000000064,
+    "step_volume_mm3": 68.80000000000064,
+    "delta_mm3": 0.0,
+    "relative_delta": 0.0,
+    "max_bbox_delta_mm": 0.0
+  },
+  {
+    "name": "chest status rim",
+    "native_volume_mm3": 182.0,
+    "step_volume_mm3": 181.99999999999997,
+    "delta_mm3": -2.842170943040401e-14,
+    "relative_delta": -1.5616323862859346e-16,
+    "max_bbox_delta_mm": 0.0
+  },
+  {
+    "name": "crown auxiliary turret",
+    "native_volume_mm3": 2035.5659615060265,
+    "step_volume_mm3": 2035.5563232208017,
+    "delta_mm3": -0.009638285224809806,
+    "relative_delta": -4.734941243406752e-06,
+    "max_bbox_delta_mm": 5.750422360506491e-10
+  },
+  {
+    "name": "ear -1 black ring",
+    "native_volume_mm3": 34479.628411574,
+    "step_volume_mm3": 34478.996520347304,
+    "delta_mm3": -0.6318912266942789,
+    "relative_delta": -1.8326509182511025e-05,
+    "max_bbox_delta_mm": 1.1368683772161603e-13
+  },
+  {
+    "name": "ear -1 cover",
+    "native_volume_mm3": 24926.58605372136,
+    "step_volume_mm3": 24926.223829467694,
+    "delta_mm3": -0.36222425366577227,
+    "relative_delta": -1.4531643157434903e-05,
+    "max_bbox_delta_mm": 2.489173311914783e-10
+  },
+  {
+    "name": "ear -1 fin inset",
+    "native_volume_mm3": 963.9999999999994,
+    "step_volume_mm3": 963.9999999999997,
+    "delta_mm3": 2.2737367544323206e-13,
+    "relative_delta": 2.3586480855107075e-16,
+    "max_bbox_delta_mm": 1.7053025658242404e-13
+  },
+  {
+    "name": "ear -1 hinge",
+    "native_volume_mm3": 3618.7063628197957,
+    "step_volume_mm3": 3618.755235309384,
+    "delta_mm3": 0.048872489588120516,
+    "relative_delta": 1.35055140395635e-05,
+    "max_bbox_delta_mm": 4.748343940264022e-10
+  },
+  {
+    "name": "ear -1 orange strip",
+    "native_volume_mm3": 223.00000000000003,
+    "step_volume_mm3": 222.9999999999978,
+    "delta_mm3": -2.2168933355715126e-12,
+    "relative_delta": -9.941225720051625e-15,
+    "max_bbox_delta_mm": 5.684341886080802e-14
+  },
+  {
+    "name": "ear -1 purple pod",
+    "native_volume_mm3": 43577.18741468135,
+    "step_volume_mm3": 43576.46509728724,
+    "delta_mm3": -0.7223173941092682,
+    "relative_delta": -1.65755854602474e-05,
+    "max_bbox_delta_mm": 9.43600753089413e-12
+  },
+  {
+    "name": "ear 1 black ring",
+    "native_volume_mm3": 34479.62841157393,
+    "step_volume_mm3": 34478.99652034706,
+    "delta_mm3": -0.6318912268761778,
+    "relative_delta": -1.8326509187786607e-05,
+    "max_bbox_delta_mm": 1.7053025658242404e-13
+  },
+  {
+    "name": "ear 1 cover",
+    "native_volume_mm3": 24926.58605372127,
+    "step_volume_mm3": 24926.223849159007,
+    "delta_mm3": -0.3622045622614678,
+    "relative_delta": -1.4530853181452604e-05,
+    "max_bbox_delta_mm": 2.488889094820479e-10
+  },
+  {
+    "name": "ear 1 fin inset",
+    "native_volume_mm3": 963.9999999999995,
+    "step_volume_mm3": 963.999999999989,
+    "delta_mm3": -1.057287590811029e-11,
+    "relative_delta": -1.0967713597624788e-14,
+    "max_bbox_delta_mm": 1.4210854715202004e-14
+  },
+  {
+    "name": "ear 1 hinge",
+    "native_volume_mm3": 3618.697157827106,
+    "step_volume_mm3": 3618.754911571325,
+    "delta_mm3": 0.057753744219098735,
+    "relative_delta": 1.5959816945217303e-05,
+    "max_bbox_delta_mm": 1.1368683772161603e-13
+  },
+  {
+    "name": "ear 1 orange strip",
+    "native_volume_mm3": 222.99999999999986,
+    "step_volume_mm3": 222.99999999999383,
+    "delta_mm3": -6.0254023992456496e-12,
+    "relative_delta": -2.7019741700653155e-14,
+    "max_bbox_delta_mm": 3.552713678800501e-15
+  },
+  {
+    "name": "ear 1 purple pod",
+    "native_volume_mm3": 43577.18741468132,
+    "step_volume_mm3": 43576.46506288298,
+    "delta_mm3": -0.7223517983438796,
+    "relative_delta": -1.6576374961283446e-05,
+    "max_bbox_delta_mm": 9.492850949754938e-12
+  },
+  {
+    "name": "left large eye alloy rim",
+    "native_volume_mm3": 5103.185829632014,
+    "step_volume_mm3": 5103.114581126121,
+    "delta_mm3": -0.07124850589298148,
+    "relative_delta": -1.3961573862208178e-05,
+    "max_bbox_delta_mm": 2.452651415296714e-10
+  },
+  {
+    "name": "left large eye aperture",
+    "native_volume_mm3": 6081.738799777078,
+    "step_volume_mm3": 6081.714864256376,
+    "delta_mm3": -0.02393552070225269,
+    "relative_delta": -3.9356377329342106e-06,
+    "max_bbox_delta_mm": 2.8404656404745765e-10
+  },
+  {
+    "name": "left large eye barrel",
+    "native_volume_mm3": 6106.848736408413,
+    "step_volume_mm3": 6106.73856224067,
+    "delta_mm3": -0.11017416774302546,
+    "relative_delta": -1.8041083461946297e-05,
+    "max_bbox_delta_mm": 2.3239010715769837e-10
+  },
+  {
+    "name": "left large eye housing",
+    "native_volume_mm3": 6871.799392826608,
+    "step_volume_mm3": 6871.772347913696,
+    "delta_mm3": -0.02704491291206068,
+    "relative_delta": -3.935637722529059e-06,
+    "max_bbox_delta_mm": 3.227569322916679e-10
+  },
+  {
+    "name": "left large eye lens",
+    "native_volume_mm3": 4594.2644529840245,
+    "step_volume_mm3": 4594.174237670118,
+    "delta_mm3": -0.09021531390681048,
+    "relative_delta": -1.963650870123827e-05,
+    "max_bbox_delta_mm": 1.936228954946273e-10
+  },
+  {
+    "name": "microphone 15",
+    "native_volume_mm3": 9.046765907054043,
+    "step_volume_mm3": 9.046891478480129,
+    "delta_mm3": 0.00012557142608571326,
+    "relative_delta": 1.3880255925247423e-05,
+    "max_bbox_delta_mm": 1.5491607996409584e-11
+  },
+  {
+    "name": "microphone 5",
+    "native_volume_mm3": 9.04676590705393,
+    "step_volume_mm3": 9.046891478479894,
+    "delta_mm3": 0.000125571425964921,
+    "relative_delta": 1.3880255911895613e-05,
+    "max_bbox_delta_mm": 1.549804728995241e-11
+  },
+  {
+    "name": "right small eye alloy rim",
+    "native_volume_mm3": 2208.7849885736437,
+    "step_volume_mm3": 2208.7451396993274,
+    "delta_mm3": -0.03984887431624884,
+    "relative_delta": -1.80410834564671e-05,
+    "max_bbox_delta_mm": 1.6139267700054916e-10
+  },
+  {
+    "name": "right small eye aperture",
+    "native_volume_mm3": 3018.8744735420746,
+    "step_volume_mm3": 3018.832325307603,
+    "delta_mm3": -0.04214823447182425,
+    "relative_delta": -1.3961572381103783e-05,
+    "max_bbox_delta_mm": 2.0013146695418982e-10
+  },
+  {
+    "name": "right small eye barrel",
+    "native_volume_mm3": 2492.678331843946,
+    "step_volume_mm3": 2492.628423136043,
+    "delta_mm3": -0.049908707903341565,
+    "relative_delta": -2.0022121292490177e-05,
+    "max_bbox_delta_mm": 1.4846079920971533e-10
+  },
+  {
+    "name": "right small eye housing",
+    "native_volume_mm3": 3762.9973475029105,
+    "step_volume_mm3": 3762.9825377174548,
+    "delta_mm3": -0.014809785455781821,
+    "relative_delta": -3.935635369397604e-06,
+    "max_bbox_delta_mm": 2.3882051891632727e-10
+  },
+  {
+    "name": "right small eye lens",
+    "native_volume_mm3": 1475.2518603180404,
+    "step_volume_mm3": 1475.231851488871,
+    "delta_mm3": -0.020008829169455566,
+    "relative_delta": -1.3562991993205817e-05,
+    "max_bbox_delta_mm": 1.0975043096550507e-10
+  },
+  {
+    "name": "sensor -12 optic",
+    "native_volume_mm3": 128.66511512262412,
+    "step_volume_mm3": 128.66695789775375,
+    "delta_mm3": 0.001842775129631491,
+    "relative_delta": 1.4322259206586313e-05,
+    "max_bbox_delta_mm": 4.1314507370771025e-11
+  },
+  {
+    "name": "sensor -12 rim",
+    "native_volume_mm3": 174.25085802232468,
+    "step_volume_mm3": 174.24784726781175,
+    "delta_mm3": -0.0030107545129283153,
+    "relative_delta": -1.7278276543938644e-05,
+    "max_bbox_delta_mm": 5.551825665861543e-11
+  },
+  {
+    "name": "sensor 12 optic",
+    "native_volume_mm3": 128.66511512262375,
+    "step_volume_mm3": 128.6669578977727,
+    "delta_mm3": 0.0018427751489582533,
+    "relative_delta": 1.4322259356796162e-05,
+    "max_bbox_delta_mm": 4.126121666558902e-11
+  },
+  {
+    "name": "sensor 12 rim",
+    "native_volume_mm3": 174.25085802232513,
+    "step_volume_mm3": 174.24784726781334,
+    "delta_mm3": -0.003010754511791447,
+    "relative_delta": -1.7278276537414278e-05,
+    "max_bbox_delta_mm": 5.544609216201479e-11
+  }
+]

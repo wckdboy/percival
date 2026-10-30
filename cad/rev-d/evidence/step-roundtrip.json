@@ -1,0 +1,172 @@
+{
+  "checked_at_utc": "2026-10-30T16:02:15.268391+00:00",
+  "tool": "Polykrom CLI 0.21.0-rc.1; isolated headless CLI run",
+  "command": "'/Applications/Polykrom 0.21.0-rc.1.app/Contents/MacOS/polykrom-cli' run /tmp/percival-rev-d-final-step-verification-script.json --in cad/rev-d/percival-rev-d.step --results --json-out /tmp/percival-rev-d-final-step-verification-raw.json",
+  "exit_code": 0,
+  "input_sha256": {
+    "percival-rev-d.step": "7b817382722a3f332668aa226ddf64dca44dee32b9789f1d2aa4448429977739",
+    "percival-rev-d.polykrom": "961ff5f6b0cfce4357649d6e23340fa9c357dd589d764beeaf6bee9a2d56d57a",
+    "export-mcp.json": "75c257cd4946bf891b6c4ab0e7eaac144f1c6a185d25210a9d9a2dd5b12a12c9",
+    "parts.json": "8fd19138d38dbc0f9bdce01c1b99c8c3fad125b25f5b3417aa124909dbe6c289"
+  },
+  "quality": {
+    "checks": [
+      {
+        "detail": "0 parameter(s) resolve to finite values",
+        "id": "parameters",
+        "status": "pass"
+      },
+      {
+        "detail": "no active feature errors",
+        "id": "timeline",
+        "status": "pass"
+      },
+      {
+        "detail": "0 sketch(es) fully constrained",
+        "id": "sketches",
+        "status": "pass"
+      },
+      {
+        "detail": "515 body(ies) measure cleanly",
+        "id": "bodies",
+        "status": "pass"
+      }
+    ],
+    "counts": {
+      "bodies": 515,
+      "parameters": 0,
+      "sketches": 0
+    },
+    "hard_failures": [],
+    "note": "A pass covers these structural checks only. It is not a proof of geometric correctness, tolerance, strength or safety.",
+    "score": 95,
+    "verdict": "pass",
+    "warnings": [
+      "no user parameters: this model is not driven parametrically"
+    ]
+  },
+  "comparison": {
+    "native_measure_source": "cad/rev-d/export-mcp.json entry 2: native reopened measure",
+    "native_total_body_count": 524,
+    "excluded_envelope_count": 9,
+    "excluded_envelopes": [
+      "4S battery nominal envelope",
+      "Camera -53 PCB envelope",
+      "Camera 54 PCB envelope",
+      "J401 PCB envelope",
+      "J401 cooling allowance",
+      "XM430 L hip envelope",
+      "XM430 L knee envelope",
+      "XM430 R hip envelope",
+      "XM430 R knee envelope"
+    ],
+    "native_visible_body_count": 515,
+    "step_body_count": 515,
+    "expected_body_count": 515,
+    "body_count_matches": true,
+    "native_visible_volume_mm3": 2544221.71426341,
+    "step_volume_mm3": 2544211.404985929,
+    "volume_delta_mm3": -10.309277480933815,
+    "volume_relative_delta": -4.0520358045597865e-06,
+    "volume_delta_percent": -0.00040520358045597867,
+    "native_visible_area_mm2": 1147841.5918219744,
+    "step_area_mm2": 1147841.3037426365,
+    "name_multiset_matches": true,
+    "native_duplicate_names": {},
+    "step_duplicate_names": {},
+    "native_only_names": [],
+    "step_only_names": [],
+    "max_matched_body_bbox_delta_mm": 0.000829097239886778,
+    "largest_absolute_volume_deltas": [
+      {
+        "name": "L hip actuator envelope",
+        "native_volume_mm3": 102640.14769517539,
+        "step_volume_mm3": 102638.53458099853,
+        "delta_mm3": -1.6131141768564703,
+        "relative_delta": -1.5716210596726323e-05,
+        "max_bbox_delta_mm": 0.000829097239886778
+      },
+      {
+        "name": "R hip actuator envelope",
+        "native_volume_mm3": 102640.14769517533,
+        "step_volume_mm3": 102638.53458099857,
+        "delta_mm3": -1.6131141767546069,
+        "relative_delta": -1.57162105957339e-05,
+        "max_bbox_delta_mm": 0.000829097239886778
+      },
+      {
+        "name": "Neck pitch axle",
+        "native_volume_mm3": 26234.724621799203,
+        "step_volume_mm3": 26235.94338215017,
+        "delta_mm3": 1.2187603509664768,
+        "relative_delta": 4.645599938768837e-05,
+        "max_bbox_delta_mm": 0.00032094086697043167
+      },
+      {
+        "name": "Waist yaw envelope",
+        "native_volume_mm3": 39628.61756876036,
+        "step_volume_mm3": 39627.63840581301,
+        "delta_mm3": -0.9791629473475041,
+        "relative_delta": -2.470848107806284e-05,
+        "max_bbox_delta_mm": 0.0006813923620470064
+      },
+      {
+        "name": "ear 1 purple pod",
+        "native_volume_mm3": 43577.18741468132,
+        "step_volume_mm3": 43576.46506288298,
+        "delta_mm3": -0.7223517983438796,
+        "relative_delta": -1.6576374961283446e-05,
+        "max_bbox_delta_mm": 9.492850949754938e-12
+      }
+    ],
+    "largest_relative_volume_deltas": [
+      {
+        "name": "antenna whip",
+        "native_volume_mm3": 417.25983731190667,
+        "step_volume_mm3": 417.2869311359844,
+        "delta_mm3": 0.027093824077724094,
+        "relative_delta": 6.493273891939698e-05,
+        "max_bbox_delta_mm": 1.1500844721012982e-10
+      },
+      {
+        "name": "antenna lower",
+        "native_volume_mm3": 424.672775332949,
+        "step_volume_mm3": 424.70033942769504,
+        "delta_mm3": 0.027564094746026058,
+        "relative_delta": 6.490666778536827e-05,
+        "max_bbox_delta_mm": 1.6611068076599622e-10
+      },
+      {
+        "name": "Neck pitch axle",
+        "native_volume_mm3": 26234.724621799203,
+        "step_volume_mm3": 26235.94338215017,
+        "delta_mm3": 1.2187603509664768,
+        "relative_delta": 4.645599938768837e-05,
+        "max_bbox_delta_mm": 0.00032094086697043167
+      },
+      {
+        "name": "L knee axle ring",
+        "native_volume_mm3": 1915.107763733877,
+        "step_volume_mm3": 1915.0603663028132,
+        "delta_mm3": -0.047397431063700424,
+        "relative_delta": -2.4749224018229588e-05,
+        "max_bbox_delta_mm": 0.00023684258653133838
+      },
+      {
+        "name": "R knee axle ring",
+        "native_volume_mm3": 1915.1077637338792,
+        "step_volume_mm3": 1915.060366302816,
+        "delta_mm3": -0.047397431063245676,
+        "relative_delta": -2.4749224017992107e-05,
+        "max_bbox_delta_mm": 0.00023684251254962874
+      }
+    ]
+  },
+  "limitations": [
+    "STEP has 0 parameters and 0 sketches by design; its no-user-parameters warning is expected for exchange geometry, not failure of the native parametric design.",
+    "All exported body names are preserved uniquely in this round trip; names identify body correspondence, not persistent face/edge topology identifiers.",
+    "STEP re-import assigns Default material, so STEP mass must not be compared with native assigned-material mass.",
+    "Volume and area measurements differ slightly after exchange; exact measured differences are recorded without claiming algebraic identity.",
+    "Structural quality does not establish dimensions against drawings, fit, tolerance, strength, printability or walking behavior."
+  ]
+}

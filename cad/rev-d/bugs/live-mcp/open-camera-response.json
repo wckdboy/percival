@@ -1,0 +1,28 @@
+[
+  {
+    "label": "open",
+    "tool": "open",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"errors\": 0,\n  \"features\": 685,\n  \"name\": \"Percival Rev D - Parametric CAD\",\n  \"path\": \"/Users/dearwolf/.t3/projects/percival/cad/rev-d/percival-rev-d.polykrom\"\n}"
+        }
+      ],
+      "isError": false
+    }
+  },
+  {
+    "label": "execute",
+    "tool": "execute",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"camera\": {\n    \"distance\": 875.0,\n    \"fov\": 0.0,\n    \"pitch\": 0.12,\n    \"roll\": 0.0,\n    \"target\": [\n      0.0,\n      0.0,\n      273.0\n    ],\n    \"up\": \"z\",\n    \"yaw\": -0.42\n  }\n}"
+        }
+      ],
+      "isError": false
+    }
+  }
+]

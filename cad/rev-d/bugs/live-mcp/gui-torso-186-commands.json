@@ -1,0 +1,3768 @@
+{
+  "commands": [
+    {
+      "command": "component.activate",
+      "params": {
+        "component": "root"
+      }
+    },
+    {
+      "command": "component.create",
+      "params": {
+        "name": "02 Compact torso pelvis and backpack"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "name": "T01 hollow torso section 1",
+        "offset": "(306)+(-torso_h/2)",
+        "plane": {
+          "origin": [
+            0.0,
+            7.0,
+            0
+          ],
+          "x_dir": [
+            1,
+            0,
+            0
+          ],
+          "y_dir": [
+            0,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-(torso_w-34)/2+(12)",
+            "-(torso_d-34)/2"
+          ],
+          [
+            "(torso_w-34)/2-(12)",
+            "-(torso_d-34)/2"
+          ],
+          [
+            "(torso_w-34)/2",
+            "-(torso_d-34)/2+(12)"
+          ],
+          [
+            "(torso_w-34)/2",
+            "(torso_d-34)/2-(12)"
+          ],
+          [
+            "(torso_w-34)/2-(12)",
+            "(torso_d-34)/2"
+          ],
+          [
+            "-(torso_w-34)/2+(12)",
+            "(torso_d-34)/2"
+          ],
+          [
+            "-(torso_w-34)/2",
+            "(torso_d-34)/2-(12)"
+          ],
+          [
+            "-(torso_w-34)/2",
+            "-(torso_d-34)/2+(12)"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-((torso_w-34)-2*(body_wall))/2+((12)-(body_wall)*(2-sqrt(2)))",
+            "-((torso_d-34)-2*(body_wall))/2"
+          ],
+          [
+            "((torso_w-34)-2*(body_wall))/2-((12)-(body_wall)*(2-sqrt(2)))",
+            "-((torso_d-34)-2*(body_wall))/2"
+          ],
+          [
+            "((torso_w-34)-2*(body_wall))/2",
+            "-((torso_d-34)-2*(body_wall))/2+((12)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "((torso_w-34)-2*(body_wall))/2",
+            "((torso_d-34)-2*(body_wall))/2-((12)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "((torso_w-34)-2*(body_wall))/2-((12)-(body_wall)*(2-sqrt(2)))",
+            "((torso_d-34)-2*(body_wall))/2"
+          ],
+          [
+            "-((torso_w-34)-2*(body_wall))/2+((12)-(body_wall)*(2-sqrt(2)))",
+            "((torso_d-34)-2*(body_wall))/2"
+          ],
+          [
+            "-((torso_w-34)-2*(body_wall))/2",
+            "((torso_d-34)-2*(body_wall))/2-((12)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "-((torso_w-34)-2*(body_wall))/2",
+            "-((torso_d-34)-2*(body_wall))/2+((12)-(body_wall)*(2-sqrt(2)))"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "name": "T01 hollow torso section 2",
+        "offset": "(306)+(-torso_h/2+13)",
+        "plane": {
+          "origin": [
+            0.0,
+            7.0,
+            0
+          ],
+          "x_dir": [
+            1,
+            0,
+            0
+          ],
+          "y_dir": [
+            0,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-(torso_w-7)/2+(13)",
+            "-(torso_d-10)/2"
+          ],
+          [
+            "(torso_w-7)/2-(13)",
+            "-(torso_d-10)/2"
+          ],
+          [
+            "(torso_w-7)/2",
+            "-(torso_d-10)/2+(13)"
+          ],
+          [
+            "(torso_w-7)/2",
+            "(torso_d-10)/2-(13)"
+          ],
+          [
+            "(torso_w-7)/2-(13)",
+            "(torso_d-10)/2"
+          ],
+          [
+            "-(torso_w-7)/2+(13)",
+            "(torso_d-10)/2"
+          ],
+          [
+            "-(torso_w-7)/2",
+            "(torso_d-10)/2-(13)"
+          ],
+          [
+            "-(torso_w-7)/2",
+            "-(torso_d-10)/2+(13)"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-((torso_w-7)-2*(body_wall))/2+((13)-(body_wall)*(2-sqrt(2)))",
+            "-((torso_d-10)-2*(body_wall))/2"
+          ],
+          [
+            "((torso_w-7)-2*(body_wall))/2-((13)-(body_wall)*(2-sqrt(2)))",
+            "-((torso_d-10)-2*(body_wall))/2"
+          ],
+          [
+            "((torso_w-7)-2*(body_wall))/2",
+            "-((torso_d-10)-2*(body_wall))/2+((13)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "((torso_w-7)-2*(body_wall))/2",
+            "((torso_d-10)-2*(body_wall))/2-((13)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "((torso_w-7)-2*(body_wall))/2-((13)-(body_wall)*(2-sqrt(2)))",
+            "((torso_d-10)-2*(body_wall))/2"
+          ],
+          [
+            "-((torso_w-7)-2*(body_wall))/2+((13)-(body_wall)*(2-sqrt(2)))",
+            "((torso_d-10)-2*(body_wall))/2"
+          ],
+          [
+            "-((torso_w-7)-2*(body_wall))/2",
+            "((torso_d-10)-2*(body_wall))/2-((13)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "-((torso_w-7)-2*(body_wall))/2",
+            "-((torso_d-10)-2*(body_wall))/2+((13)-(body_wall)*(2-sqrt(2)))"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "name": "T01 hollow torso section 3",
+        "offset": "(306)+(torso_h/2-27)",
+        "plane": {
+          "origin": [
+            0.0,
+            7.0,
+            0
+          ],
+          "x_dir": [
+            1,
+            0,
+            0
+          ],
+          "y_dir": [
+            0,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-(torso_w)/2+(16)",
+            "-(torso_d)/2"
+          ],
+          [
+            "(torso_w)/2-(16)",
+            "-(torso_d)/2"
+          ],
+          [
+            "(torso_w)/2",
+            "-(torso_d)/2+(16)"
+          ],
+          [
+            "(torso_w)/2",
+            "(torso_d)/2-(16)"
+          ],
+          [
+            "(torso_w)/2-(16)",
+            "(torso_d)/2"
+          ],
+          [
+            "-(torso_w)/2+(16)",
+            "(torso_d)/2"
+          ],
+          [
+            "-(torso_w)/2",
+            "(torso_d)/2-(16)"
+          ],
+          [
+            "-(torso_w)/2",
+            "-(torso_d)/2+(16)"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-((torso_w)-2*(body_wall))/2+((16)-(body_wall)*(2-sqrt(2)))",
+            "-((torso_d)-2*(body_wall))/2"
+          ],
+          [
+            "((torso_w)-2*(body_wall))/2-((16)-(body_wall)*(2-sqrt(2)))",
+            "-((torso_d)-2*(body_wall))/2"
+          ],
+          [
+            "((torso_w)-2*(body_wall))/2",
+            "-((torso_d)-2*(body_wall))/2+((16)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "((torso_w)-2*(body_wall))/2",
+            "((torso_d)-2*(body_wall))/2-((16)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "((torso_w)-2*(body_wall))/2-((16)-(body_wall)*(2-sqrt(2)))",
+            "((torso_d)-2*(body_wall))/2"
+          ],
+          [
+            "-((torso_w)-2*(body_wall))/2+((16)-(body_wall)*(2-sqrt(2)))",
+            "((torso_d)-2*(body_wall))/2"
+          ],
+          [
+            "-((torso_w)-2*(body_wall))/2",
+            "((torso_d)-2*(body_wall))/2-((16)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "-((torso_w)-2*(body_wall))/2",
+            "-((torso_d)-2*(body_wall))/2+((16)-(body_wall)*(2-sqrt(2)))"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "name": "T01 hollow torso section 4",
+        "offset": "(306)+(torso_h/2-7)",
+        "plane": {
+          "origin": [
+            0.0,
+            7.0,
+            0
+          ],
+          "x_dir": [
+            1,
+            0,
+            0
+          ],
+          "y_dir": [
+            0,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-(torso_w-12)/2+(14)",
+            "-(torso_d-15)/2"
+          ],
+          [
+            "(torso_w-12)/2-(14)",
+            "-(torso_d-15)/2"
+          ],
+          [
+            "(torso_w-12)/2",
+            "-(torso_d-15)/2+(14)"
+          ],
+          [
+            "(torso_w-12)/2",
+            "(torso_d-15)/2-(14)"
+          ],
+          [
+            "(torso_w-12)/2-(14)",
+            "(torso_d-15)/2"
+          ],
+          [
+            "-(torso_w-12)/2+(14)",
+            "(torso_d-15)/2"
+          ],
+          [
+            "-(torso_w-12)/2",
+            "(torso_d-15)/2-(14)"
+          ],
+          [
+            "-(torso_w-12)/2",
+            "-(torso_d-15)/2+(14)"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-((torso_w-12)-2*(body_wall))/2+((14)-(body_wall)*(2-sqrt(2)))",
+            "-((torso_d-15)-2*(body_wall))/2"
+          ],
+          [
+            "((torso_w-12)-2*(body_wall))/2-((14)-(body_wall)*(2-sqrt(2)))",
+            "-((torso_d-15)-2*(body_wall))/2"
+          ],
+          [
+            "((torso_w-12)-2*(body_wall))/2",
+            "-((torso_d-15)-2*(body_wall))/2+((14)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "((torso_w-12)-2*(body_wall))/2",
+            "((torso_d-15)-2*(body_wall))/2-((14)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "((torso_w-12)-2*(body_wall))/2-((14)-(body_wall)*(2-sqrt(2)))",
+            "((torso_d-15)-2*(body_wall))/2"
+          ],
+          [
+            "-((torso_w-12)-2*(body_wall))/2+((14)-(body_wall)*(2-sqrt(2)))",
+            "((torso_d-15)-2*(body_wall))/2"
+          ],
+          [
+            "-((torso_w-12)-2*(body_wall))/2",
+            "((torso_d-15)-2*(body_wall))/2-((14)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "-((torso_w-12)-2*(body_wall))/2",
+            "-((torso_d-15)-2*(body_wall))/2+((14)-(body_wall)*(2-sqrt(2)))"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "name": "T01 hollow torso section 5",
+        "offset": "(306)+(torso_h/2)",
+        "plane": {
+          "origin": [
+            0.0,
+            7.0,
+            0
+          ],
+          "x_dir": [
+            1,
+            0,
+            0
+          ],
+          "y_dir": [
+            0,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-(torso_w-35)/2+(12)",
+            "-(torso_d-30)/2"
+          ],
+          [
+            "(torso_w-35)/2-(12)",
+            "-(torso_d-30)/2"
+          ],
+          [
+            "(torso_w-35)/2",
+            "-(torso_d-30)/2+(12)"
+          ],
+          [
+            "(torso_w-35)/2",
+            "(torso_d-30)/2-(12)"
+          ],
+          [
+            "(torso_w-35)/2-(12)",
+            "(torso_d-30)/2"
+          ],
+          [
+            "-(torso_w-35)/2+(12)",
+            "(torso_d-30)/2"
+          ],
+          [
+            "-(torso_w-35)/2",
+            "(torso_d-30)/2-(12)"
+          ],
+          [
+            "-(torso_w-35)/2",
+            "-(torso_d-30)/2+(12)"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-((torso_w-35)-2*(body_wall))/2+((12)-(body_wall)*(2-sqrt(2)))",
+            "-((torso_d-30)-2*(body_wall))/2"
+          ],
+          [
+            "((torso_w-35)-2*(body_wall))/2-((12)-(body_wall)*(2-sqrt(2)))",
+            "-((torso_d-30)-2*(body_wall))/2"
+          ],
+          [
+            "((torso_w-35)-2*(body_wall))/2",
+            "-((torso_d-30)-2*(body_wall))/2+((12)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "((torso_w-35)-2*(body_wall))/2",
+            "((torso_d-30)-2*(body_wall))/2-((12)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "((torso_w-35)-2*(body_wall))/2-((12)-(body_wall)*(2-sqrt(2)))",
+            "((torso_d-30)-2*(body_wall))/2"
+          ],
+          [
+            "-((torso_w-35)-2*(body_wall))/2+((12)-(body_wall)*(2-sqrt(2)))",
+            "((torso_d-30)-2*(body_wall))/2"
+          ],
+          [
+            "-((torso_w-35)-2*(body_wall))/2",
+            "((torso_d-30)-2*(body_wall))/2-((12)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "-((torso_w-35)-2*(body_wall))/2",
+            "-((torso_d-30)-2*(body_wall))/2+((12)-(body_wall)*(2-sqrt(2)))"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.loft",
+      "params": {
+        "sections": [
+          {
+            "sketch": "T01 hollow torso section 1",
+            "profiles": [
+              {
+                "point": [
+                  42.0,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "sketch": "T01 hollow torso section 2",
+            "profiles": [
+              {
+                "point": [
+                  55.5,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "sketch": "T01 hollow torso section 3",
+            "profiles": [
+              {
+                "point": [
+                  59.0,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "sketch": "T01 hollow torso section 4",
+            "profiles": [
+              {
+                "point": [
+                  53.0,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "sketch": "T01 hollow torso section 5",
+            "profiles": [
+              {
+                "point": [
+                  41.5,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "operation": "new",
+        "body_name": "T01 hollow torso",
+        "name": "T01 hollow torso loft"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "name": "T02 chest cheek -1 outline",
+        "offset": "-(-40)",
+        "plane": {
+          "origin": [
+            0.0,
+            0,
+            306.0
+          ],
+          "x_dir": [
+            1,
+            0,
+            0
+          ],
+          "y_dir": [
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-22",
+            "40"
+          ],
+          [
+            "-42",
+            "42"
+          ],
+          [
+            "-56",
+            "26"
+          ],
+          [
+            "-53",
+            "-28"
+          ],
+          [
+            "-35",
+            "-43"
+          ],
+          [
+            "-23",
+            "-38"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.constraint.fix",
+      "params": {
+        "entities": [
+          "l1.start",
+          "l2.start",
+          "l3.start",
+          "l4.start",
+          "l5.start",
+          "l6.start"
+        ],
+        "fixed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "distance": "2.5",
+        "operation": "new",
+        "body_name": "T02 chest cheek -1",
+        "name": "T02 chest cheek -1 thickness"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.8",
+        "height": "0.7",
+        "base": [
+          "-36",
+          "(-43.2)-(0.7)/2",
+          "340"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest cheek screw -36 34 seat turned",
+        "body_name": "Chest cheek screw -36 34 seat"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.1",
+        "height": "1.2",
+        "base": [
+          "-36",
+          "(-43.2)-(1.2)/2",
+          "340"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest cheek screw -36 34 head turned",
+        "body_name": "Chest cheek screw -36 34 head"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "0.9",
+        "height": "1.5",
+        "base": [
+          "-36",
+          "(-43.2)-(1.5)/2",
+          "340"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest cheek screw -36 34 socket turned",
+        "body_name": "Chest cheek screw -36 34 socket"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.8",
+        "height": "0.7",
+        "base": [
+          "-45",
+          "(-43.2)-(0.7)/2",
+          "281"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest cheek screw -45 -25 seat turned",
+        "body_name": "Chest cheek screw -45 -25 seat"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.1",
+        "height": "1.2",
+        "base": [
+          "-45",
+          "(-43.2)-(1.2)/2",
+          "281"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest cheek screw -45 -25 head turned",
+        "body_name": "Chest cheek screw -45 -25 head"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "0.9",
+        "height": "1.5",
+        "base": [
+          "-45",
+          "(-43.2)-(1.5)/2",
+          "281"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest cheek screw -45 -25 socket turned",
+        "body_name": "Chest cheek screw -45 -25 socket"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.8",
+        "height": "0.7",
+        "base": [
+          "-29",
+          "(-43.2)-(0.7)/2",
+          "272"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest cheek screw -29 -34 seat turned",
+        "body_name": "Chest cheek screw -29 -34 seat"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.1",
+        "height": "1.2",
+        "base": [
+          "-29",
+          "(-43.2)-(1.2)/2",
+          "272"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest cheek screw -29 -34 head turned",
+        "body_name": "Chest cheek screw -29 -34 head"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "0.9",
+        "height": "1.5",
+        "base": [
+          "-29",
+          "(-43.2)-(1.5)/2",
+          "272"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest cheek screw -29 -34 socket turned",
+        "body_name": "Chest cheek screw -29 -34 socket"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "name": "T02 chest cheek 1 outline",
+        "offset": "-(-40)",
+        "plane": {
+          "origin": [
+            0.0,
+            0,
+            306.0
+          ],
+          "x_dir": [
+            1,
+            0,
+            0
+          ],
+          "y_dir": [
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "22",
+            "40"
+          ],
+          [
+            "42",
+            "42"
+          ],
+          [
+            "56",
+            "26"
+          ],
+          [
+            "53",
+            "-28"
+          ],
+          [
+            "35",
+            "-43"
+          ],
+          [
+            "23",
+            "-38"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.constraint.fix",
+      "params": {
+        "entities": [
+          "l1.start",
+          "l2.start",
+          "l3.start",
+          "l4.start",
+          "l5.start",
+          "l6.start"
+        ],
+        "fixed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "distance": "2.5",
+        "operation": "new",
+        "body_name": "T02 chest cheek 1",
+        "name": "T02 chest cheek 1 thickness"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.8",
+        "height": "0.7",
+        "base": [
+          "36",
+          "(-43.2)-(0.7)/2",
+          "340"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest cheek screw 36 34 seat turned",
+        "body_name": "Chest cheek screw 36 34 seat"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.1",
+        "height": "1.2",
+        "base": [
+          "36",
+          "(-43.2)-(1.2)/2",
+          "340"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest cheek screw 36 34 head turned",
+        "body_name": "Chest cheek screw 36 34 head"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "0.9",
+        "height": "1.5",
+        "base": [
+          "36",
+          "(-43.2)-(1.5)/2",
+          "340"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest cheek screw 36 34 socket turned",
+        "body_name": "Chest cheek screw 36 34 socket"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.8",
+        "height": "0.7",
+        "base": [
+          "45",
+          "(-43.2)-(0.7)/2",
+          "281"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest cheek screw 45 -25 seat turned",
+        "body_name": "Chest cheek screw 45 -25 seat"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.1",
+        "height": "1.2",
+        "base": [
+          "45",
+          "(-43.2)-(1.2)/2",
+          "281"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest cheek screw 45 -25 head turned",
+        "body_name": "Chest cheek screw 45 -25 head"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "0.9",
+        "height": "1.5",
+        "base": [
+          "45",
+          "(-43.2)-(1.5)/2",
+          "281"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest cheek screw 45 -25 socket turned",
+        "body_name": "Chest cheek screw 45 -25 socket"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.8",
+        "height": "0.7",
+        "base": [
+          "29",
+          "(-43.2)-(0.7)/2",
+          "272"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest cheek screw 29 -34 seat turned",
+        "body_name": "Chest cheek screw 29 -34 seat"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.1",
+        "height": "1.2",
+        "base": [
+          "29",
+          "(-43.2)-(1.2)/2",
+          "272"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest cheek screw 29 -34 head turned",
+        "body_name": "Chest cheek screw 29 -34 head"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "0.9",
+        "height": "1.5",
+        "base": [
+          "29",
+          "(-43.2)-(1.5)/2",
+          "272"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest cheek screw 29 -34 socket turned",
+        "body_name": "Chest cheek screw 29 -34 socket"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "name": "T03 purple service spine outline",
+        "offset": "-(-42.5)",
+        "plane": {
+          "origin": [
+            0.0,
+            0,
+            306.0
+          ],
+          "x_dir": [
+            1,
+            0,
+            0
+          ],
+          "y_dir": [
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-19",
+            "39"
+          ],
+          [
+            "19",
+            "39"
+          ],
+          [
+            "16",
+            "7"
+          ],
+          [
+            "15",
+            "-40"
+          ],
+          [
+            "9",
+            "-44"
+          ],
+          [
+            "-9",
+            "-44"
+          ],
+          [
+            "-15",
+            "-40"
+          ],
+          [
+            "-16",
+            "7"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.constraint.fix",
+      "params": {
+        "entities": [
+          "l1.start",
+          "l2.start",
+          "l3.start",
+          "l4.start",
+          "l5.start",
+          "l6.start",
+          "l7.start",
+          "l8.start"
+        ],
+        "fixed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "distance": "panel_t",
+        "operation": "new",
+        "body_name": "T03 purple service spine",
+        "name": "T03 purple service spine thickness"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.8",
+        "height": "0.7",
+        "base": [
+          "-12",
+          "(-46)-(0.7)/2",
+          "338"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest spine screw -12 338 seat turned",
+        "body_name": "Chest spine screw -12 338 seat"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.1",
+        "height": "1.2",
+        "base": [
+          "-12",
+          "(-46)-(1.2)/2",
+          "338"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest spine screw -12 338 head turned",
+        "body_name": "Chest spine screw -12 338 head"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "0.9",
+        "height": "1.5",
+        "base": [
+          "-12",
+          "(-46)-(1.5)/2",
+          "338"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest spine screw -12 338 socket turned",
+        "body_name": "Chest spine screw -12 338 socket"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.8",
+        "height": "0.7",
+        "base": [
+          "-12",
+          "(-46)-(0.7)/2",
+          "273"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest spine screw -12 273 seat turned",
+        "body_name": "Chest spine screw -12 273 seat"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.1",
+        "height": "1.2",
+        "base": [
+          "-12",
+          "(-46)-(1.2)/2",
+          "273"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest spine screw -12 273 head turned",
+        "body_name": "Chest spine screw -12 273 head"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "0.9",
+        "height": "1.5",
+        "base": [
+          "-12",
+          "(-46)-(1.5)/2",
+          "273"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest spine screw -12 273 socket turned",
+        "body_name": "Chest spine screw -12 273 socket"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.8",
+        "height": "0.7",
+        "base": [
+          "12",
+          "(-46)-(0.7)/2",
+          "338"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest spine screw 12 338 seat turned",
+        "body_name": "Chest spine screw 12 338 seat"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.1",
+        "height": "1.2",
+        "base": [
+          "12",
+          "(-46)-(1.2)/2",
+          "338"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest spine screw 12 338 head turned",
+        "body_name": "Chest spine screw 12 338 head"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "0.9",
+        "height": "1.5",
+        "base": [
+          "12",
+          "(-46)-(1.5)/2",
+          "338"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest spine screw 12 338 socket turned",
+        "body_name": "Chest spine screw 12 338 socket"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.8",
+        "height": "0.7",
+        "base": [
+          "12",
+          "(-46)-(0.7)/2",
+          "273"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest spine screw 12 273 seat turned",
+        "body_name": "Chest spine screw 12 273 seat"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.1",
+        "height": "1.2",
+        "base": [
+          "12",
+          "(-46)-(1.2)/2",
+          "273"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest spine screw 12 273 head turned",
+        "body_name": "Chest spine screw 12 273 head"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "0.9",
+        "height": "1.5",
+        "base": [
+          "12",
+          "(-46)-(1.5)/2",
+          "273"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Chest spine screw 12 273 socket turned",
+        "body_name": "Chest spine screw 12 273 socket"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "name": "chest status rim outline",
+        "offset": "-(-43)",
+        "plane": {
+          "origin": [
+            35.0,
+            0,
+            325.0
+          ],
+          "x_dir": [
+            1,
+            0,
+            0
+          ],
+          "y_dir": [
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-(18)/2+(2)",
+            "-(5.5)/2"
+          ],
+          [
+            "(18)/2-(2)",
+            "-(5.5)/2"
+          ],
+          [
+            "(18)/2",
+            "-(5.5)/2+(2)"
+          ],
+          [
+            "(18)/2",
+            "(5.5)/2-(2)"
+          ],
+          [
+            "(18)/2-(2)",
+            "(5.5)/2"
+          ],
+          [
+            "-(18)/2+(2)",
+            "(5.5)/2"
+          ],
+          [
+            "-(18)/2",
+            "(5.5)/2-(2)"
+          ],
+          [
+            "-(18)/2",
+            "-(5.5)/2+(2)"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.constraint.fix",
+      "params": {
+        "entities": [
+          "l1.start",
+          "l2.start",
+          "l3.start",
+          "l4.start",
+          "l5.start",
+          "l6.start",
+          "l7.start",
+          "l8.start"
+        ],
+        "fixed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "distance": "2",
+        "operation": "new",
+        "body_name": "chest status rim",
+        "name": "chest status rim thickness"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "name": "chest status light outline",
+        "offset": "-(-45)",
+        "plane": {
+          "origin": [
+            35.0,
+            0,
+            325.0
+          ],
+          "x_dir": [
+            1,
+            0,
+            0
+          ],
+          "y_dir": [
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-(14)/2+(1)",
+            "-(2.6)/2"
+          ],
+          [
+            "(14)/2-(1)",
+            "-(2.6)/2"
+          ],
+          [
+            "(14)/2",
+            "-(2.6)/2+(1)"
+          ],
+          [
+            "(14)/2",
+            "(2.6)/2-(1)"
+          ],
+          [
+            "(14)/2-(1)",
+            "(2.6)/2"
+          ],
+          [
+            "-(14)/2+(1)",
+            "(2.6)/2"
+          ],
+          [
+            "-(14)/2",
+            "(2.6)/2-(1)"
+          ],
+          [
+            "-(14)/2",
+            "-(2.6)/2+(1)"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.constraint.fix",
+      "params": {
+        "entities": [
+          "l1.start",
+          "l2.start",
+          "l3.start",
+          "l4.start",
+          "l5.start",
+          "l6.start",
+          "l7.start",
+          "l8.start"
+        ],
+        "fixed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "distance": "2",
+        "operation": "new",
+        "body_name": "chest status light",
+        "name": "chest status light thickness"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "1.1",
+        "height": "5",
+        "base": [
+          "29.0",
+          "(-41)-(5)/2",
+          "299.0"
+        ],
+        "axis": "Y",
+        "operation": "cut",
+        "name": "Chest vent 0-0 bore",
+        "targets": [
+          "T02 chest cheek 1"
+        ]
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "1.1",
+        "height": "5",
+        "base": [
+          "33.5",
+          "(-41)-(5)/2",
+          "299.0"
+        ],
+        "axis": "Y",
+        "operation": "cut",
+        "name": "Chest vent 0-1 bore",
+        "targets": [
+          "T02 chest cheek 1"
+        ]
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "1.1",
+        "height": "5",
+        "base": [
+          "38.0",
+          "(-41)-(5)/2",
+          "299.0"
+        ],
+        "axis": "Y",
+        "operation": "cut",
+        "name": "Chest vent 0-2 bore",
+        "targets": [
+          "T02 chest cheek 1"
+        ]
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "1.1",
+        "height": "5",
+        "base": [
+          "42.5",
+          "(-41)-(5)/2",
+          "299.0"
+        ],
+        "axis": "Y",
+        "operation": "cut",
+        "name": "Chest vent 0-3 bore",
+        "targets": [
+          "T02 chest cheek 1"
+        ]
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "1.1",
+        "height": "5",
+        "base": [
+          "31.1",
+          "(-41)-(5)/2",
+          "303.8"
+        ],
+        "axis": "Y",
+        "operation": "cut",
+        "name": "Chest vent 1-0 bore",
+        "targets": [
+          "T02 chest cheek 1"
+        ]
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "1.1",
+        "height": "5",
+        "base": [
+          "35.6",
+          "(-41)-(5)/2",
+          "303.8"
+        ],
+        "axis": "Y",
+        "operation": "cut",
+        "name": "Chest vent 1-1 bore",
+        "targets": [
+          "T02 chest cheek 1"
+        ]
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "1.1",
+        "height": "5",
+        "base": [
+          "40.1",
+          "(-41)-(5)/2",
+          "303.8"
+        ],
+        "axis": "Y",
+        "operation": "cut",
+        "name": "Chest vent 1-2 bore",
+        "targets": [
+          "T02 chest cheek 1"
+        ]
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "1.1",
+        "height": "5",
+        "base": [
+          "44.6",
+          "(-41)-(5)/2",
+          "303.8"
+        ],
+        "axis": "Y",
+        "operation": "cut",
+        "name": "Chest vent 1-3 bore",
+        "targets": [
+          "T02 chest cheek 1"
+        ]
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "1.1",
+        "height": "5",
+        "base": [
+          "29.0",
+          "(-41)-(5)/2",
+          "308.6"
+        ],
+        "axis": "Y",
+        "operation": "cut",
+        "name": "Chest vent 2-0 bore",
+        "targets": [
+          "T02 chest cheek 1"
+        ]
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "1.1",
+        "height": "5",
+        "base": [
+          "33.5",
+          "(-41)-(5)/2",
+          "308.6"
+        ],
+        "axis": "Y",
+        "operation": "cut",
+        "name": "Chest vent 2-1 bore",
+        "targets": [
+          "T02 chest cheek 1"
+        ]
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "1.1",
+        "height": "5",
+        "base": [
+          "38.0",
+          "(-41)-(5)/2",
+          "308.6"
+        ],
+        "axis": "Y",
+        "operation": "cut",
+        "name": "Chest vent 2-2 bore",
+        "targets": [
+          "T02 chest cheek 1"
+        ]
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "1.1",
+        "height": "5",
+        "base": [
+          "42.5",
+          "(-41)-(5)/2",
+          "308.6"
+        ],
+        "axis": "Y",
+        "operation": "cut",
+        "name": "Chest vent 2-3 bore",
+        "targets": [
+          "T02 chest cheek 1"
+        ]
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "1.1",
+        "height": "5",
+        "base": [
+          "31.1",
+          "(-41)-(5)/2",
+          "313.4"
+        ],
+        "axis": "Y",
+        "operation": "cut",
+        "name": "Chest vent 3-0 bore",
+        "targets": [
+          "T02 chest cheek 1"
+        ]
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "1.1",
+        "height": "5",
+        "base": [
+          "35.6",
+          "(-41)-(5)/2",
+          "313.4"
+        ],
+        "axis": "Y",
+        "operation": "cut",
+        "name": "Chest vent 3-1 bore",
+        "targets": [
+          "T02 chest cheek 1"
+        ]
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "1.1",
+        "height": "5",
+        "base": [
+          "40.1",
+          "(-41)-(5)/2",
+          "313.4"
+        ],
+        "axis": "Y",
+        "operation": "cut",
+        "name": "Chest vent 3-2 bore",
+        "targets": [
+          "T02 chest cheek 1"
+        ]
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "1.1",
+        "height": "5",
+        "base": [
+          "44.6",
+          "(-41)-(5)/2",
+          "313.4"
+        ],
+        "axis": "Y",
+        "operation": "cut",
+        "name": "Chest vent 3-3 bore",
+        "targets": [
+          "T02 chest cheek 1"
+        ]
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "1.1",
+        "height": "5",
+        "base": [
+          "29.0",
+          "(-41)-(5)/2",
+          "318.2"
+        ],
+        "axis": "Y",
+        "operation": "cut",
+        "name": "Chest vent 4-0 bore",
+        "targets": [
+          "T02 chest cheek 1"
+        ]
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "1.1",
+        "height": "5",
+        "base": [
+          "33.5",
+          "(-41)-(5)/2",
+          "318.2"
+        ],
+        "axis": "Y",
+        "operation": "cut",
+        "name": "Chest vent 4-1 bore",
+        "targets": [
+          "T02 chest cheek 1"
+        ]
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "1.1",
+        "height": "5",
+        "base": [
+          "38.0",
+          "(-41)-(5)/2",
+          "318.2"
+        ],
+        "axis": "Y",
+        "operation": "cut",
+        "name": "Chest vent 4-2 bore",
+        "targets": [
+          "T02 chest cheek 1"
+        ]
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "1.1",
+        "height": "5",
+        "base": [
+          "42.5",
+          "(-41)-(5)/2",
+          "318.2"
+        ],
+        "axis": "Y",
+        "operation": "cut",
+        "name": "Chest vent 4-3 bore",
+        "targets": [
+          "T02 chest cheek 1"
+        ]
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "name": "T04 hollow pelvic pod section 1",
+        "offset": "(215)+(-29)",
+        "plane": {
+          "origin": [
+            0.0,
+            8.0,
+            0
+          ],
+          "x_dir": [
+            1,
+            0,
+            0
+          ],
+          "y_dir": [
+            0,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-(54)/2+(10)",
+            "-(52)/2"
+          ],
+          [
+            "(54)/2-(10)",
+            "-(52)/2"
+          ],
+          [
+            "(54)/2",
+            "-(52)/2+(10)"
+          ],
+          [
+            "(54)/2",
+            "(52)/2-(10)"
+          ],
+          [
+            "(54)/2-(10)",
+            "(52)/2"
+          ],
+          [
+            "-(54)/2+(10)",
+            "(52)/2"
+          ],
+          [
+            "-(54)/2",
+            "(52)/2-(10)"
+          ],
+          [
+            "-(54)/2",
+            "-(52)/2+(10)"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.constraint.fix",
+      "params": {
+        "entities": [
+          "l1.start",
+          "l2.start",
+          "l3.start",
+          "l4.start",
+          "l5.start",
+          "l6.start",
+          "l7.start",
+          "l8.start"
+        ],
+        "fixed": true
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-((54)-2*(body_wall))/2+((10)-(body_wall)*(2-sqrt(2)))",
+            "-((52)-2*(body_wall))/2"
+          ],
+          [
+            "((54)-2*(body_wall))/2-((10)-(body_wall)*(2-sqrt(2)))",
+            "-((52)-2*(body_wall))/2"
+          ],
+          [
+            "((54)-2*(body_wall))/2",
+            "-((52)-2*(body_wall))/2+((10)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "((54)-2*(body_wall))/2",
+            "((52)-2*(body_wall))/2-((10)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "((54)-2*(body_wall))/2-((10)-(body_wall)*(2-sqrt(2)))",
+            "((52)-2*(body_wall))/2"
+          ],
+          [
+            "-((54)-2*(body_wall))/2+((10)-(body_wall)*(2-sqrt(2)))",
+            "((52)-2*(body_wall))/2"
+          ],
+          [
+            "-((54)-2*(body_wall))/2",
+            "((52)-2*(body_wall))/2-((10)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "-((54)-2*(body_wall))/2",
+            "-((52)-2*(body_wall))/2+((10)-(body_wall)*(2-sqrt(2)))"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "name": "T04 hollow pelvic pod section 2",
+        "offset": "(215)+(-18)",
+        "plane": {
+          "origin": [
+            0.0,
+            8.0,
+            0
+          ],
+          "x_dir": [
+            1,
+            0,
+            0
+          ],
+          "y_dir": [
+            0,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-(72)/2+(12)",
+            "-(70)/2"
+          ],
+          [
+            "(72)/2-(12)",
+            "-(70)/2"
+          ],
+          [
+            "(72)/2",
+            "-(70)/2+(12)"
+          ],
+          [
+            "(72)/2",
+            "(70)/2-(12)"
+          ],
+          [
+            "(72)/2-(12)",
+            "(70)/2"
+          ],
+          [
+            "-(72)/2+(12)",
+            "(70)/2"
+          ],
+          [
+            "-(72)/2",
+            "(70)/2-(12)"
+          ],
+          [
+            "-(72)/2",
+            "-(70)/2+(12)"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.constraint.fix",
+      "params": {
+        "entities": [
+          "l1.start",
+          "l2.start",
+          "l3.start",
+          "l4.start",
+          "l5.start",
+          "l6.start",
+          "l7.start",
+          "l8.start"
+        ],
+        "fixed": true
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-((72)-2*(body_wall))/2+((12)-(body_wall)*(2-sqrt(2)))",
+            "-((70)-2*(body_wall))/2"
+          ],
+          [
+            "((72)-2*(body_wall))/2-((12)-(body_wall)*(2-sqrt(2)))",
+            "-((70)-2*(body_wall))/2"
+          ],
+          [
+            "((72)-2*(body_wall))/2",
+            "-((70)-2*(body_wall))/2+((12)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "((72)-2*(body_wall))/2",
+            "((70)-2*(body_wall))/2-((12)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "((72)-2*(body_wall))/2-((12)-(body_wall)*(2-sqrt(2)))",
+            "((70)-2*(body_wall))/2"
+          ],
+          [
+            "-((72)-2*(body_wall))/2+((12)-(body_wall)*(2-sqrt(2)))",
+            "((70)-2*(body_wall))/2"
+          ],
+          [
+            "-((72)-2*(body_wall))/2",
+            "((70)-2*(body_wall))/2-((12)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "-((72)-2*(body_wall))/2",
+            "-((70)-2*(body_wall))/2+((12)-(body_wall)*(2-sqrt(2)))"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "name": "T04 hollow pelvic pod section 3",
+        "offset": "(215)+(20)",
+        "plane": {
+          "origin": [
+            0.0,
+            8.0,
+            0
+          ],
+          "x_dir": [
+            1,
+            0,
+            0
+          ],
+          "y_dir": [
+            0,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-(76)/2+(13)",
+            "-(70)/2"
+          ],
+          [
+            "(76)/2-(13)",
+            "-(70)/2"
+          ],
+          [
+            "(76)/2",
+            "-(70)/2+(13)"
+          ],
+          [
+            "(76)/2",
+            "(70)/2-(13)"
+          ],
+          [
+            "(76)/2-(13)",
+            "(70)/2"
+          ],
+          [
+            "-(76)/2+(13)",
+            "(70)/2"
+          ],
+          [
+            "-(76)/2",
+            "(70)/2-(13)"
+          ],
+          [
+            "-(76)/2",
+            "-(70)/2+(13)"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.constraint.fix",
+      "params": {
+        "entities": [
+          "l1.start",
+          "l2.start",
+          "l3.start",
+          "l4.start",
+          "l5.start",
+          "l6.start",
+          "l7.start",
+          "l8.start"
+        ],
+        "fixed": true
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-((76)-2*(body_wall))/2+((13)-(body_wall)*(2-sqrt(2)))",
+            "-((70)-2*(body_wall))/2"
+          ],
+          [
+            "((76)-2*(body_wall))/2-((13)-(body_wall)*(2-sqrt(2)))",
+            "-((70)-2*(body_wall))/2"
+          ],
+          [
+            "((76)-2*(body_wall))/2",
+            "-((70)-2*(body_wall))/2+((13)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "((76)-2*(body_wall))/2",
+            "((70)-2*(body_wall))/2-((13)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "((76)-2*(body_wall))/2-((13)-(body_wall)*(2-sqrt(2)))",
+            "((70)-2*(body_wall))/2"
+          ],
+          [
+            "-((76)-2*(body_wall))/2+((13)-(body_wall)*(2-sqrt(2)))",
+            "((70)-2*(body_wall))/2"
+          ],
+          [
+            "-((76)-2*(body_wall))/2",
+            "((70)-2*(body_wall))/2-((13)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "-((76)-2*(body_wall))/2",
+            "-((70)-2*(body_wall))/2+((13)-(body_wall)*(2-sqrt(2)))"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "name": "T04 hollow pelvic pod section 4",
+        "offset": "(215)+(29)",
+        "plane": {
+          "origin": [
+            0.0,
+            8.0,
+            0
+          ],
+          "x_dir": [
+            1,
+            0,
+            0
+          ],
+          "y_dir": [
+            0,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-(58)/2+(10)",
+            "-(54)/2"
+          ],
+          [
+            "(58)/2-(10)",
+            "-(54)/2"
+          ],
+          [
+            "(58)/2",
+            "-(54)/2+(10)"
+          ],
+          [
+            "(58)/2",
+            "(54)/2-(10)"
+          ],
+          [
+            "(58)/2-(10)",
+            "(54)/2"
+          ],
+          [
+            "-(58)/2+(10)",
+            "(54)/2"
+          ],
+          [
+            "-(58)/2",
+            "(54)/2-(10)"
+          ],
+          [
+            "-(58)/2",
+            "-(54)/2+(10)"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.constraint.fix",
+      "params": {
+        "entities": [
+          "l1.start",
+          "l2.start",
+          "l3.start",
+          "l4.start",
+          "l5.start",
+          "l6.start",
+          "l7.start",
+          "l8.start"
+        ],
+        "fixed": true
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-((58)-2*(body_wall))/2+((10)-(body_wall)*(2-sqrt(2)))",
+            "-((54)-2*(body_wall))/2"
+          ],
+          [
+            "((58)-2*(body_wall))/2-((10)-(body_wall)*(2-sqrt(2)))",
+            "-((54)-2*(body_wall))/2"
+          ],
+          [
+            "((58)-2*(body_wall))/2",
+            "-((54)-2*(body_wall))/2+((10)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "((58)-2*(body_wall))/2",
+            "((54)-2*(body_wall))/2-((10)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "((58)-2*(body_wall))/2-((10)-(body_wall)*(2-sqrt(2)))",
+            "((54)-2*(body_wall))/2"
+          ],
+          [
+            "-((58)-2*(body_wall))/2+((10)-(body_wall)*(2-sqrt(2)))",
+            "((54)-2*(body_wall))/2"
+          ],
+          [
+            "-((58)-2*(body_wall))/2",
+            "((54)-2*(body_wall))/2-((10)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "-((58)-2*(body_wall))/2",
+            "-((54)-2*(body_wall))/2+((10)-(body_wall)*(2-sqrt(2)))"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.loft",
+      "params": {
+        "sections": [
+          {
+            "sketch": "T04 hollow pelvic pod section 1",
+            "profiles": [
+              {
+                "point": [
+                  26.0,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "sketch": "T04 hollow pelvic pod section 2",
+            "profiles": [
+              {
+                "point": [
+                  35.0,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "sketch": "T04 hollow pelvic pod section 3",
+            "profiles": [
+              {
+                "point": [
+                  37.0,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "sketch": "T04 hollow pelvic pod section 4",
+            "profiles": [
+              {
+                "point": [
+                  28.0,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "operation": "new",
+        "body_name": "T04 hollow pelvic pod",
+        "name": "T04 hollow pelvic pod loft"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "name": "T05 pelvis access hatch outline",
+        "offset": "-(-29)",
+        "plane": {
+          "origin": [
+            0.0,
+            0,
+            215.0
+          ],
+          "x_dir": [
+            1,
+            0,
+            0
+          ],
+          "y_dir": [
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-(47)/2+(7)",
+            "-(42)/2"
+          ],
+          [
+            "(47)/2-(7)",
+            "-(42)/2"
+          ],
+          [
+            "(47)/2",
+            "-(42)/2+(7)"
+          ],
+          [
+            "(47)/2",
+            "(42)/2-(7)"
+          ],
+          [
+            "(47)/2-(7)",
+            "(42)/2"
+          ],
+          [
+            "-(47)/2+(7)",
+            "(42)/2"
+          ],
+          [
+            "-(47)/2",
+            "(42)/2-(7)"
+          ],
+          [
+            "-(47)/2",
+            "-(42)/2+(7)"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.constraint.fix",
+      "params": {
+        "entities": [
+          "l1.start",
+          "l2.start",
+          "l3.start",
+          "l4.start",
+          "l5.start",
+          "l6.start",
+          "l7.start",
+          "l8.start"
+        ],
+        "fixed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "distance": "2.5",
+        "operation": "new",
+        "body_name": "T05 pelvis access hatch",
+        "name": "T05 pelvis access hatch thickness"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.8",
+        "height": "0.7",
+        "base": [
+          "-17",
+          "(-32)-(0.7)/2",
+          "202"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Pelvis screw -17 202 seat turned",
+        "body_name": "Pelvis screw -17 202 seat"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.1",
+        "height": "1.2",
+        "base": [
+          "-17",
+          "(-32)-(1.2)/2",
+          "202"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Pelvis screw -17 202 head turned",
+        "body_name": "Pelvis screw -17 202 head"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "0.9",
+        "height": "1.5",
+        "base": [
+          "-17",
+          "(-32)-(1.5)/2",
+          "202"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Pelvis screw -17 202 socket turned",
+        "body_name": "Pelvis screw -17 202 socket"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.8",
+        "height": "0.7",
+        "base": [
+          "-17",
+          "(-32)-(0.7)/2",
+          "230"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Pelvis screw -17 230 seat turned",
+        "body_name": "Pelvis screw -17 230 seat"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.1",
+        "height": "1.2",
+        "base": [
+          "-17",
+          "(-32)-(1.2)/2",
+          "230"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Pelvis screw -17 230 head turned",
+        "body_name": "Pelvis screw -17 230 head"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "0.9",
+        "height": "1.5",
+        "base": [
+          "-17",
+          "(-32)-(1.5)/2",
+          "230"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Pelvis screw -17 230 socket turned",
+        "body_name": "Pelvis screw -17 230 socket"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.8",
+        "height": "0.7",
+        "base": [
+          "17",
+          "(-32)-(0.7)/2",
+          "202"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Pelvis screw 17 202 seat turned",
+        "body_name": "Pelvis screw 17 202 seat"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.1",
+        "height": "1.2",
+        "base": [
+          "17",
+          "(-32)-(1.2)/2",
+          "202"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Pelvis screw 17 202 head turned",
+        "body_name": "Pelvis screw 17 202 head"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "0.9",
+        "height": "1.5",
+        "base": [
+          "17",
+          "(-32)-(1.5)/2",
+          "202"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Pelvis screw 17 202 socket turned",
+        "body_name": "Pelvis screw 17 202 socket"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.8",
+        "height": "0.7",
+        "base": [
+          "17",
+          "(-32)-(0.7)/2",
+          "230"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Pelvis screw 17 230 seat turned",
+        "body_name": "Pelvis screw 17 230 seat"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.1",
+        "height": "1.2",
+        "base": [
+          "17",
+          "(-32)-(1.2)/2",
+          "230"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Pelvis screw 17 230 head turned",
+        "body_name": "Pelvis screw 17 230 head"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "0.9",
+        "height": "1.5",
+        "base": [
+          "17",
+          "(-32)-(1.5)/2",
+          "230"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Pelvis screw 17 230 socket turned",
+        "body_name": "Pelvis screw 17 230 socket"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "29",
+        "height": "15",
+        "base": [
+          "0",
+          "7",
+          "(248)-(15)/2"
+        ],
+        "axis": "Z",
+        "operation": "new",
+        "name": "Waist yaw envelope turned",
+        "body_name": "Waist yaw envelope"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "25",
+        "height": "3",
+        "base": [
+          "0",
+          "7",
+          "(240)-(3)/2"
+        ],
+        "axis": "Z",
+        "operation": "new",
+        "name": "Waist alloy trim turned",
+        "body_name": "Waist alloy trim"
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "length": "64",
+        "width": "48",
+        "height": "20",
+        "center": [
+          "0",
+          "7",
+          "243"
+        ],
+        "operation": "new",
+        "body_name": "Waist gimbal envelope",
+        "name": "Waist gimbal envelope solid"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "name": "T06 hollow battery backpack section 1",
+        "offset": "(307)+(-42.5)",
+        "plane": {
+          "origin": [
+            0.0,
+            73.0,
+            0
+          ],
+          "x_dir": [
+            1,
+            0,
+            0
+          ],
+          "y_dir": [
+            0,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-(72)/2+(6)",
+            "-(37)/2"
+          ],
+          [
+            "(72)/2-(6)",
+            "-(37)/2"
+          ],
+          [
+            "(72)/2",
+            "-(37)/2+(6)"
+          ],
+          [
+            "(72)/2",
+            "(37)/2-(6)"
+          ],
+          [
+            "(72)/2-(6)",
+            "(37)/2"
+          ],
+          [
+            "-(72)/2+(6)",
+            "(37)/2"
+          ],
+          [
+            "-(72)/2",
+            "(37)/2-(6)"
+          ],
+          [
+            "-(72)/2",
+            "-(37)/2+(6)"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.constraint.fix",
+      "params": {
+        "entities": [
+          "l1.start",
+          "l2.start",
+          "l3.start",
+          "l4.start",
+          "l5.start",
+          "l6.start",
+          "l7.start",
+          "l8.start"
+        ],
+        "fixed": true
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-((72)-2*(body_wall))/2+((6)-(body_wall)*(2-sqrt(2)))",
+            "-((37)-2*(body_wall))/2"
+          ],
+          [
+            "((72)-2*(body_wall))/2-((6)-(body_wall)*(2-sqrt(2)))",
+            "-((37)-2*(body_wall))/2"
+          ],
+          [
+            "((72)-2*(body_wall))/2",
+            "-((37)-2*(body_wall))/2+((6)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "((72)-2*(body_wall))/2",
+            "((37)-2*(body_wall))/2-((6)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "((72)-2*(body_wall))/2-((6)-(body_wall)*(2-sqrt(2)))",
+            "((37)-2*(body_wall))/2"
+          ],
+          [
+            "-((72)-2*(body_wall))/2+((6)-(body_wall)*(2-sqrt(2)))",
+            "((37)-2*(body_wall))/2"
+          ],
+          [
+            "-((72)-2*(body_wall))/2",
+            "((37)-2*(body_wall))/2-((6)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "-((72)-2*(body_wall))/2",
+            "-((37)-2*(body_wall))/2+((6)-(body_wall)*(2-sqrt(2)))"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "name": "T06 hollow battery backpack section 2",
+        "offset": "(307)+(-34.5)",
+        "plane": {
+          "origin": [
+            0.0,
+            73.0,
+            0
+          ],
+          "x_dir": [
+            1,
+            0,
+            0
+          ],
+          "y_dir": [
+            0,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-(80)/2+(8)",
+            "-(45)/2"
+          ],
+          [
+            "(80)/2-(8)",
+            "-(45)/2"
+          ],
+          [
+            "(80)/2",
+            "-(45)/2+(8)"
+          ],
+          [
+            "(80)/2",
+            "(45)/2-(8)"
+          ],
+          [
+            "(80)/2-(8)",
+            "(45)/2"
+          ],
+          [
+            "-(80)/2+(8)",
+            "(45)/2"
+          ],
+          [
+            "-(80)/2",
+            "(45)/2-(8)"
+          ],
+          [
+            "-(80)/2",
+            "-(45)/2+(8)"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.constraint.fix",
+      "params": {
+        "entities": [
+          "l1.start",
+          "l2.start",
+          "l3.start",
+          "l4.start",
+          "l5.start",
+          "l6.start",
+          "l7.start",
+          "l8.start"
+        ],
+        "fixed": true
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-((80)-2*(body_wall))/2+((8)-(body_wall)*(2-sqrt(2)))",
+            "-((45)-2*(body_wall))/2"
+          ],
+          [
+            "((80)-2*(body_wall))/2-((8)-(body_wall)*(2-sqrt(2)))",
+            "-((45)-2*(body_wall))/2"
+          ],
+          [
+            "((80)-2*(body_wall))/2",
+            "-((45)-2*(body_wall))/2+((8)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "((80)-2*(body_wall))/2",
+            "((45)-2*(body_wall))/2-((8)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "((80)-2*(body_wall))/2-((8)-(body_wall)*(2-sqrt(2)))",
+            "((45)-2*(body_wall))/2"
+          ],
+          [
+            "-((80)-2*(body_wall))/2+((8)-(body_wall)*(2-sqrt(2)))",
+            "((45)-2*(body_wall))/2"
+          ],
+          [
+            "-((80)-2*(body_wall))/2",
+            "((45)-2*(body_wall))/2-((8)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "-((80)-2*(body_wall))/2",
+            "-((45)-2*(body_wall))/2+((8)-(body_wall)*(2-sqrt(2)))"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "name": "T06 hollow battery backpack section 3",
+        "offset": "(307)+(34.5)",
+        "plane": {
+          "origin": [
+            0.0,
+            73.0,
+            0
+          ],
+          "x_dir": [
+            1,
+            0,
+            0
+          ],
+          "y_dir": [
+            0,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-(80)/2+(8)",
+            "-(45)/2"
+          ],
+          [
+            "(80)/2-(8)",
+            "-(45)/2"
+          ],
+          [
+            "(80)/2",
+            "-(45)/2+(8)"
+          ],
+          [
+            "(80)/2",
+            "(45)/2-(8)"
+          ],
+          [
+            "(80)/2-(8)",
+            "(45)/2"
+          ],
+          [
+            "-(80)/2+(8)",
+            "(45)/2"
+          ],
+          [
+            "-(80)/2",
+            "(45)/2-(8)"
+          ],
+          [
+            "-(80)/2",
+            "-(45)/2+(8)"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.constraint.fix",
+      "params": {
+        "entities": [
+          "l1.start",
+          "l2.start",
+          "l3.start",
+          "l4.start",
+          "l5.start",
+          "l6.start",
+          "l7.start",
+          "l8.start"
+        ],
+        "fixed": true
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-((80)-2*(body_wall))/2+((8)-(body_wall)*(2-sqrt(2)))",
+            "-((45)-2*(body_wall))/2"
+          ],
+          [
+            "((80)-2*(body_wall))/2-((8)-(body_wall)*(2-sqrt(2)))",
+            "-((45)-2*(body_wall))/2"
+          ],
+          [
+            "((80)-2*(body_wall))/2",
+            "-((45)-2*(body_wall))/2+((8)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "((80)-2*(body_wall))/2",
+            "((45)-2*(body_wall))/2-((8)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "((80)-2*(body_wall))/2-((8)-(body_wall)*(2-sqrt(2)))",
+            "((45)-2*(body_wall))/2"
+          ],
+          [
+            "-((80)-2*(body_wall))/2+((8)-(body_wall)*(2-sqrt(2)))",
+            "((45)-2*(body_wall))/2"
+          ],
+          [
+            "-((80)-2*(body_wall))/2",
+            "((45)-2*(body_wall))/2-((8)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "-((80)-2*(body_wall))/2",
+            "-((45)-2*(body_wall))/2+((8)-(body_wall)*(2-sqrt(2)))"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "name": "T06 hollow battery backpack section 4",
+        "offset": "(307)+(42.5)",
+        "plane": {
+          "origin": [
+            0.0,
+            73.0,
+            0
+          ],
+          "x_dir": [
+            1,
+            0,
+            0
+          ],
+          "y_dir": [
+            0,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-(72)/2+(6)",
+            "-(37)/2"
+          ],
+          [
+            "(72)/2-(6)",
+            "-(37)/2"
+          ],
+          [
+            "(72)/2",
+            "-(37)/2+(6)"
+          ],
+          [
+            "(72)/2",
+            "(37)/2-(6)"
+          ],
+          [
+            "(72)/2-(6)",
+            "(37)/2"
+          ],
+          [
+            "-(72)/2+(6)",
+            "(37)/2"
+          ],
+          [
+            "-(72)/2",
+            "(37)/2-(6)"
+          ],
+          [
+            "-(72)/2",
+            "-(37)/2+(6)"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.constraint.fix",
+      "params": {
+        "entities": [
+          "l1.start",
+          "l2.start",
+          "l3.start",
+          "l4.start",
+          "l5.start",
+          "l6.start",
+          "l7.start",
+          "l8.start"
+        ],
+        "fixed": true
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-((72)-2*(body_wall))/2+((6)-(body_wall)*(2-sqrt(2)))",
+            "-((37)-2*(body_wall))/2"
+          ],
+          [
+            "((72)-2*(body_wall))/2-((6)-(body_wall)*(2-sqrt(2)))",
+            "-((37)-2*(body_wall))/2"
+          ],
+          [
+            "((72)-2*(body_wall))/2",
+            "-((37)-2*(body_wall))/2+((6)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "((72)-2*(body_wall))/2",
+            "((37)-2*(body_wall))/2-((6)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "((72)-2*(body_wall))/2-((6)-(body_wall)*(2-sqrt(2)))",
+            "((37)-2*(body_wall))/2"
+          ],
+          [
+            "-((72)-2*(body_wall))/2+((6)-(body_wall)*(2-sqrt(2)))",
+            "((37)-2*(body_wall))/2"
+          ],
+          [
+            "-((72)-2*(body_wall))/2",
+            "((37)-2*(body_wall))/2-((6)-(body_wall)*(2-sqrt(2)))"
+          ],
+          [
+            "-((72)-2*(body_wall))/2",
+            "-((37)-2*(body_wall))/2+((6)-(body_wall)*(2-sqrt(2)))"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.loft",
+      "params": {
+        "sections": [
+          {
+            "sketch": "T06 hollow battery backpack section 1",
+            "profiles": [
+              {
+                "point": [
+                  35.0,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "sketch": "T06 hollow battery backpack section 2",
+            "profiles": [
+              {
+                "point": [
+                  39.0,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "sketch": "T06 hollow battery backpack section 3",
+            "profiles": [
+              {
+                "point": [
+                  39.0,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "sketch": "T06 hollow battery backpack section 4",
+            "profiles": [
+              {
+                "point": [
+                  35.0,
+                  0
+                ]
+              }
+            ]
+          }
+        ],
+        "operation": "new",
+        "body_name": "T06 hollow battery backpack",
+        "name": "T06 hollow battery backpack loft"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "name": "T07 rear backpack hatch outline",
+        "offset": "-(98)",
+        "plane": {
+          "origin": [
+            0.0,
+            0,
+            307.0
+          ],
+          "x_dir": [
+            1,
+            0,
+            0
+          ],
+          "y_dir": [
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "-(65)/2+(8)",
+            "-(68)/2"
+          ],
+          [
+            "(65)/2-(8)",
+            "-(68)/2"
+          ],
+          [
+            "(65)/2",
+            "-(68)/2+(8)"
+          ],
+          [
+            "(65)/2",
+            "(68)/2-(8)"
+          ],
+          [
+            "(65)/2-(8)",
+            "(68)/2"
+          ],
+          [
+            "-(65)/2+(8)",
+            "(68)/2"
+          ],
+          [
+            "-(65)/2",
+            "(68)/2-(8)"
+          ],
+          [
+            "-(65)/2",
+            "-(68)/2+(8)"
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.constraint.fix",
+      "params": {
+        "entities": [
+          "l1.start",
+          "l2.start",
+          "l3.start",
+          "l4.start",
+          "l5.start",
+          "l6.start",
+          "l7.start",
+          "l8.start"
+        ],
+        "fixed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "distance": "3",
+        "operation": "new",
+        "body_name": "T07 rear backpack hatch",
+        "name": "T07 rear backpack hatch thickness"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.8",
+        "height": "0.7",
+        "base": [
+          "-24",
+          "(99)-(0.7)/2",
+          "283"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Backpack screw -24 283 seat turned",
+        "body_name": "Backpack screw -24 283 seat"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.1",
+        "height": "1.2",
+        "base": [
+          "-24",
+          "(99)-(1.2)/2",
+          "283"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Backpack screw -24 283 head turned",
+        "body_name": "Backpack screw -24 283 head"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "0.9",
+        "height": "1.5",
+        "base": [
+          "-24",
+          "(99)-(1.5)/2",
+          "283"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Backpack screw -24 283 socket turned",
+        "body_name": "Backpack screw -24 283 socket"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.8",
+        "height": "0.7",
+        "base": [
+          "-24",
+          "(99)-(0.7)/2",
+          "331"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Backpack screw -24 331 seat turned",
+        "body_name": "Backpack screw -24 331 seat"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.1",
+        "height": "1.2",
+        "base": [
+          "-24",
+          "(99)-(1.2)/2",
+          "331"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Backpack screw -24 331 head turned",
+        "body_name": "Backpack screw -24 331 head"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "0.9",
+        "height": "1.5",
+        "base": [
+          "-24",
+          "(99)-(1.5)/2",
+          "331"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Backpack screw -24 331 socket turned",
+        "body_name": "Backpack screw -24 331 socket"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.8",
+        "height": "0.7",
+        "base": [
+          "24",
+          "(99)-(0.7)/2",
+          "283"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Backpack screw 24 283 seat turned",
+        "body_name": "Backpack screw 24 283 seat"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.1",
+        "height": "1.2",
+        "base": [
+          "24",
+          "(99)-(1.2)/2",
+          "283"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Backpack screw 24 283 head turned",
+        "body_name": "Backpack screw 24 283 head"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "0.9",
+        "height": "1.5",
+        "base": [
+          "24",
+          "(99)-(1.5)/2",
+          "283"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Backpack screw 24 283 socket turned",
+        "body_name": "Backpack screw 24 283 socket"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.8",
+        "height": "0.7",
+        "base": [
+          "24",
+          "(99)-(0.7)/2",
+          "331"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Backpack screw 24 331 seat turned",
+        "body_name": "Backpack screw 24 331 seat"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "2.1",
+        "height": "1.2",
+        "base": [
+          "24",
+          "(99)-(1.2)/2",
+          "331"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Backpack screw 24 331 head turned",
+        "body_name": "Backpack screw 24 331 head"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "0.9",
+        "height": "1.5",
+        "base": [
+          "24",
+          "(99)-(1.5)/2",
+          "331"
+        ],
+        "axis": "Y",
+        "operation": "new",
+        "name": "Backpack screw 24 331 socket turned",
+        "body_name": "Backpack screw 24 331 socket"
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "length": "6",
+        "width": "7",
+        "height": "12",
+        "center": [
+          "-22",
+          "74",
+          "356"
+        ],
+        "operation": "new",
+        "body_name": "Handle upright -22",
+        "name": "Handle upright -22 solid"
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "length": "6",
+        "width": "7",
+        "height": "12",
+        "center": [
+          "22",
+          "74",
+          "356"
+        ],
+        "operation": "new",
+        "body_name": "Handle upright 22",
+        "name": "Handle upright 22 solid"
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "length": "50",
+        "width": "7",
+        "height": "6",
+        "center": [
+          "0",
+          "74",
+          "361"
+        ],
+        "operation": "new",
+        "body_name": "Orange carrying handle",
+        "name": "Orange carrying handle solid"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "24",
+        "height": "16",
+        "base": [
+          "0",
+          "7",
+          "(365)-(16)/2"
+        ],
+        "axis": "Z",
+        "operation": "new",
+        "name": "Neck yaw envelope turned",
+        "body_name": "Neck yaw envelope"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "21",
+        "height": "3",
+        "base": [
+          "0",
+          "7",
+          "(374)-(3)/2"
+        ],
+        "axis": "Z",
+        "operation": "new",
+        "name": "Neck lower trim turned",
+        "body_name": "Neck lower trim"
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "length": "46",
+        "width": "34",
+        "height": "20",
+        "center": [
+          "0",
+          "6",
+          "381"
+        ],
+        "operation": "new",
+        "body_name": "Neck pitch fork envelope",
+        "name": "Neck pitch fork envelope solid"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "12",
+        "height": "58",
+        "base": [
+          "(0)-(58)/2",
+          "6",
+          "382"
+        ],
+        "axis": "X",
+        "operation": "new",
+        "name": "Neck pitch axle turned",
+        "body_name": "Neck pitch axle"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "8",
+        "height": "3",
+        "base": [
+          "(-30)-(3)/2",
+          "6",
+          "382"
+        ],
+        "axis": "X",
+        "operation": "new",
+        "name": "Neck rim -1 turned",
+        "body_name": "Neck rim -1"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": "8",
+        "height": "3",
+        "base": [
+          "(30)-(3)/2",
+          "6",
+          "382"
+        ],
+        "axis": "X",
+        "operation": "new",
+        "name": "Neck rim 1 turned",
+        "body_name": "Neck rim 1"
+      }
+    }
+  ]
+}

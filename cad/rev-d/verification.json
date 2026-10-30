@@ -1,0 +1,1718 @@
+{
+  "status": "PASS",
+  "failures": [],
+  "native_quality": {
+    "checks": [
+      {
+        "detail": "18 parameter(s) resolve to finite values",
+        "id": "parameters",
+        "status": "pass"
+      },
+      {
+        "detail": "no active feature errors",
+        "id": "timeline",
+        "status": "pass"
+      },
+      {
+        "detail": "115 sketch(es) fully constrained",
+        "id": "sketches",
+        "status": "pass"
+      },
+      {
+        "detail": "524 body(ies) measure cleanly",
+        "id": "bodies",
+        "status": "pass"
+      }
+    ],
+    "counts": {
+      "bodies": 524,
+      "parameters": 18,
+      "sketches": 115
+    },
+    "hard_failures": [],
+    "note": "A pass covers these structural checks only. It is not a proof of geometric correctness, tolerance, strength or safety.",
+    "score": 100,
+    "verdict": "pass",
+    "warnings": []
+  },
+  "body_count": 524,
+  "timeline_features": 718,
+  "overall_bounds_mm": [
+    [
+      -174.50428519492502,
+      -88.86787124633985,
+      -5.995204332975845e-14
+    ],
+    [
+      150.4144318867022,
+      99.75000000000006,
+      547.2796197461556
+    ]
+  ],
+  "overall_dimensions_mm": [
+    324.9187170816272,
+    188.61787124633992,
+    547.2796197461557
+  ],
+  "prototype_mesh_count": 53,
+  "parts": [
+    {
+      "body": "H01 hollow head shell",
+      "file": "prototype_stl/01-h01-hollow-head-shell.stl",
+      "triangles": 128,
+      "bounds_mm": [
+        [
+          -122.95270538330078,
+          -75.73628997802734,
+          372.19989013671875
+        ],
+        [
+          118.31009674072266,
+          62.409751892089844,
+          505.57574462890625
+        ]
+      ],
+      "dimensions_mm": [
+        241.26280212402344,
+        138.1460418701172,
+        133.3758544921875
+      ],
+      "signed_volume_mm3": 185442.6981057322,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "5c5187ee9d0ea5172fd77635c733a36d0933bdbf5783838ffb1a03a8384d408a",
+      "native_volume_mm3": 185442.91237721965,
+      "relative_volume_error": 1.1554579503123018e-06
+    },
+    {
+      "body": "H02 face frame",
+      "file": "prototype_stl/02-h02-face-frame.stl",
+      "triangles": 448,
+      "bounds_mm": [
+        [
+          -119.03267669677734,
+          -78.72220611572266,
+          378.0856628417969
+        ],
+        [
+          109.65023040771484,
+          -53.73801040649414,
+          503.8999938964844
+        ]
+      ],
+      "dimensions_mm": [
+        228.6829071044922,
+        24.984195709228516,
+        125.8143310546875
+      ],
+      "signed_volume_mm3": 27620.154498377087,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "3a44aa37a842f601e356580622936135c7cc3afc3ac514829a1a548ea5709426",
+      "native_volume_mm3": 27617.101056740765,
+      "relative_volume_error": 0.00011056343785139062
+    },
+    {
+      "body": "H03 rear service lid",
+      "file": "prototype_stl/03-h03-rear-service-lid.stl",
+      "triangles": 44,
+      "bounds_mm": [
+        [
+          -96.62056732177734,
+          43.00822067260742,
+          379.8896484375
+        ],
+        [
+          106.9820556640625,
+          65.39567565917969,
+          489.5001220703125
+        ]
+      ],
+      "dimensions_mm": [
+        203.60262298583984,
+        22.387454986572266,
+        109.6104736328125
+      ],
+      "signed_volume_mm3": 53225.97279912283,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "94270ec33ff91c08c0f426ee9ac96ccb4bf48b20d2460e7b6c0aec49c6a594e1",
+      "native_volume_mm3": 53226.00000000012,
+      "relative_volume_error": 5.110449270680407e-07
+    },
+    {
+      "body": "H04 black faceplate",
+      "file": "prototype_stl/04-h04-black-faceplate.stl",
+      "triangles": 44,
+      "bounds_mm": [
+        [
+          -99.50739288330078,
+          -78.5261459350586,
+          395.1988830566406
+        ],
+        [
+          89.84754943847656,
+          -57.318115234375,
+          486.9637451171875
+        ]
+      ],
+      "dimensions_mm": [
+        189.35494232177734,
+        21.208030700683594,
+        91.76486206054688
+      ],
+      "signed_volume_mm3": 40969.75903608965,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "8cbb1cc9983b434ec61f7c0d310c65dfa2da7ff0b74e4b65492e18714001d209",
+      "native_volume_mm3": 40969.740000000056,
+      "relative_volume_error": 4.6463779350345494e-07
+    },
+    {
+      "body": "H05 ear fin -1",
+      "file": "prototype_stl/05-h05-ear-fin-1.stl",
+      "triangles": 44,
+      "bounds_mm": [
+        [
+          -110.3691635131836,
+          0.9186241030693054,
+          494.05462646484375
+        ],
+        [
+          -85.06139373779297,
+          13.507577896118164,
+          541.9765014648438
+        ]
+      ],
+      "dimensions_mm": [
+        25.307769775390625,
+        12.588953793048859,
+        47.921875
+      ],
+      "signed_volume_mm3": 8423.999798037095,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "0ccb9034741b377dbe497b026855452150ea6bba57ad6b5f902d433554ab9bc7",
+      "native_volume_mm3": 8423.999999999995,
+      "relative_volume_error": 2.3974703128531667e-08
+    },
+    {
+      "body": "H05 ear fin 1",
+      "file": "prototype_stl/06-h05-ear-fin-1.stl",
+      "triangles": 44,
+      "bounds_mm": [
+        [
+          98.49951171875,
+          -17.259010314941406,
+          471.61505126953125
+        ],
+        [
+          131.5912322998047,
+          -5.582672119140625,
+          518.7640380859375
+        ]
+      ],
+      "dimensions_mm": [
+        33.09172058105469,
+        11.676338195800781,
+        47.14898681640625
+      ],
+      "signed_volume_mm3": 8423.998360070347,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "e8316cc1cadf47329c3039804add53fbf75daa978389015a2bb33cda5cc9a943",
+      "native_volume_mm3": 8423.999999999996,
+      "relative_volume_error": 1.9467351011071947e-07
+    },
+    {
+      "body": "H06 crown hatch",
+      "file": "prototype_stl/07-h06-crown-hatch.stl",
+      "triangles": 44,
+      "bounds_mm": [
+        [
+          -24.0766658782959,
+          -50.29990005493164,
+          492.5162658691406
+        ],
+        [
+          32.48017120361328,
+          -14.441978454589844,
+          501.893310546875
+        ]
+      ],
+      "dimensions_mm": [
+        56.55683708190918,
+        35.8579216003418,
+        9.377044677734375
+      ],
+      "signed_volume_mm3": 4275.009566917266,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "5f963a292e15ebdba22ab04cac515a3dbe8ff9b4a4c8fdb1c465fb9d4e72c4b0",
+      "native_volume_mm3": 4275.0000000000355,
+      "relative_volume_error": 2.2378753755756808e-06
+    },
+    {
+      "body": "T01 hollow torso",
+      "file": "prototype_stl/08-t01-hollow-torso.stl",
+      "triangles": 160,
+      "bounds_mm": [
+        [
+          -60.0,
+          -41.0,
+          257.0
+        ],
+        [
+          60.0,
+          55.0,
+          355.0
+        ]
+      ],
+      "dimensions_mm": [
+        120.0,
+        96.0,
+        98.0
+      ],
+      "signed_volume_mm3": 104457.76244262047,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "7f3881ee4494e6bee720df5647afddb5cd5d0af073fd1b882600827800ce5e98",
+      "native_volume_mm3": 104457.7588565958,
+      "relative_volume_error": 3.4329902449846935e-08
+    },
+    {
+      "body": "T02 chest cheek -1",
+      "file": "prototype_stl/09-t02-chest-cheek-1.stl",
+      "triangles": 20,
+      "bounds_mm": [
+        [
+          -56.0,
+          -46.5,
+          263.0
+        ],
+        [
+          -22.0,
+          -44.0,
+          348.0
+        ]
+      ],
+      "dimensions_mm": [
+        34.0,
+        2.5,
+        85.0
+      ],
+      "signed_volume_mm3": 6057.500000000001,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "c46985ae307cd3c3d32747df4ee95669486627cfa46c954305c75f0a21a32f09",
+      "native_volume_mm3": 6057.5,
+      "relative_volume_error": 1.5014357437440003e-16
+    },
+    {
+      "body": "T02 chest cheek 1",
+      "file": "prototype_stl/10-t02-chest-cheek-1.stl",
+      "triangles": 4420,
+      "bounds_mm": [
+        [
+          22.0,
+          -46.5,
+          263.0
+        ],
+        [
+          56.0,
+          -44.0,
+          348.0
+        ]
+      ],
+      "dimensions_mm": [
+        34.0,
+        2.5,
+        85.0
+      ],
+      "signed_volume_mm3": 5869.143741229025,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "33671b4030d38a980a690a4e535d92d03c4a1f63c7e55b2f77df60020ea4dc4d",
+      "native_volume_mm3": 5867.483013451023,
+      "relative_volume_error": 0.0002830392136108475
+    },
+    {
+      "body": "T03 purple service spine",
+      "file": "prototype_stl/11-t03-purple-service-spine.stl",
+      "triangles": 28,
+      "bounds_mm": [
+        [
+          -19.0,
+          -45.0,
+          262.0
+        ],
+        [
+          19.0,
+          -42.5,
+          345.0
+        ]
+      ],
+      "dimensions_mm": [
+        38.0,
+        2.5,
+        83.0
+      ],
+      "signed_volume_mm3": 6682.5,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "82f7aa7920db478fc463c8397594b868447954171e7e7f05ed30226fccc3ff25",
+      "native_volume_mm3": 6682.5,
+      "relative_volume_error": 0.0
+    },
+    {
+      "body": "T04 hollow pelvic pod",
+      "file": "prototype_stl/12-t04-hollow-pelvic-pod.stl",
+      "triangles": 128,
+      "bounds_mm": [
+        [
+          -38.0,
+          -27.0,
+          186.0
+        ],
+        [
+          38.0,
+          43.0,
+          244.0
+        ]
+      ],
+      "dimensions_mm": [
+        76.0,
+        70.0,
+        58.0
+      ],
+      "signed_volume_mm3": 41335.15398578264,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "10a8546937b27dca706afc1285a219d3b6d55796897ac060f557f95f69eb5d34",
+      "native_volume_mm3": 41335.15280608531,
+      "relative_volume_error": 2.8539808224345425e-08
+    },
+    {
+      "body": "T05 pelvis access hatch",
+      "file": "prototype_stl/13-t05-pelvis-access-hatch.stl",
+      "triangles": 44,
+      "bounds_mm": [
+        [
+          -23.5,
+          -31.5,
+          194.0
+        ],
+        [
+          23.5,
+          -29.0,
+          236.0
+        ]
+      ],
+      "dimensions_mm": [
+        47.0,
+        2.5,
+        42.0
+      ],
+      "signed_volume_mm3": 4689.999999999998,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "e2237c5d0d4179adb64dcd1808fd856c3d00d4b8867d2ecac90254c4de552006",
+      "native_volume_mm3": 4690.0,
+      "relative_volume_error": 3.87844222504447e-16
+    },
+    {
+      "body": "T06 hollow battery backpack",
+      "file": "prototype_stl/14-t06-hollow-battery-backpack.stl",
+      "triangles": 128,
+      "bounds_mm": [
+        [
+          -40.0,
+          50.5,
+          264.5
+        ],
+        [
+          40.0,
+          95.5,
+          349.5
+        ]
+      ],
+      "dimensions_mm": [
+        80.0,
+        45.0,
+        85.0
+      ],
+      "signed_volume_mm3": 55779.46626840637,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "fe08247ae2375e657c185928271111d6c2f0dca98d6251952bae07c6aa229120",
+      "native_volume_mm3": 55779.46666324988,
+      "relative_volume_error": 7.0786532715667645e-09
+    },
+    {
+      "body": "T07 rear backpack hatch",
+      "file": "prototype_stl/15-t07-rear-backpack-hatch.stl",
+      "triangles": 44,
+      "bounds_mm": [
+        [
+          -32.5,
+          95.0,
+          273.0
+        ],
+        [
+          32.5,
+          98.0,
+          341.0
+        ]
+      ],
+      "dimensions_mm": [
+        65.0,
+        3.0,
+        68.0
+      ],
+      "signed_volume_mm3": 12876.0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "bd64bf8daa2beca47b485464183d05c3fb719f39ecf861493df7b2558ed605df",
+      "native_volume_mm3": 12876.0,
+      "relative_volume_error": 0.0
+    },
+    {
+      "body": "L01 hollow thigh",
+      "file": "prototype_stl/16-l01-hollow-thigh.stl",
+      "triangles": 128,
+      "bounds_mm": [
+        [
+          32.19796371459961,
+          -46.04666519165039,
+          129.64231872558594
+        ],
+        [
+          96.13880157470703,
+          26.79835319519043,
+          214.85162353515625
+        ]
+      ],
+      "dimensions_mm": [
+        63.94083786010742,
+        72.84501838684082,
+        85.20930480957031
+      ],
+      "signed_volume_mm3": 37045.572866028066,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "5380754f413ff14abbf5f13fbf5248a0832731b958c264cc0a4ce35957e0162c",
+      "native_volume_mm3": 37045.565681601256,
+      "relative_volume_error": 1.9393486581614902e-07
+    },
+    {
+      "body": "L02 thigh panel",
+      "file": "prototype_stl/17-l02-thigh-panel.stl",
+      "triangles": 44,
+      "bounds_mm": [
+        [
+          38.129150390625,
+          -49.767478942871094,
+          158.26487731933594
+        ],
+        [
+          89.60591888427734,
+          -28.618911743164062,
+          208.7605438232422
+        ]
+      ],
+      "dimensions_mm": [
+        51.476768493652344,
+        21.14856719970703,
+        50.49566650390625
+      ],
+      "signed_volume_mm3": 4998.401513847505,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "577d20ca5ed1074d58ea7da65c5612dd0c6b91e46b6b16ab04ac2cfa9fad0474",
+      "native_volume_mm3": 4998.400000000008,
+      "relative_volume_error": 3.028664167204538e-07
+    },
+    {
+      "body": "L03 purple kneecap",
+      "file": "prototype_stl/18-l03-purple-kneecap.stl",
+      "triangles": 28,
+      "bounds_mm": [
+        [
+          50.0,
+          -56.599998474121094,
+          105.0
+        ],
+        [
+          90.0,
+          -54.0,
+          150.0
+        ]
+      ],
+      "dimensions_mm": [
+        40.0,
+        2.5999984741210938,
+        45.0
+      ],
+      "signed_volume_mm3": 3985.7976608276367,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "9093019c63d638d0d36ab1a887f5cb99c525a8c0a27bc4a14ce3da6f20b9f0c3",
+      "native_volume_mm3": 3985.8000000000025,
+      "relative_volume_error": 5.868765030199418e-07
+    },
+    {
+      "body": "L04 hollow shin",
+      "file": "prototype_stl/19-l04-hollow-shin.stl",
+      "triangles": 128,
+      "bounds_mm": [
+        [
+          44.965293884277344,
+          -41.24434280395508,
+          56.688873291015625
+        ],
+        [
+          97.33386993408203,
+          15.134783744812012,
+          123.74813079833984
+        ]
+      ],
+      "dimensions_mm": [
+        52.36857604980469,
+        56.37912654876709,
+        67.05925750732422
+      ],
+      "signed_volume_mm3": 24186.571872386514,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "6e5b0577f0c4f74690aa20c966de218515eb4241959b12d584ad410ff76a2392",
+      "native_volume_mm3": 24186.574403058297,
+      "relative_volume_error": 1.0463126118186497e-07
+    },
+    {
+      "body": "L05 shin rail -19",
+      "file": "prototype_stl/20-l05-shin-rail-19.stl",
+      "triangles": 52,
+      "bounds_mm": [
+        [
+          85.80359649658203,
+          -43.521785736083984,
+          61.987056732177734
+        ],
+        [
+          96.16111755371094,
+          -27.58660125732422,
+          102.32324981689453
+        ]
+      ],
+      "dimensions_mm": [
+        10.357521057128906,
+        15.935184478759766,
+        40.3361930847168
+      ],
+      "signed_volume_mm3": 720.0005773196523,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "7aa2d9989e597f32f0f83e7c2ac49d24e84cd7e8a075d0d3856e3d46243e1baa",
+      "native_volume_mm3": 720.0000000000005,
+      "relative_volume_error": 8.018328497567175e-07
+    },
+    {
+      "body": "L05 shin rail 19",
+      "file": "prototype_stl/21-l05-shin-rail-19.stl",
+      "triangles": 52,
+      "bounds_mm": [
+        [
+          47.833168029785156,
+          -43.521785736083984,
+          60.488224029541016
+        ],
+        [
+          58.19068908691406,
+          -27.58660125732422,
+          100.82441711425781
+        ]
+      ],
+      "dimensions_mm": [
+        10.357521057128906,
+        15.935184478759766,
+        40.3361930847168
+      ],
+      "signed_volume_mm3": 720.0006217790724,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "df5854a1a92cfebe6293e32f956b7a9add3b23fa8cf3a4af5ed0190e47d3261d",
+      "native_volume_mm3": 719.9999999999994,
+      "relative_volume_error": 8.635820457748708e-07
+    },
+    {
+      "body": "L06 rubber sole",
+      "file": "prototype_stl/22-l06-rubber-sole.stl",
+      "triangles": 60,
+      "bounds_mm": [
+        [
+          23.70102882385254,
+          -87.7688217163086,
+          -1.4099832412739488e-14
+        ],
+        [
+          122.2989730834961,
+          51.768821716308594,
+          9.0
+        ]
+      ],
+      "dimensions_mm": [
+        98.59794425964355,
+        139.5376434326172,
+        9.000000000000014
+      ],
+      "signed_volume_mm3": 101491.66959138006,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "ad6654ac3e5932c8214b2d6da780d825f9c0ccc54fbec4b4232ce967ce879c82",
+      "native_volume_mm3": 101491.66666666609,
+      "relative_volume_error": 2.8817281965847072e-08
+    },
+    {
+      "body": "L boot midsole gasket",
+      "file": "prototype_stl/23-l-boot-midsole-gasket.stl",
+      "triangles": 44,
+      "bounds_mm": [
+        [
+          26.659212112426758,
+          -82.58565521240234,
+          7.0
+        ],
+        [
+          119.34078979492188,
+          46.58565139770508,
+          15.0
+        ]
+      ],
+      "dimensions_mm": [
+        92.68157768249512,
+        129.17130661010742,
+        8.0
+      ],
+      "signed_volume_mm3": 78911.99951195385,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "7a76216abc157ffe6ae05601f7ee8a360c1f07454f3b223f81ed7098a776793a",
+      "native_volume_mm3": 78911.99999999997,
+      "relative_volume_error": 6.184688262288882e-09
+    },
+    {
+      "body": "L07 hollow boot",
+      "file": "prototype_stl/24-l07-hollow-boot.stl",
+      "triangles": 160,
+      "bounds_mm": [
+        [
+          26.551681518554688,
+          -82.84847259521484,
+          15.0
+        ],
+        [
+          113.95907592773438,
+          40.5677604675293,
+          55.0
+        ]
+      ],
+      "dimensions_mm": [
+        87.40739440917969,
+        123.41623306274414,
+        40.0
+      ],
+      "signed_volume_mm3": 61725.16223084722,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "9e6eee585c195bb93d776b5801c7e8d152a9dc5998a17b3119c88ed871521189",
+      "native_volume_mm3": 61725.17550718306,
+      "relative_volume_error": 2.1508785892338946e-07
+    },
+    {
+      "body": "L boot toe cap",
+      "file": "prototype_stl/25-l-boot-toe-cap.stl",
+      "triangles": 44,
+      "bounds_mm": [
+        [
+          35.92499542236328,
+          -85.33477783203125,
+          15.0
+        ],
+        [
+          96.8521499633789,
+          -76.47223663330078,
+          32.0
+        ]
+      ],
+      "dimensions_mm": [
+        60.927154541015625,
+        8.862541198730469,
+        17.0
+      ],
+      "signed_volume_mm3": 2347.5005695051614,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "09122bab5d0feccb81de27b48d8b8aac82c886bdf29c587ebba0c76c895e2049",
+      "native_volume_mm3": 2347.4999999999995,
+      "relative_volume_error": 2.4260070791072044e-07
+    },
+    {
+      "body": "L boot heel cap",
+      "file": "prototype_stl/26-l-boot-heel-cap.stl",
+      "triangles": 44,
+      "bounds_mm": [
+        [
+          51.504241943359375,
+          34.818695068359375,
+          15.0
+        ],
+        [
+          106.46426391601562,
+          43.05406188964844,
+          34.0
+        ]
+      ],
+      "dimensions_mm": [
+        54.96002197265625,
+        8.235366821289062,
+        19.0
+      ],
+      "signed_volume_mm3": 2367.500124734969,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "54bd464c6f34c41ddfefde1c9bf57827562d6a52ef49b7a933cf49e5b3dd1836",
+      "native_volume_mm3": 2367.500000000002,
+      "relative_volume_error": 5.268636424821692e-08
+    },
+    {
+      "body": "L08 purple instep hatch",
+      "file": "prototype_stl/27-l08-purple-instep-hatch.stl",
+      "triangles": 44,
+      "bounds_mm": [
+        [
+          48.795570373535156,
+          -60.86949920654297,
+          46.63100051879883
+        ],
+        [
+          92.60517883300781,
+          -18.88946533203125,
+          53.36899948120117
+        ]
+      ],
+      "dimensions_mm": [
+        43.809608459472656,
+        41.98003387451172,
+        6.737998962402344
+      ],
+      "signed_volume_mm3": 3097.9997216630723,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "1d2bfa3f394da8789ea6f7c7a2a10747314c139591f44cd6acfd8d36f5b402e9",
+      "native_volume_mm3": 3097.999999999995,
+      "relative_volume_error": 8.984406802687478e-08
+    },
+    {
+      "body": "R01 hollow thigh",
+      "file": "prototype_stl/28-r01-hollow-thigh.stl",
+      "triangles": 128,
+      "bounds_mm": [
+        [
+          -95.91802215576172,
+          -37.55706787109375,
+          137.7158966064453
+        ],
+        [
+          -32.47967529296875,
+          28.75762367248535,
+          212.52725219726562
+        ]
+      ],
+      "dimensions_mm": [
+        63.43834686279297,
+        66.3146915435791,
+        74.81135559082031
+      ],
+      "signed_volume_mm3": 32018.142100400484,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "e92641630b6cef23577b346fbe741c9d4efee8fc3828aada44498409206999fd",
+      "native_volume_mm3": 32018.14838838688,
+      "relative_volume_error": 1.9638819578758565e-07
+    },
+    {
+      "body": "R02 thigh panel",
+      "file": "prototype_stl/29-r02-thigh-panel.stl",
+      "triangles": 44,
+      "bounds_mm": [
+        [
+          -90.01251220703125,
+          -43.51826095581055,
+          157.98590087890625
+        ],
+        [
+          -38.19705581665039,
+          -26.27320671081543,
+          209.97946166992188
+        ]
+      ],
+      "dimensions_mm": [
+        51.81545639038086,
+        17.245054244995117,
+        51.993560791015625
+      ],
+      "signed_volume_mm3": 4998.398232037542,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "17567b297b91e839fcc22dce72cc6b37c0252e34bdfb97ddbd3b3e8412e59cac",
+      "native_volume_mm3": 4998.40000000001,
+      "relative_volume_error": 3.5370567941057964e-07
+    },
+    {
+      "body": "R03 purple kneecap",
+      "file": "prototype_stl/30-r03-purple-kneecap.stl",
+      "triangles": 28,
+      "bounds_mm": [
+        [
+          -90.0,
+          -46.599998474121094,
+          111.0
+        ],
+        [
+          -50.0,
+          -44.0,
+          156.0
+        ]
+      ],
+      "dimensions_mm": [
+        40.0,
+        2.5999984741210938,
+        45.0
+      ],
+      "signed_volume_mm3": 3985.7976608276367,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "dab7398a8642aca7739476daabf9a5e2e5d7a82bbae4455d5e9a17ac33aa0dc5",
+      "native_volume_mm3": 3985.8000000000025,
+      "relative_volume_error": 5.868765030199418e-07
+    },
+    {
+      "body": "R04 hollow shin",
+      "file": "prototype_stl/31-r04-hollow-shin.stl",
+      "triangles": 128,
+      "bounds_mm": [
+        [
+          -97.3046875,
+          -30.527971267700195,
+          56.09783172607422
+        ],
+        [
+          -44.92765426635742,
+          29.70172119140625,
+          130.48785400390625
+        ]
+      ],
+      "dimensions_mm": [
+        52.37703323364258,
+        60.229692459106445,
+        74.39002227783203
+      ],
+      "signed_volume_mm3": 27383.911848284908,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "3834654af893051b5b3d163c65d477deeb39049048e7259d444bf167c45056cf",
+      "native_volume_mm3": 27383.909649819736,
+      "relative_volume_error": 8.028310055896477e-08
+    },
+    {
+      "body": "R05 shin rail -19",
+      "file": "prototype_stl/32-r05-shin-rail-19.stl",
+      "triangles": 52,
+      "bounds_mm": [
+        [
+          -58.12147521972656,
+          -31.218128204345703,
+          63.06875228881836
+        ],
+        [
+          -47.87467956542969,
+          -14.094883918762207,
+          103.00817108154297
+        ]
+      ],
+      "dimensions_mm": [
+        10.246795654296875,
+        17.123244285583496,
+        39.93941879272461
+      ],
+      "signed_volume_mm3": 719.9998771635434,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "a9ef0ad203cfec2389a4a8beae34733e22dd5fcf5cb866730dcf0b01c660cb6f",
+      "native_volume_mm3": 719.9999999999999,
+      "relative_volume_error": 1.706061896003222e-07
+    },
+    {
+      "body": "R05 shin rail 19",
+      "file": "prototype_stl/33-r05-shin-rail-19.stl",
+      "triangles": 52,
+      "bounds_mm": [
+        [
+          -96.0960693359375,
+          -31.218128204345703,
+          64.45806884765625
+        ],
+        [
+          -85.84927368164062,
+          -14.094883918762207,
+          104.3974838256836
+        ]
+      ],
+      "dimensions_mm": [
+        10.246795654296875,
+        17.123244285583496,
+        39.939414978027344
+      ],
+      "signed_volume_mm3": 720.0004544112437,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "1f2ee8a7437079c865a81b188484714eabee0c17478f37cd893e9ddf68f39b39",
+      "native_volume_mm3": 720.0000000000003,
+      "relative_volume_error": 6.31126726899664e-07
+    },
+    {
+      "body": "R06 rubber sole",
+      "file": "prototype_stl/34-r06-rubber-sole.stl",
+      "triangles": 60,
+      "bounds_mm": [
+        [
+          -122.2989730834961,
+          -72.7688217163086,
+          -2.531308496145357e-14
+        ],
+        [
+          -23.70102882385254,
+          66.7688217163086,
+          9.0
+        ]
+      ],
+      "dimensions_mm": [
+        98.59794425964355,
+        139.5376434326172,
+        9.000000000000025
+      ],
+      "signed_volume_mm3": 101491.67027173123,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "7fdf8276bccf93db1f6939cd9ae2f2efa2a854230c9a9e7ee055cd45dd40b7b2",
+      "native_volume_mm3": 101491.66666666606,
+      "relative_volume_error": 3.552079975839947e-08
+    },
+    {
+      "body": "R boot midsole gasket",
+      "file": "prototype_stl/35-r-boot-midsole-gasket.stl",
+      "triangles": 44,
+      "bounds_mm": [
+        [
+          -119.34078979492188,
+          -67.58565521240234,
+          7.0
+        ],
+        [
+          -26.659212112426758,
+          61.58565139770508,
+          15.0
+        ]
+      ],
+      "dimensions_mm": [
+        92.68157768249512,
+        129.17130661010742,
+        8.0
+      ],
+      "signed_volume_mm3": 78911.99951195384,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "da89ead142bf1fb6a944ba5a47e4078660aa28128c3d8900d400a1ced0a334c4",
+      "native_volume_mm3": 78911.99999999996,
+      "relative_volume_error": 6.1846882622888826e-09
+    },
+    {
+      "body": "R07 hollow boot",
+      "file": "prototype_stl/36-r07-hollow-boot.stl",
+      "triangles": 160,
+      "bounds_mm": [
+        [
+          -113.95907592773438,
+          -67.84847259521484,
+          15.0
+        ],
+        [
+          -26.551681518554688,
+          55.5677604675293,
+          55.0
+        ]
+      ],
+      "dimensions_mm": [
+        87.40739440917969,
+        123.41623306274414,
+        40.0
+      ],
+      "signed_volume_mm3": 61725.16053296316,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "561f7cd0c3372c08ec82e067747c97ec1bb6cbb670d403761198801625e7ce4f",
+      "native_volume_mm3": 61725.1755071831,
+      "relative_volume_error": 2.425950160493604e-07
+    },
+    {
+      "body": "R boot toe cap",
+      "file": "prototype_stl/37-r-boot-toe-cap.stl",
+      "triangles": 44,
+      "bounds_mm": [
+        [
+          -96.8521499633789,
+          -70.33477783203125,
+          15.0
+        ],
+        [
+          -35.92499542236328,
+          -61.47224044799805,
+          32.0
+        ]
+      ],
+      "dimensions_mm": [
+        60.927154541015625,
+        8.862537384033203,
+        17.0
+      ],
+      "signed_volume_mm3": 2347.5022424144117,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "a0479d237e8d2cb1a98a2d0fa97990e46fa15aeccd120ed64579ee0b8fa2481f",
+      "native_volume_mm3": 2347.5000000000036,
+      "relative_volume_error": 9.552351046225619e-07
+    },
+    {
+      "body": "R boot heel cap",
+      "file": "prototype_stl/38-r-boot-heel-cap.stl",
+      "triangles": 44,
+      "bounds_mm": [
+        [
+          -106.46426391601562,
+          49.818695068359375,
+          15.0
+        ],
+        [
+          -51.504241943359375,
+          58.05406188964844,
+          34.0
+        ]
+      ],
+      "dimensions_mm": [
+        54.96002197265625,
+        8.235366821289062,
+        19.0
+      ],
+      "signed_volume_mm3": 2367.500124734969,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "602246a8dfbb1c9d93fffdc36ed5d14294c6bc067d7bdab0b1d7ed2431639dc7",
+      "native_volume_mm3": 2367.500000000002,
+      "relative_volume_error": 5.268636424821692e-08
+    },
+    {
+      "body": "R08 purple instep hatch",
+      "file": "prototype_stl/39-r08-purple-instep-hatch.stl",
+      "triangles": 44,
+      "bounds_mm": [
+        [
+          -92.60517883300781,
+          -45.86949920654297,
+          46.63100051879883
+        ],
+        [
+          -48.795570373535156,
+          -3.889465570449829,
+          53.36899948120117
+        ]
+      ],
+      "dimensions_mm": [
+        43.809608459472656,
+        41.98003363609314,
+        6.737998962402344
+      ],
+      "signed_volume_mm3": 3097.9996135065453,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "e441c67b9947889457c9590ae88f8b9ca8b4b8f14f50f97404c06258124fa65d",
+      "native_volume_mm3": 3097.999999999995,
+      "relative_volume_error": 1.247557939625536e-07
+    },
+    {
+      "body": "L hollow upper arm",
+      "file": "prototype_stl/40-l-hollow-upper-arm.stl",
+      "triangles": 128,
+      "bounds_mm": [
+        [
+          74.67894744873047,
+          -15.866216659545898,
+          281.2113952636719
+        ],
+        [
+          118.05516052246094,
+          19.908422470092773,
+          327.31683349609375
+        ]
+      ],
+      "dimensions_mm": [
+        43.37621307373047,
+        35.77463912963867,
+        46.105438232421875
+      ],
+      "signed_volume_mm3": 10016.452738915908,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "f0e75599d842e72016d1de5f802cdd7a4c996ee6171ac841f20b59050b4f9fcc",
+      "native_volume_mm3": 10016.451845484264,
+      "relative_volume_error": 8.919641990087024e-08
+    },
+    {
+      "body": "L upper arm faceplate",
+      "file": "prototype_stl/41-l-upper-arm-faceplate.stl",
+      "triangles": 44,
+      "bounds_mm": [
+        [
+          82.2044906616211,
+          -21.776958465576172,
+          290.0061950683594
+        ],
+        [
+          110.48419189453125,
+          -16.661375045776367,
+          321.05224609375
+        ]
+      ],
+      "dimensions_mm": [
+        28.279701232910156,
+        5.115583419799805,
+        31.046051025390625
+      ],
+      "signed_volume_mm3": 1098.9995648150416,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "dd6a33c23eedfc7a8749819b2944f9bbb7d0bf6c3645f5faede516d83b031954",
+      "native_volume_mm3": 1099.0000000000007,
+      "relative_volume_error": 3.9598267432899383e-07
+    },
+    {
+      "body": "L hollow forearm",
+      "file": "prototype_stl/42-l-hollow-forearm.stl",
+      "triangles": 128,
+      "bounds_mm": [
+        [
+          99.27484130859375,
+          -30.385679244995117,
+          225.76121520996094
+        ],
+        [
+          141.95729064941406,
+          9.941015243530273,
+          279.9434814453125
+        ]
+      ],
+      "dimensions_mm": [
+        42.68244934082031,
+        40.32669448852539,
+        54.18226623535156
+      ],
+      "signed_volume_mm3": 11934.316224267355,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "b94dac4de4c6ec785661a0c5cfeca22771d1c39b602472d66086947a152c82a3",
+      "native_volume_mm3": 11934.31735623023,
+      "relative_volume_error": 9.484940293380424e-08
+    },
+    {
+      "body": "L forearm faceplate",
+      "file": "prototype_stl/43-l-forearm-faceplate.stl",
+      "triangles": 44,
+      "bounds_mm": [
+        [
+          106.4651107788086,
+          -34.93173599243164,
+          242.29058837890625
+        ],
+        [
+          133.05494689941406,
+          -24.714719772338867,
+          272.6578369140625
+        ]
+      ],
+      "dimensions_mm": [
+        26.58983612060547,
+        10.217016220092773,
+        30.36724853515625
+      ],
+      "signed_volume_mm3": 1099.0015905575046,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "a1bce8623caff8de26397b9c522b8ada5cb8717a24c78797a9d50f6a01317bb7",
+      "native_volume_mm3": 1099.0000000000055,
+      "relative_volume_error": 1.4472770693219191e-06
+    },
+    {
+      "body": "L palm armor",
+      "file": "prototype_stl/44-l-palm-armor.stl",
+      "triangles": 44,
+      "bounds_mm": [
+        [
+          120.59270477294922,
+          -40.4371223449707,
+          205.08566284179688
+        ],
+        [
+          145.82073974609375,
+          -31.3520565032959,
+          227.6067352294922
+        ]
+      ],
+      "dimensions_mm": [
+        25.22803497314453,
+        9.085065841674805,
+        22.521072387695312
+      ],
+      "signed_volume_mm3": 1361.999768115855,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "d89150219c4d7a89042088c71154613c999aa6374f7184c215436da57b1c3696",
+      "native_volume_mm3": 1361.9999999999998,
+      "relative_volume_error": 1.7025267606161018e-07
+    },
+    {
+      "body": "L small claw -8",
+      "file": "prototype_stl/45-l-small-claw-8.stl",
+      "triangles": 44,
+      "bounds_mm": [
+        [
+          137.77142333984375,
+          -44.72284698486328,
+          179.78237915039062
+        ],
+        [
+          150.4144287109375,
+          -22.332517623901367,
+          207.72691345214844
+        ]
+      ],
+      "dimensions_mm": [
+        12.64300537109375,
+        22.390329360961914,
+        27.944534301757812
+      ],
+      "signed_volume_mm3": 3551.9995567770243,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "3a547950700577fd6acd4a201a9d5503aff5e6be9b292de5967c330bd470fa3c",
+      "native_volume_mm3": 3552.000000000003,
+      "relative_volume_error": 1.247812440601796e-07
+    },
+    {
+      "body": "L small claw 8",
+      "file": "prototype_stl/46-l-small-claw-8.stl",
+      "triangles": 44,
+      "bounds_mm": [
+        [
+          121.89497375488281,
+          -44.72284698486328,
+          177.79782104492188
+        ],
+        [
+          134.53797912597656,
+          -22.332517623901367,
+          205.7423553466797
+        ]
+      ],
+      "dimensions_mm": [
+        12.64300537109375,
+        22.390329360961914,
+        27.944534301757812
+      ],
+      "signed_volume_mm3": 3551.998835027113,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "23f1941a58b46b33b0dffc574dd4f341a8c56caf42eb68e25361680fce467416",
+      "native_volume_mm3": 3551.999999999998,
+      "relative_volume_error": 3.279766006088567e-07
+    },
+    {
+      "body": "R hollow upper arm",
+      "file": "prototype_stl/47-r-hollow-upper-arm.stl",
+      "triangles": 128,
+      "bounds_mm": [
+        [
+          -122.55513763427734,
+          -18.729801177978516,
+          295.0096740722656
+        ],
+        [
+          -81.43778228759766,
+          17.096235275268555,
+          336.1080322265625
+        ]
+      ],
+      "dimensions_mm": [
+        41.11735534667969,
+        35.82603645324707,
+        41.098358154296875
+      ],
+      "signed_volume_mm3": 7471.378063550811,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "601de95e9af0e06b1a2205d9a58feed14b43f7b3f0ed353045ff811f677189ba",
+      "native_volume_mm3": 7471.385434766566,
+      "relative_volume_error": 9.865928908276872e-07
+    },
+    {
+      "body": "R upper arm faceplate",
+      "file": "prototype_stl/48-r-upper-arm-faceplate.stl",
+      "triangles": 44,
+      "bounds_mm": [
+        [
+          -114.44783782958984,
+          -25.872943878173828,
+          302.8351135253906
+        ],
+        [
+          -84.56713104248047,
+          -17.683868408203125,
+          332.0021667480469
+        ]
+      ],
+      "dimensions_mm": [
+        29.880706787109375,
+        8.189075469970703,
+        29.16705322265625
+      ],
+      "signed_volume_mm3": 1098.999903329106,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "1f2699d743fe85bce426b766e59a0f939daebddabda32fa5735165fae0461950",
+      "native_volume_mm3": 1098.9999999999993,
+      "relative_volume_error": 8.796259626863816e-08
+    },
+    {
+      "body": "R hollow forearm",
+      "file": "prototype_stl/49-r-hollow-forearm.stl",
+      "triangles": 128,
+      "bounds_mm": [
+        [
+          -159.2322235107422,
+          -35.47288513183594,
+          297.3550720214844
+        ],
+        [
+          -110.39114379882812,
+          5.04954719543457,
+          353.4897766113281
+        ]
+      ],
+      "dimensions_mm": [
+        48.84107971191406,
+        40.52243232727051,
+        56.13470458984375
+      ],
+      "signed_volume_mm3": 12379.559382686395,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "2faf8dbfce708b7ffd3bfc814a4d8a9d2f21e8ce2d4424efb634747b4288e2d4",
+      "native_volume_mm3": 12379.549359493221,
+      "relative_volume_error": 8.096573536482622e-07
+    },
+    {
+      "body": "R forearm faceplate",
+      "file": "prototype_stl/50-r-forearm-faceplate.stl",
+      "triangles": 44,
+      "bounds_mm": [
+        [
+          -147.21804809570312,
+          -39.86229705810547,
+          306.3247985839844
+        ],
+        [
+          -118.95728302001953,
+          -29.862504959106445,
+          336.7378234863281
+        ]
+      ],
+      "dimensions_mm": [
+        28.260765075683594,
+        9.999792098999023,
+        30.41302490234375
+      ],
+      "signed_volume_mm3": 1099.000386355126,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "078c5da5b2336d6bead24402fb35aea1e41bad8376b76a79681340284257f8e0",
+      "native_volume_mm3": 1099.0000000000014,
+      "relative_volume_error": 3.515515237914443e-07
+    },
+    {
+      "body": "R palm armor",
+      "file": "prototype_stl/51-r-palm-armor.stl",
+      "triangles": 44,
+      "bounds_mm": [
+        [
+          -166.62051391601562,
+          -44.18589401245117,
+          349.4465026855469
+        ],
+        [
+          -140.57286071777344,
+          -36.32067108154297,
+          373.3269958496094
+        ]
+      ],
+      "dimensions_mm": [
+        26.047653198242188,
+        7.865222930908203,
+        23.8804931640625
+      ],
+      "signed_volume_mm3": 1361.9991135140147,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "4fac4d8032c12700b2fde8ffd0f98b9954b960e95a88956535e1f6fd3d6dfa8b",
+      "native_volume_mm3": 1362.000000000001,
+      "relative_volume_error": 6.50870768176914e-07
+    },
+    {
+      "body": "R small claw -8",
+      "file": "prototype_stl/52-r-small-claw-8.stl",
+      "triangles": 44,
+      "bounds_mm": [
+        [
+          -174.50428771972656,
+          -47.003787994384766,
+          368.6867370605469
+        ],
+        [
+          -159.6455535888672,
+          -25.797727584838867,
+          395.94293212890625
+        ]
+      ],
+      "dimensions_mm": [
+        14.858734130859375,
+        21.2060604095459,
+        27.256195068359375
+      ],
+      "signed_volume_mm3": 3552.0020415463737,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "827752befbc62bf8b2bdc41862fa83b949d0ef7776bfb5242cb674f52c04fbac",
+      "native_volume_mm3": 3552.0,
+      "relative_volume_error": 5.747596772734722e-07
+    },
+    {
+      "body": "R small claw 8",
+      "file": "prototype_stl/53-r-small-claw-8.stl",
+      "triangles": 44,
+      "bounds_mm": [
+        [
+          -158.9820098876953,
+          -47.003787994384766,
+          372.56732177734375
+        ],
+        [
+          -144.12327575683594,
+          -25.797727584838867,
+          399.8235168457031
+        ]
+      ],
+      "dimensions_mm": [
+        14.858734130859375,
+        21.2060604095459,
+        27.256195068359375
+      ],
+      "signed_volume_mm3": 3552.000955243917,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "watertight": true,
+      "fits_256_mm_cube_bounds": true,
+      "sha256": "5df4e6c61927570ede7fe61b0f6b5a75598d7bd8f20412a45c271c4704288bbc",
+      "native_volume_mm3": 3552.000000000002,
+      "relative_volume_error": 2.6893128240051e-07
+    }
+  ],
+  "artifact_sha256": {
+    "percival-rev-d.polykrom": "961ff5f6b0cfce4357649d6e23340fa9c357dd589d764beeaf6bee9a2d56d57a",
+    "percival-rev-d.step": "7b817382722a3f332668aa226ddf64dca44dee32b9789f1d2aa4448429977739",
+    "build.json": "b47619d58a3a643023fbfadd9c53e48a1761f7c467c124676dad3cf31019f2ee"
+  },
+  "unverified": [
+    "minimum wall thickness across lofts",
+    "slicer toolpaths and supports",
+    "mounts, threads, fastener engagement and retention",
+    "motor choice, torque and complete packaging",
+    "assembly interferences and swept clearances",
+    "wiring, battery protection and thermal duty",
+    "rigidity, structural loads, whole-robot mass and balance",
+    "walking and powered hardware"
+  ]
+}

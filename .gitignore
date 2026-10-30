@@ -15,3 +15,9 @@ node_modules/
 *.pfx
 id_rsa
 id_ed25519
+*.polykrom.bak
+cad/rev-d/checkpoints/
+cad/rev-d/*-mcp*.json
+cad/rev-d/rebuild-result.json
+cad/rev-d/renders/head-stage.png
+!cad/rev-d/export-mcp.json

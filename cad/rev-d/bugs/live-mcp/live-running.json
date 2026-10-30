@@ -1,0 +1,15 @@
+[
+  {
+    "label": "running",
+    "tool": "running",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"running\": [\n    {\n      \"connection\": 12,\n      \"id\": 1,\n      \"method\": \"engine.batch\",\n      \"queued\": false,\n      \"running_s\": 146.7,\n      \"steps\": 186\n    }\n  ]\n}"
+        }
+      ],
+      "isError": false
+    }
+  }
+]

@@ -1,0 +1,489 @@
+{
+  "provenance": {
+    "source_path": "/Users/dearwolf/.t3/projects/percival/cad/rev-d/percival-rev-d.polykrom",
+    "source_sha256": "961ff5f6b0cfce4357649d6e23340fa9c357dd589d764beeaf6bee9a2d56d57a",
+    "source_size": 3220823,
+    "source_mtime_unix": 1793375803.304447,
+    "source_mtime_utc": "2026-10-30T15:56:43.304447+00:00",
+    "test_copy": "/tmp/percival-parameter-test.polykrom",
+    "copy_sha256": "961ff5f6b0cfce4357649d6e23340fa9c357dd589d764beeaf6bee9a2d56d57a",
+    "builder_sha256": "b47619d58a3a643023fbfadd9c53e48a1761f7c467c124676dad3cf31019f2ee",
+    "tested_at_utc": "2026-10-30T15:57:37.128297+00:00",
+    "previous_failed_report": "/tmp/percival-parameter-checks-before-ruled-fix.json",
+    "remedy": "Piecewise two-section ruled lofts joined, preserving strict nominal-dimension assertions.",
+    "server": {
+      "name": "solidcraft",
+      "title": "Polykrom",
+      "version": "0.21.0-rc.1"
+    },
+    "source_sha256_after": "961ff5f6b0cfce4357649d6e23340fa9c357dd589d764beeaf6bee9a2d56d57a",
+    "source_unchanged": true,
+    "finished_at_utc": "2026-10-30T15:58:21.911245+00:00"
+  },
+  "checks": [
+    {
+      "check": "neutral head baseline width mm",
+      "expected": 234,
+      "actual": 234.00000000000074,
+      "absolute_tolerance": 1e-06,
+      "max_abs_error": 7.389644451905042e-13,
+      "pass": true
+    },
+    {
+      "check": "neutral head changed width mm",
+      "expected": 244,
+      "actual": 244.00000000000045,
+      "absolute_tolerance": 1e-06,
+      "max_abs_error": 4.547473508864641e-13,
+      "pass": true
+    },
+    {
+      "check": "width parameter response mm",
+      "expected": 10,
+      "actual": 9.999999999999716,
+      "absolute_tolerance": 1e-06,
+      "max_abs_error": 2.8421709430404007e-13,
+      "pass": true
+    },
+    {
+      "check": "restored pose bbox min mm",
+      "expected": [
+        -122.95270430317778,
+        -75.73628947009897,
+        372.1998819931806
+      ],
+      "actual": [
+        -122.95270430317778,
+        -75.73628947009897,
+        372.1998819931806
+      ],
+      "absolute_tolerance": 1e-06,
+      "max_abs_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "restored pose bbox max mm",
+      "expected": [
+        118.31009954025473,
+        62.40975319809111,
+        505.5757355783568
+      ],
+      "actual": [
+        118.31009954025473,
+        62.40975319809111,
+        505.5757355783568
+      ],
+      "absolute_tolerance": 1e-06,
+      "max_abs_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "restored pose volume mm3",
+      "expected": 185442.91237721965,
+      "actual": 185442.91237721965,
+      "absolute_tolerance": 0.0001,
+      "max_abs_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "head_z shift bbox min mm",
+      "expected": [
+        -122.95270430317778,
+        -75.73628947009897,
+        382.1998819931806
+      ],
+      "actual": [
+        -122.95270430317778,
+        -75.73628947009897,
+        382.1998819931806
+      ],
+      "absolute_tolerance": 1e-06,
+      "max_abs_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "head_z shift bbox max mm",
+      "expected": [
+        118.31009954025473,
+        62.40975319809111,
+        515.5757355783568
+      ],
+      "actual": [
+        118.31009954025473,
+        62.40975319809111,
+        515.5757355783568
+      ],
+      "absolute_tolerance": 1e-06,
+      "max_abs_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "head_z shift COM mm",
+      "expected": [
+        0.1653987785491158,
+        -6.9822348269165335,
+        447.8944815490995
+      ],
+      "actual": [
+        0.16539877854919616,
+        -6.98223482691656,
+        447.89448154909957
+      ],
+      "absolute_tolerance": 1e-06,
+      "max_abs_error": 8.03523914072457e-14,
+      "pass": true
+    },
+    {
+      "check": "final restored bbox min mm",
+      "expected": [
+        -122.95270430317778,
+        -75.73628947009897,
+        372.1998819931806
+      ],
+      "actual": [
+        -122.95270430317778,
+        -75.73628947009897,
+        372.1998819931806
+      ],
+      "absolute_tolerance": 1e-06,
+      "max_abs_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "final restored bbox max mm",
+      "expected": [
+        118.31009954025473,
+        62.40975319809111,
+        505.5757355783568
+      ],
+      "actual": [
+        118.31009954025473,
+        62.40975319809111,
+        505.5757355783568
+      ],
+      "absolute_tolerance": 1e-06,
+      "max_abs_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "final restored COM mm",
+      "expected": [
+        0.1653987785491158,
+        -6.9822348269165335,
+        437.8944815490995
+      ],
+      "actual": [
+        0.1653987785491158,
+        -6.9822348269165335,
+        437.8944815490995
+      ],
+      "absolute_tolerance": 1e-06,
+      "max_abs_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "final restored volume mm3",
+      "expected": 185442.91237721965,
+      "actual": 185442.91237721965,
+      "absolute_tolerance": 0.0001,
+      "max_abs_error": 0.0,
+      "pass": true
+    }
+  ],
+  "quality_gates": [
+    {
+      "label": "01-reopened-quality",
+      "checks": [
+        {
+          "detail": "18 parameter(s) resolve to finite values",
+          "id": "parameters",
+          "status": "pass"
+        },
+        {
+          "detail": "no active feature errors",
+          "id": "timeline",
+          "status": "pass"
+        },
+        {
+          "detail": "115 sketch(es) fully constrained",
+          "id": "sketches",
+          "status": "pass"
+        },
+        {
+          "detail": "524 body(ies) measure cleanly",
+          "id": "bodies",
+          "status": "pass"
+        }
+      ],
+      "counts": {
+        "bodies": 524,
+        "parameters": 18,
+        "sketches": 115
+      },
+      "hard_failures": [],
+      "note": "A pass covers these structural checks only. It is not a proof of geometric correctness, tolerance, strength or safety.",
+      "score": 100,
+      "verdict": "pass",
+      "warnings": []
+    },
+    {
+      "label": "05-neutral-quality",
+      "checks": [
+        {
+          "detail": "18 parameter(s) resolve to finite values",
+          "id": "parameters",
+          "status": "pass"
+        },
+        {
+          "detail": "no active feature errors",
+          "id": "timeline",
+          "status": "pass"
+        },
+        {
+          "detail": "115 sketch(es) fully constrained",
+          "id": "sketches",
+          "status": "pass"
+        },
+        {
+          "detail": "524 body(ies) measure cleanly",
+          "id": "bodies",
+          "status": "pass"
+        }
+      ],
+      "counts": {
+        "bodies": 524,
+        "parameters": 18,
+        "sketches": 115
+      },
+      "hard_failures": [],
+      "note": "A pass covers these structural checks only. It is not a proof of geometric correctness, tolerance, strength or safety.",
+      "score": 100,
+      "verdict": "pass",
+      "warnings": []
+    },
+    {
+      "label": "08-wide-quality",
+      "checks": [
+        {
+          "detail": "18 parameter(s) resolve to finite values",
+          "id": "parameters",
+          "status": "pass"
+        },
+        {
+          "detail": "no active feature errors",
+          "id": "timeline",
+          "status": "pass"
+        },
+        {
+          "detail": "115 sketch(es) fully constrained",
+          "id": "sketches",
+          "status": "pass"
+        },
+        {
+          "detail": "524 body(ies) measure cleanly",
+          "id": "bodies",
+          "status": "pass"
+        }
+      ],
+      "counts": {
+        "bodies": 524,
+        "parameters": 18,
+        "sketches": 115
+      },
+      "hard_failures": [],
+      "note": "A pass covers these structural checks only. It is not a proof of geometric correctness, tolerance, strength or safety.",
+      "score": 100,
+      "verdict": "pass",
+      "warnings": []
+    },
+    {
+      "label": "11-restored-pose-quality",
+      "checks": [
+        {
+          "detail": "18 parameter(s) resolve to finite values",
+          "id": "parameters",
+          "status": "pass"
+        },
+        {
+          "detail": "no active feature errors",
+          "id": "timeline",
+          "status": "pass"
+        },
+        {
+          "detail": "115 sketch(es) fully constrained",
+          "id": "sketches",
+          "status": "pass"
+        },
+        {
+          "detail": "524 body(ies) measure cleanly",
+          "id": "bodies",
+          "status": "pass"
+        }
+      ],
+      "counts": {
+        "bodies": 524,
+        "parameters": 18,
+        "sketches": 115
+      },
+      "hard_failures": [],
+      "note": "A pass covers these structural checks only. It is not a proof of geometric correctness, tolerance, strength or safety.",
+      "score": 100,
+      "verdict": "pass",
+      "warnings": []
+    },
+    {
+      "label": "14-raised-quality",
+      "checks": [
+        {
+          "detail": "18 parameter(s) resolve to finite values",
+          "id": "parameters",
+          "status": "pass"
+        },
+        {
+          "detail": "no active feature errors",
+          "id": "timeline",
+          "status": "pass"
+        },
+        {
+          "detail": "115 sketch(es) fully constrained",
+          "id": "sketches",
+          "status": "pass"
+        },
+        {
+          "detail": "524 body(ies) measure cleanly",
+          "id": "bodies",
+          "status": "pass"
+        }
+      ],
+      "counts": {
+        "bodies": 524,
+        "parameters": 18,
+        "sketches": 115
+      },
+      "hard_failures": [],
+      "note": "A pass covers these structural checks only. It is not a proof of geometric correctness, tolerance, strength or safety.",
+      "score": 100,
+      "verdict": "pass",
+      "warnings": []
+    },
+    {
+      "label": "17-final-restored-quality",
+      "checks": [
+        {
+          "detail": "18 parameter(s) resolve to finite values",
+          "id": "parameters",
+          "status": "pass"
+        },
+        {
+          "detail": "no active feature errors",
+          "id": "timeline",
+          "status": "pass"
+        },
+        {
+          "detail": "115 sketch(es) fully constrained",
+          "id": "sketches",
+          "status": "pass"
+        },
+        {
+          "detail": "524 body(ies) measure cleanly",
+          "id": "bodies",
+          "status": "pass"
+        }
+      ],
+      "counts": {
+        "bodies": 524,
+        "parameters": 18,
+        "sketches": 115
+      },
+      "hard_failures": [],
+      "note": "A pass covers these structural checks only. It is not a proof of geometric correctness, tolerance, strength or safety.",
+      "score": 100,
+      "verdict": "pass",
+      "warnings": []
+    }
+  ],
+  "timings": [
+    {
+      "label": "initialize",
+      "seconds": 0.15525524993427098
+    },
+    {
+      "label": "01-reopened-quality",
+      "seconds": 6.069546959013678
+    },
+    {
+      "label": "02-original-posed-head",
+      "seconds": 0.0028468749951571226
+    },
+    {
+      "label": "03-neutral-pose",
+      "seconds": 1.4445207079406828
+    },
+    {
+      "label": "04-neutral-baseline-head",
+      "seconds": 0.008719333913177252
+    },
+    {
+      "label": "05-neutral-quality",
+      "seconds": 6.213278207927942
+    },
+    {
+      "label": "06-width-244",
+      "seconds": 1.1836667089955881
+    },
+    {
+      "label": "07-width-244-head",
+      "seconds": 0.0033318749628961086
+    },
+    {
+      "label": "08-wide-quality",
+      "seconds": 6.456824625027366
+    },
+    {
+      "label": "09-restore-pose-width",
+      "seconds": 1.094903042074293
+    },
+    {
+      "label": "10-restored-posed-head",
+      "seconds": 0.006265709060244262
+    },
+    {
+      "label": "11-restored-pose-quality",
+      "seconds": 6.204847958986647
+    },
+    {
+      "label": "12-head-raised",
+      "seconds": 1.0340167499380186
+    },
+    {
+      "label": "13-raised-head",
+      "seconds": 0.006134083028882742
+    },
+    {
+      "label": "14-raised-quality",
+      "seconds": 6.666055624955334
+    },
+    {
+      "label": "15-restore-head-z",
+      "seconds": 1.0837235409999266
+    },
+    {
+      "label": "16-final-restored-head",
+      "seconds": 0.003495209035463631
+    },
+    {
+      "label": "17-final-restored-quality",
+      "seconds": 6.319015249959193
+    },
+    {
+      "label": "18-final-state",
+      "seconds": 0.006412665941752493
+    },
+    {
+      "label": "19-save-restored-test-copy",
+      "seconds": 0.7072882499778643
+    }
+  ],
+  "all_pass": true,
+  "note": "Quality covers structural validity only; no fit, strength, electronics, locomotion or manufacturing release is established."
+}

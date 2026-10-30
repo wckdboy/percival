@@ -1,0 +1,40 @@
+{
+  "release": "v0.21.0-rc.1",
+  "prerelease": true,
+  "release_url": "https://github.com/WCKDai/polykrom/releases/tag/v0.21.0-rc.1",
+  "download_verification": [
+    {
+      "path": "/Users/dearwolf/Downloads/Polykrom-v0.21.0-rc.1/solidcraft-0.21.0-rc.1-macos-universal.dmg",
+      "sha256": "d32da0aa6a67c1e3f4f14229656b6c1ccdd7f1f6a2aad2db3239257d13488bc4",
+      "bytes": 141058463,
+      "verified": true
+    },
+    {
+      "path": "/Users/dearwolf/Downloads/Polykrom-v0.21.0-rc.1/solidcraft-cli-0.21.0-rc.1-macos-universal.zip",
+      "sha256": "33fadf073f6f921b582f099578f09c6b6d733523cc9dd41015f79d8f4f32bd86",
+      "bytes": 57591721,
+      "verified": true
+    }
+  ],
+  "installed_path": "/Applications/Polykrom 0.21.0-rc.1.app",
+  "cli_version": "polykrom-cli 0.21.0-rc.1",
+  "cli_sha256": "4b38d04e020a9677f578c314522be94b56e7c6824f2b95c4a02056aa794e2fce",
+  "installed_bundle_matches_mounted_release": true,
+  "matching_bundle_files": 13,
+  "original_app_preserved": true,
+  "latest_app_launch": "succeeded",
+  "mcp": {
+    "name": "polykrom-percival",
+    "transport": "stdio",
+    "connect": "127.0.0.1:27879",
+    "allow_path": "project cad/ directory",
+    "initialize_and_modeling": "verified"
+  },
+  "codesign_strict": {
+    "status": "FAIL",
+    "source": "reproduced on original mounted DMG and copied app",
+    "message": "resource fork, Finder information, or similar detritus not allowed; in polykrom-cli",
+    "attribute": "com.apple.FinderInfo",
+    "security_bypass_performed": false
+  }
+}

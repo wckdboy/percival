@@ -1,0 +1,46 @@
+{
+  "source_response": "/tmp/percival-param-raw/19-18-final-state.json",
+  "checks": [
+    {
+      "parameter": "head_w",
+      "expected": 234,
+      "actual": 234.0,
+      "expression": "234 mm",
+      "error": null,
+      "pass": true
+    },
+    {
+      "parameter": "head_z",
+      "expected": 438,
+      "actual": 438.0,
+      "expression": "438 mm",
+      "error": null,
+      "pass": true
+    },
+    {
+      "parameter": "head_pitch",
+      "expected": -0.05235987755982989,
+      "actual": -0.05235987755982989,
+      "expression": "-3 deg",
+      "error": null,
+      "pass": true
+    },
+    {
+      "parameter": "head_roll",
+      "expected": 0.10471975511965978,
+      "actual": 0.10471975511965978,
+      "expression": "6 deg",
+      "error": null,
+      "pass": true
+    },
+    {
+      "parameter": "head_yaw",
+      "expected": -0.08726646259971647,
+      "actual": -0.08726646259971647,
+      "expression": "-5 deg",
+      "error": null,
+      "pass": true
+    }
+  ],
+  "all_pass": true
+}

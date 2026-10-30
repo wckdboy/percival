@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Percival Rev D — parametric CAD</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:var(--font-sans,system-ui);color:var(--foreground,#20232c)}
+nav{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+button{font:inherit;font-size:13px;padding:8px 14px;border:1px solid var(--border,#d6d9e2);border-radius:var(--radius,10px);background:var(--secondary,#f1f2f6);color:var(--foreground,#20232c);cursor:pointer}
+button[aria-pressed=true]{background:var(--primary,#72558e);color:var(--primary-foreground,#fff);border-color:var(--primary,#72558e)}
+nav span{margin-left:auto;font-size:12px;color:var(--muted-foreground,#687080)}
+.image{display:grid;place-items:center;border-radius:var(--radius,12px);overflow:hidden;background:var(--card,#f0f0f6)}
+.image img{display:block;max-width:100%;width:auto;height:600px;object-fit:contain}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}
+.stat{padding:16px;border-radius:var(--radius,12px);background:var(--card,#f3f4f7)}
+.stat b{display:block;font-size:23px;font-weight:650;letter-spacing:-.5px}.stat span{font-size:12px;color:var(--muted-foreground,#687080)}
+p{font-size:13px;line-height:1.6;margin:14px 0 0;color:var(--muted-foreground,#687080)}
+@media(max-width:480px){.image img{height:460px}.stats{gap:6px}.stat{padding:12px}.stat b{font-size:20px}nav span{display:none}}
+</style>
+<nav aria-label="CAD views">
+<button aria-pressed="true" data-view="hero">Three-quarter</button>
+<button aria-pressed="false" data-view="front">Front</button>
+<button aria-pressed="false" data-view="side">Side</button>
+<button aria-pressed="false" data-view="top">Top</button>
+<span>Rev D · Polykrom CAD</span>
+</nav>
+<div class="image">
+<img id="hero" src="cad/rev-d/renders/percival-cad-hero.png" alt="Percival Rev D CAD model, cream and purple biped with a large head and waving hand">
+<img id="front" src="cad/rev-d/renders/percival-cad-front.png" alt="Front CAD view" hidden>
+<img id="side" src="cad/rev-d/renders/percival-cad-side.png" alt="Side CAD view" hidden>
+<img id="top" src="cad/rev-d/renders/percival-cad-top.png" alt="Top CAD view" hidden>
+</div>
+<div class="stats">
+<div class="stat"><b>547 mm</b><span>Overall posed height</span></div>
+<div class="stat"><b>18</b><span>Editable parameters</span></div>
+<div class="stat"><b>53</b><span>Prototype STL parts</span></div>
+</div>
+<p>Native feature history, hollow enclosures, separate panels and STEP solids. Parameter changes, native reopen, STEP round trip and mesh topology checked. Mounts, hardware integration and walking remain unverified.</p>
+<script>
+for(const b of document.querySelectorAll('button'))b.addEventListener('click',()=>{
+ for(const other of document.querySelectorAll('button'))other.setAttribute('aria-pressed',String(other===b));
+ for(const img of document.querySelectorAll('.image img'))img.hidden=img.id!==b.dataset.view;
+});
+</script>
+<style>.image img[hidden]{display:none}</style>
+</html>

@@ -1,0 +1,219 @@
+{
+  "status": "PROTOTYPE GEOMETRY - NOT PRINT RELEASE",
+  "units": "mm",
+  "assembly_pose": true,
+  "parts": [
+    {
+      "body": "H01 hollow head shell",
+      "file": "prototype_stl/01-h01-hollow-head-shell.stl"
+    },
+    {
+      "body": "H02 face frame",
+      "file": "prototype_stl/02-h02-face-frame.stl"
+    },
+    {
+      "body": "H03 rear service lid",
+      "file": "prototype_stl/03-h03-rear-service-lid.stl"
+    },
+    {
+      "body": "H04 black faceplate",
+      "file": "prototype_stl/04-h04-black-faceplate.stl"
+    },
+    {
+      "body": "H05 ear fin -1",
+      "file": "prototype_stl/05-h05-ear-fin-1.stl"
+    },
+    {
+      "body": "H05 ear fin 1",
+      "file": "prototype_stl/06-h05-ear-fin-1.stl"
+    },
+    {
+      "body": "H06 crown hatch",
+      "file": "prototype_stl/07-h06-crown-hatch.stl"
+    },
+    {
+      "body": "T01 hollow torso",
+      "file": "prototype_stl/08-t01-hollow-torso.stl"
+    },
+    {
+      "body": "T02 chest cheek -1",
+      "file": "prototype_stl/09-t02-chest-cheek-1.stl"
+    },
+    {
+      "body": "T02 chest cheek 1",
+      "file": "prototype_stl/10-t02-chest-cheek-1.stl"
+    },
+    {
+      "body": "T03 purple service spine",
+      "file": "prototype_stl/11-t03-purple-service-spine.stl"
+    },
+    {
+      "body": "T04 hollow pelvic pod",
+      "file": "prototype_stl/12-t04-hollow-pelvic-pod.stl"
+    },
+    {
+      "body": "T05 pelvis access hatch",
+      "file": "prototype_stl/13-t05-pelvis-access-hatch.stl"
+    },
+    {
+      "body": "T06 hollow battery backpack",
+      "file": "prototype_stl/14-t06-hollow-battery-backpack.stl"
+    },
+    {
+      "body": "T07 rear backpack hatch",
+      "file": "prototype_stl/15-t07-rear-backpack-hatch.stl"
+    },
+    {
+      "body": "L01 hollow thigh",
+      "file": "prototype_stl/16-l01-hollow-thigh.stl"
+    },
+    {
+      "body": "L02 thigh panel",
+      "file": "prototype_stl/17-l02-thigh-panel.stl"
+    },
+    {
+      "body": "L03 purple kneecap",
+      "file": "prototype_stl/18-l03-purple-kneecap.stl"
+    },
+    {
+      "body": "L04 hollow shin",
+      "file": "prototype_stl/19-l04-hollow-shin.stl"
+    },
+    {
+      "body": "L05 shin rail -19",
+      "file": "prototype_stl/20-l05-shin-rail-19.stl"
+    },
+    {
+      "body": "L05 shin rail 19",
+      "file": "prototype_stl/21-l05-shin-rail-19.stl"
+    },
+    {
+      "body": "L06 rubber sole",
+      "file": "prototype_stl/22-l06-rubber-sole.stl"
+    },
+    {
+      "body": "L boot midsole gasket",
+      "file": "prototype_stl/23-l-boot-midsole-gasket.stl"
+    },
+    {
+      "body": "L07 hollow boot",
+      "file": "prototype_stl/24-l07-hollow-boot.stl"
+    },
+    {
+      "body": "L boot toe cap",
+      "file": "prototype_stl/25-l-boot-toe-cap.stl"
+    },
+    {
+      "body": "L boot heel cap",
+      "file": "prototype_stl/26-l-boot-heel-cap.stl"
+    },
+    {
+      "body": "L08 purple instep hatch",
+      "file": "prototype_stl/27-l08-purple-instep-hatch.stl"
+    },
+    {
+      "body": "R01 hollow thigh",
+      "file": "prototype_stl/28-r01-hollow-thigh.stl"
+    },
+    {
+      "body": "R02 thigh panel",
+      "file": "prototype_stl/29-r02-thigh-panel.stl"
+    },
+    {
+      "body": "R03 purple kneecap",
+      "file": "prototype_stl/30-r03-purple-kneecap.stl"
+    },
+    {
+      "body": "R04 hollow shin",
+      "file": "prototype_stl/31-r04-hollow-shin.stl"
+    },
+    {
+      "body": "R05 shin rail -19",
+      "file": "prototype_stl/32-r05-shin-rail-19.stl"
+    },
+    {
+      "body": "R05 shin rail 19",
+      "file": "prototype_stl/33-r05-shin-rail-19.stl"
+    },
+    {
+      "body": "R06 rubber sole",
+      "file": "prototype_stl/34-r06-rubber-sole.stl"
+    },
+    {
+      "body": "R boot midsole gasket",
+      "file": "prototype_stl/35-r-boot-midsole-gasket.stl"
+    },
+    {
+      "body": "R07 hollow boot",
+      "file": "prototype_stl/36-r07-hollow-boot.stl"
+    },
+    {
+      "body": "R boot toe cap",
+      "file": "prototype_stl/37-r-boot-toe-cap.stl"
+    },
+    {
+      "body": "R boot heel cap",
+      "file": "prototype_stl/38-r-boot-heel-cap.stl"
+    },
+    {
+      "body": "R08 purple instep hatch",
+      "file": "prototype_stl/39-r08-purple-instep-hatch.stl"
+    },
+    {
+      "body": "L hollow upper arm",
+      "file": "prototype_stl/40-l-hollow-upper-arm.stl"
+    },
+    {
+      "body": "L upper arm faceplate",
+      "file": "prototype_stl/41-l-upper-arm-faceplate.stl"
+    },
+    {
+      "body": "L hollow forearm",
+      "file": "prototype_stl/42-l-hollow-forearm.stl"
+    },
+    {
+      "body": "L forearm faceplate",
+      "file": "prototype_stl/43-l-forearm-faceplate.stl"
+    },
+    {
+      "body": "L palm armor",
+      "file": "prototype_stl/44-l-palm-armor.stl"
+    },
+    {
+      "body": "L small claw -8",
+      "file": "prototype_stl/45-l-small-claw-8.stl"
+    },
+    {
+      "body": "L small claw 8",
+      "file": "prototype_stl/46-l-small-claw-8.stl"
+    },
+    {
+      "body": "R hollow upper arm",
+      "file": "prototype_stl/47-r-hollow-upper-arm.stl"
+    },
+    {
+      "body": "R upper arm faceplate",
+      "file": "prototype_stl/48-r-upper-arm-faceplate.stl"
+    },
+    {
+      "body": "R hollow forearm",
+      "file": "prototype_stl/49-r-hollow-forearm.stl"
+    },
+    {
+      "body": "R forearm faceplate",
+      "file": "prototype_stl/50-r-forearm-faceplate.stl"
+    },
+    {
+      "body": "R palm armor",
+      "file": "prototype_stl/51-r-palm-armor.stl"
+    },
+    {
+      "body": "R small claw -8",
+      "file": "prototype_stl/52-r-small-claw-8.stl"
+    },
+    {
+      "body": "R small claw 8",
+      "file": "prototype_stl/53-r-small-claw-8.stl"
+    }
+  ]
+}

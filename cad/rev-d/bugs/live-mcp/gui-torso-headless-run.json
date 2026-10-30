@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/Applications/Polykrom 0.21.0-rc.1.app/Contents/MacOS/polykrom-cli",
+    "run",
+    "/tmp/percival-polykrom-issue-drafts/gui-torso-186-commands.json",
+    "--in",
+    "/Users/dearwolf/.t3/projects/percival/cad/rev-d/checkpoints/01_head.polykrom",
+    "--results",
+    "--timings",
+    "--json-out",
+    "/tmp/percival-polykrom-issue-drafts/gui-torso-headless-result.json"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 0.7500330420443788,
+  "stdout": "",
+  "stderr": ""
+}

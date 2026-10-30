@@ -1,0 +1,23 @@
+{
+  "reports": [
+    {
+      "repository": "WCKDai/polycore",
+      "issue": 21,
+      "url": "https://github.com/WCKDai/polycore/issues/21#issuecomment-6527228214",
+      "finding": "Multi-section loft is smooth despite documented ruled behavior; added measured reproduction and verified workaround"
+    },
+    {
+      "repository": "WCKDai/polykrom",
+      "issue": 302,
+      "url": "https://github.com/WCKDai/polykrom/issues/302",
+      "finding": "Official macOS DMG fails strict signature verification from FinderInfo on bundled CLI"
+    }
+  ],
+  "pending": [
+    "Live MCP latency issue; fixture publication in progress"
+  ],
+  "not_bugs": [
+    "Constant-expression numeric sketch points are intentionally free per source tests",
+    "Missing dielectric_ior and expression-valued explicit plane origin were caller API errors"
+  ]
+}

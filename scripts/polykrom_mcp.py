@@ -15,6 +15,16 @@ from mcp import ClientSession, StdioServerParameters
 from mcp.client.stdio import stdio_client
 
 
+async def call_until_complete(session, tool, arguments):
+    """Keep the connection and wait for a timed-out operation; never resend it."""
+    result=await session.call_tool(tool,arguments)
+    while result.isError and any(getattr(c,'text','').startswith('still running:')
+                                 for c in result.content):
+        print('Operation still running; waiting through MCP pending (no resend)',flush=True)
+        result=await session.call_tool('pending',{})
+    return result
+
+
 async def run(args):
     root=Path(__file__).resolve().parents[1]
     cli=args.cli or os.environ.get('POLYKROM_CLI','polykrom-cli')
@@ -32,7 +42,7 @@ async def run(args):
             for index,req in enumerate(requests):
                 label=req.get('label',req['tool'])
                 print(f'{index+1}/{len(requests)} {label}',flush=True)
-                result=await session.call_tool(req['tool'],req.get('arguments',{}))
+                result=await call_until_complete(session,req['tool'],req.get('arguments',{}))
                 # Image data stays in PNG files; evidence contains text and metadata.
                 data=result.model_dump(mode='json',exclude_none=True)
                 data['content']=[c for c in data.get('content',[]) if c.get('type')!='image']

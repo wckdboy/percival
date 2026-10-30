@@ -68,3 +68,5 @@ python3 scripts/build_rev_d_cad.py
 [build.json](build.json) contains all 1,123 engine commands; [stages.json](stages.json) groups them for MCP batches. The generator is [build_rev_d_cad.py](../../scripts/build_rev_d_cad.py). [polykrom_mcp.py](../../scripts/polykrom_mcp.py) runs request lists through the official MCP using the Python `mcp` package. It treats a failed quality verdict as a failure even when the transport reports a successful tool call.
 
 Exporting again after a parameter change is required; STL and STEP files do not update automatically. Preserve the current `.polykrom` first when experimenting. Git history and the untouched Rev C/D Blender files are the rollback path.
+
+Upstream findings were reported: [live MCP latency, Polykrom #303](https://github.com/WCKDai/polykrom/issues/303), [release bundle signature verification, Polykrom #302](https://github.com/WCKDai/polykrom/issues/302), and [additional ruled-loft evidence on Polycore #21](https://github.com/WCKDai/polycore/issues/21#issuecomment-6527228214). The live-performance issue links an exact, pinned reproduction fixture in this repository.

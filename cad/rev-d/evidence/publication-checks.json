@@ -28,6 +28,10 @@
     {
       "command": "SHA-256 comparison of approved Rev C, original Rev C and Rev D Blender files",
       "result": "PASS: all unchanged"
+    },
+    {
+      "command": "Isolated async fake-session regression for scripts/polykrom_mcp.py call_until_complete",
+      "result": "PASS: execute sent once, two pending waits, ordinary errors not retried; Python compilation also passed"
     }
   ],
   "baseline": "Earlier artifact check and Python compilation passed before CAD edits.",

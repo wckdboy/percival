@@ -11,11 +11,16 @@
       "issue": 302,
       "url": "https://github.com/WCKDai/polykrom/issues/302",
       "finding": "Official macOS DMG fails strict signature verification from FinderInfo on bundled CLI"
+    },
+    {
+      "repository": "WCKDai/polykrom",
+      "issue": 303,
+      "url": "https://github.com/WCKDai/polykrom/issues/303",
+      "finding": "Live MCP batch/camera calls delayed minutes relative to identical subsecond headless stage",
+      "fixture_commit": "71f67f6a70c293555f153003313501013a9c8a05"
     }
   ],
-  "pending": [
-    "Live MCP latency issue; fixture publication in progress"
-  ],
+  "pending": [],
   "not_bugs": [
     "Constant-expression numeric sketch points are intentionally free per source tests",
     "Missing dielectric_ior and expression-valued explicit plane origin were caller API errors"

@@ -1,0 +1,27 @@
+{
+  "scope": "Initial project publication including Rev C and D, approved checkpoints, renders, scripts and source references",
+  "checks": {
+    "artifact_integrity": "python3 scripts/check_artifacts.py: PASS; 35 STL/3MF pairs and 59 pinned source hashes",
+    "python_compile": "python3 -m py_compile scripts/*.py: PASS",
+    "rev_c": "evidence/publish-check-rev-c.json",
+    "rev_d": "evidence/publish-check-rev-d.json",
+    "gitleaks": "gitleaks git --pre-commit --staged --redact: PASS; no findings",
+    "full_staged_diff_check": {
+      "status": "PRE-EXISTING UPSTREAM WHITESPACE",
+      "finding_count": 137,
+      "files": [
+        "reference/toddlerbot/README.md",
+        "reference/toddlerbot/docs/hardware/01_bill_of_materials.rst",
+        "reference/toddlerbot/docs/hardware/03_3d_printing.rst",
+        "reference/toddlerbot/docs/hardware/04_assembly_manual.rst",
+        "reference/toddlerbot/published_bom_2026-10-30.csv"
+      ],
+      "handling": "Retained source bytes unchanged to preserve provenance. No assertions or whitespace settings changed."
+    },
+    "project_owned_diff_check": "git diff --cached --check -- . ':!reference/toddlerbot': PASS",
+    "engineering_kit": "Unavailable; not installed"
+  },
+  "large_files": "Blender, STL and 3MF files stored with Git LFS",
+  "excluded_files": "Existing ignore rules omit caches, Blender automatic backups, old working checkpoints and duplicate deliverable ZIPs. Named first-pass and approved revision files are retained.",
+  "physical_validation": "Unverified; repository publication is not a build or locomotion release."
+}

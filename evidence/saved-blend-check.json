@@ -1,0 +1,20 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"status\": \"PASS\",\n  \"saved_file\": \"/Users/dearwolf/.t3/projects/percival/design/percival.blend\",\n  \"custom_parts\": 35,\n  \"source_meshes\": 51,\n  \"packed_images\": 3,\n  \"original_scene_retained\": true\n}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": {
+    "status": "PASS",
+    "saved_file": "/Users/dearwolf/.t3/projects/percival/design/percival.blend",
+    "custom_parts": 35,
+    "source_meshes": 51,
+    "packed_images": 3,
+    "original_scene_retained": true
+  },
+  "isError": false
+}

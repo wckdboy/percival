@@ -1,0 +1,46 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"status\": \"ok\",\n  \"result\": {\n    \"scene\": \"Percival \u2022 engineering assembly\",\n    \"mesh_count\": 51,\n    \"saved\": \"/Users/dearwolf/.t3/projects/percival/design/percival.blend\",\n    \"head\": {\n      \"min_mm\": [\n        -51.5,\n        -23.992,\n        448.969\n      ],\n      \"max_mm\": [\n        52.5,\n        46.008,\n        537.469\n      ]\n    },\n    \"torso\": {\n      \"min_mm\": [\n        -68.9,\n        -25.492,\n        310.301\n      ],\n      \"max_mm\": [\n        68.9,\n        115.508,\n        439.053\n      ]\n    },\n    \"height_mm\": 537.469\n  },\n  \"stdout\": \"Info: Saved as \\\"percival.blend\\\"\\n\"\n}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": {
+    "status": "ok",
+    "result": {
+      "scene": "Percival \u2022 engineering assembly",
+      "mesh_count": 51,
+      "saved": "/Users/dearwolf/.t3/projects/percival/design/percival.blend",
+      "head": {
+        "min_mm": [
+          -51.5,
+          -23.992,
+          448.969
+        ],
+        "max_mm": [
+          52.5,
+          46.008,
+          537.469
+        ]
+      },
+      "torso": {
+        "min_mm": [
+          -68.9,
+          -25.492,
+          310.301
+        ],
+        "max_mm": [
+          68.9,
+          115.508,
+          439.053
+        ]
+      },
+      "height_mm": 537.469
+    },
+    "stdout": "Info: Saved as \"percival.blend\"\n"
+  },
+  "isError": false
+}

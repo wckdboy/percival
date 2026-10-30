@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Percival — Rev A model review</title>
+<style>
+*{box-sizing:border-box}body{margin:0;color:var(--foreground);font-family:var(--font-sans,system-ui)}
+.tabs{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 12px}button{font:inherit;font-size:13px;border:1px solid var(--border);border-radius:var(--radius,8px);padding:8px 14px;cursor:pointer;background:var(--secondary);color:var(--foreground)}button[aria-selected="true"]{background:var(--primary);color:var(--primary-foreground)}
+figure{margin:0;display:none}figure.active{display:block}.model{display:block;width:100%;height:560px;object-fit:contain;border-radius:var(--radius,12px)}
+figcaption{font-size:12px;line-height:1.5;color:var(--muted-foreground);margin-top:10px}.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:16px}.fact{background:var(--card);border-radius:var(--radius,10px);padding:16px}.number{font-size:23px;font-weight:650;letter-spacing:-.6px}.label{font-size:12px;color:var(--muted-foreground);line-height:1.5;margin-top:4px}.note{font-size:13px;line-height:1.6;margin:16px 0 0;color:var(--muted-foreground)}
+@media(max-width:480px){.model{height:450px}.fact{padding:12px}.number{font-size:20px}.tabs{gap:5px}button{padding:7px 10px}}
+</style></head><body>
+<nav class="tabs" role="tablist" aria-label="Robot views">
+<button role="tab" aria-selected="true" data-view="assembly">Assembly</button><button role="tab" aria-selected="false" data-view="front">Front</button><button role="tab" aria-selected="false" data-view="side">Side</button><button role="tab" aria-selected="false" data-view="top">Top</button><button role="tab" aria-selected="false" data-view="cutaway">Inside</button>
+</nav>
+<figure id="assembly" class="active"><img class="model" src="renders/percival-hero.png" alt="Percival cream and violet robot around actual ToddlerBot hardware, three quarter view"><figcaption>Rev A · Blender model with real chassis geometry and custom removable skins. Optical barrels are dimensional allowances.</figcaption></figure>
+<figure id="front"><img class="model" src="renders/percival-front.png" alt="Orthographic front view of Percival"><figcaption>Front · 594 mm high in the source neutral pose. The original chassis dimensions and foot contact geometry are preserved.</figcaption></figure>
+<figure id="side"><img class="model" src="renders/percival-side.png" alt="Orthographic side view showing head depth and real articulated chassis"><figcaption>Side · The mechanism remains accessible. Final strap routing, head retention and cable clearances need physical fitting.</figcaption></figure>
+<figure id="top"><img class="model" src="renders/percival-top.png" alt="Orthographic top view of the robot"><figcaption>Top · A 236 × 108 mm main head enclosure. The side pods and fins are passive decorations.</figcaption></figure>
+<figure id="cutaway"><img class="model" src="renders/percival-cutaway.png" alt="Cutaway illustration with face and selected body panels removed to reveal the source mechanism"><figcaption>Inside · Panels are hidden for inspection. Camera depth and the final neck-to-shell attachment are not yet physically validated.</figcaption></figure>
+<div class="facts"><div class="fact"><div class="number">594 mm</div><div class="label">Neutral height<br>600 mm limit</div></div><div class="fact"><div class="number">35 parts</div><div class="label">Custom STL + 3MF<br>A1 / XL envelope checks pass</div></div><div class="fact"><div class="number">32 axes</div><div class="label">ToddlerBot 2XC<br>Including two grippers</div></div></div>
+<p class="note">Geometry checks passed; powered operation has not been tested. Resolve the servo-supply voltage issue and verify retention, moving clearances and balance before walking with the approximately 537 g shell. The source chassis print plates are linked separately in the build guide.</p>
+<script>document.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-selected',String(b===button)));document.querySelectorAll('figure').forEach(f=>f.classList.toggle('active',f.id===button.dataset.view));}));</script>
+</body></html>

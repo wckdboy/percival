@@ -1,0 +1,30 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"status\": \"ok\",\n  \"result\": {\n    \"version\": \"5.2.1 LTS\",\n    \"filepath\": \"/Users/dearwolf/.t3/projects/percival/design/percival.blend\",\n    \"dirty\": false,\n    \"scenes\": [\n      {\n        \"name\": \"Percival \u2022 engineering assembly\",\n        \"objects\": 203\n      },\n      {\n        \"name\": \"Scene\",\n        \"objects\": 3\n      }\n    ]\n  }\n}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": {
+    "status": "ok",
+    "result": {
+      "version": "5.2.1 LTS",
+      "filepath": "/Users/dearwolf/.t3/projects/percival/design/percival.blend",
+      "dirty": false,
+      "scenes": [
+        {
+          "name": "Percival \u2022 engineering assembly",
+          "objects": 203
+        },
+        {
+          "name": "Scene",
+          "objects": 3
+        }
+      ]
+    }
+  },
+  "isError": false
+}

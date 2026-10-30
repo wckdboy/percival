@@ -1,0 +1,21 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"status\": \"ok\",\n  \"result\": {\n    \"views\": 3,\n    \"saved_file\": \"/Users/dearwolf/.t3/projects/percival/design/percival-rev-c-chamfer.blend\",\n    \"status\": \"Illustrative views only; not physical pose validation\"\n  },\n  \"stdout\": \"Info: Saved as \\\"percival-rev-c-chamfer.blend\\\"\\n\"\n}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": {
+    "status": "ok",
+    "result": {
+      "views": 3,
+      "saved_file": "/Users/dearwolf/.t3/projects/percival/design/percival-rev-c-chamfer.blend",
+      "status": "Illustrative views only; not physical pose validation"
+    },
+    "stdout": "Info: Saved as \"percival-rev-c-chamfer.blend\"\n"
+  },
+  "isError": false
+}

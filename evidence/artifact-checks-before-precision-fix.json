@@ -1,0 +1,24 @@
+{
+  "status": "FAIL",
+  "stl_and_3mf_pairs_checked": 35,
+  "source_hashes_checked": 59,
+  "failures": [
+    "P01: STL boundary/nonmanifold edges",
+    "P01: inconsistent STL winding",
+    "P02: STL boundary/nonmanifold edges",
+    "P02: inconsistent STL winding",
+    "P04L: STL boundary/nonmanifold edges",
+    "P04L: inconsistent STL winding",
+    "P04R: STL boundary/nonmanifold edges",
+    "P04R: inconsistent STL winding"
+  ],
+  "unverified": [
+    "slicer toolpaths",
+    "minimum wall thickness across entire surface",
+    "continuous motion and containment collisions",
+    "physical assembly/retention",
+    "wiring and power",
+    "structural loads and thermal duty",
+    "walking"
+  ]
+}

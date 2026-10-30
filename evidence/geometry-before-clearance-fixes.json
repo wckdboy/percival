@@ -1,0 +1,1194 @@
+{
+  "checks_scope": "Custom mesh topology/print envelope and neutral-pose surface intersections only. No motion/load/thermal/optical/physical-fit validation.",
+  "height_neutral_mm": 594.0,
+  "height_under_600mm": true,
+  "assembly_bounds_mm": [
+    [
+      -131.5,
+      -54.828,
+      -0.0
+    ],
+    [
+      131.5,
+      115.508,
+      594.0
+    ]
+  ],
+  "custom_parts": 35,
+  "mesh_passes": 34,
+  "custom_solid_material_estimate_g": 544.22,
+  "source_URDF_mass_kg": 3.663095,
+  "source_com_mm": [
+    -1.079,
+    20.7,
+    281.48
+  ],
+  "source_plus_shell_com_mm": [
+    -0.939,
+    17.403,
+    299.238
+  ],
+  "mass_assumptions": "PETG1.27g/cm3,TPU1.20. Solid modeled geometry; excludes added fasteners/adhesives. Retains stock head mass conservatively; camera relocation/removed OEM skins not subtracted. Not measured.",
+  "hardware_intersections": [
+    {
+      "print": "P20L",
+      "reference": "OEM \u2022 left_shoulder_pitch_link",
+      "status": "INTERFERENCE TO REVIEW"
+    },
+    {
+      "print": "P21L",
+      "reference": "OEM \u2022 left_shoulder_yaw_link",
+      "status": "INTERFERENCE TO REVIEW"
+    },
+    {
+      "print": "P23L",
+      "reference": "OEM \u2022 left_gripper_link",
+      "status": "INTERFERENCE TO REVIEW"
+    },
+    {
+      "print": "P30L",
+      "reference": "OEM \u2022 left_hip_roll_link",
+      "status": "INTERFERENCE TO REVIEW"
+    },
+    {
+      "print": "P33L",
+      "reference": "OEM \u2022 left_hip_yaw_link",
+      "status": "INTERFERENCE TO REVIEW"
+    },
+    {
+      "print": "P34L",
+      "reference": "OEM \u2022 left_ankle_roll_link",
+      "status": "INTERFERENCE TO REVIEW"
+    },
+    {
+      "print": "P20R",
+      "reference": "OEM \u2022 right_shoulder_pitch_link",
+      "status": "INTERFERENCE TO REVIEW"
+    },
+    {
+      "print": "P21R",
+      "reference": "OEM \u2022 right_shoulder_yaw_link",
+      "status": "INTERFERENCE TO REVIEW"
+    },
+    {
+      "print": "P23R",
+      "reference": "OEM \u2022 right_gripper_link",
+      "status": "INTERFERENCE TO REVIEW"
+    },
+    {
+      "print": "P30R",
+      "reference": "OEM \u2022 right_hip_roll_link",
+      "status": "INTERFERENCE TO REVIEW"
+    },
+    {
+      "print": "P33R",
+      "reference": "OEM \u2022 right_hip_yaw_link",
+      "status": "INTERFERENCE TO REVIEW"
+    },
+    {
+      "print": "P34R",
+      "reference": "OEM \u2022 right_ankle_roll_link",
+      "status": "INTERFERENCE TO REVIEW"
+    }
+  ],
+  "print_pair_surface_contacts": [
+    [
+      "P01",
+      "P03"
+    ],
+    [
+      "P05R",
+      "P05AR"
+    ],
+    [
+      "P05L",
+      "P05AL"
+    ]
+  ],
+  "parts": [
+    {
+      "part_id": "P01",
+      "name": "P01 \u2022 Head front bezel",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 4258,
+      "print_bounds_mm": [
+        236.0,
+        112.0,
+        54.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 80.025,
+      "estimated_mass_g": 101.63,
+      "centroid_mm": [
+        0.001,
+        -22.88,
+        504.87
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "1.8 mm shell; M3 x25 seam bolts/nuts. Neck attachment remains a prototype retention interface.",
+      "stl_sha256": "5e4434d95ec85feabdbc92c1472fc0b9dd553a2c80f0069ee5d16eefa2469dc3"
+    },
+    {
+      "part_id": "P02",
+      "name": "P02 \u2022 Head rear cover",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 10406,
+      "print_bounds_mm": [
+        236.0,
+        124.0,
+        54.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 112.154,
+      "estimated_mass_g": 142.44,
+      "centroid_mm": [
+        -0.0,
+        43.698,
+        506.02
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Rear access and vents. 6 mm hook-and-loop straps through four rear ports; fit to retained OEM head structure before powered motion.",
+      "stl_sha256": "ebd01ace506a84b7e745fdc2c0f157f834b109b4fbc0a39b58fa524e2b2abc5e"
+    },
+    {
+      "part_id": "P03",
+      "name": "P03 \u2022 Camera visor",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 3,
+      "boundary_edges": 3,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 4065,
+      "print_bounds_mm": [
+        213.4,
+        87.4,
+        2.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 30.774,
+      "estimated_mass_g": 39.08,
+      "centroid_mm": [
+        -0.018,
+        -45.896,
+        501.341
+      ],
+      "mesh_checks_pass": false,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Two real Arducam B0202 cameras; 34 mm mounting pattern. Relocating cameras requires lens-depth measurement, standoffs and stereo recalibration. NOT a released optical mount."
+    },
+    {
+      "part_id": "P04L",
+      "name": "P04L \u2022 Optical bezel",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 2082,
+      "print_bounds_mm": [
+        52.0,
+        52.0,
+        4.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 4.283,
+      "estimated_mass_g": 5.44,
+      "centroid_mm": [
+        60.005,
+        -48.456,
+        505.015
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Separate cosmetic lens ring. Ensure lens protrudes beyond visor; verify full camera field of view.",
+      "stl_sha256": "ef08ca71301256f898dadb4d368b919f5c34806352e9df746b0e9f1a153b2a4a"
+    },
+    {
+      "part_id": "P04R",
+      "name": "P04R \u2022 Optical bezel",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 2082,
+      "print_bounds_mm": [
+        52.0,
+        52.0,
+        4.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 4.283,
+      "estimated_mass_g": 5.44,
+      "centroid_mm": [
+        -60.001,
+        -48.456,
+        505.017
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Separate cosmetic lens ring. Ensure lens protrudes beyond visor; verify full camera field of view.",
+      "stl_sha256": "2594276f1dfd0ab3a892bb191d9fccfd729e4ae85372b4701833ff954e3760be"
+    },
+    {
+      "part_id": "P05AL",
+      "name": "P05AL \u2022 Ear pod charcoal insert",
+      "material": "TPU 95A",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 252,
+      "print_bounds_mm": [
+        58.0,
+        58.0,
+        1.2
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 3.165,
+      "estimated_mass_g": 3.8,
+      "centroid_mm": [
+        120.9,
+        8.001,
+        502.002
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Removable adhesive decoration; no speaker or actuator implied.",
+      "stl_sha256": "405efbc4b88effcc97ce7f0e174a69208220c86d9c4bf579dc9f6341fb2f57c4"
+    },
+    {
+      "part_id": "P05AR",
+      "name": "P05AR \u2022 Ear pod charcoal insert",
+      "material": "TPU 95A",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 252,
+      "print_bounds_mm": [
+        58.0,
+        58.0,
+        1.2
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 3.166,
+      "estimated_mass_g": 3.8,
+      "centroid_mm": [
+        -120.897,
+        8.001,
+        501.987
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Removable adhesive decoration; no speaker or actuator implied.",
+      "stl_sha256": "405efbc4b88effcc97ce7f0e174a69208220c86d9c4bf579dc9f6341fb2f57c4"
+    },
+    {
+      "part_id": "P05L",
+      "name": "P05L \u2022 Side ear pod",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 508,
+      "print_bounds_mm": [
+        64.0,
+        64.0,
+        7.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 9.111,
+      "estimated_mass_g": 11.57,
+      "centroid_mm": [
+        120.332,
+        8.0,
+        502.0
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Nonfunctional decorative pod; adhesive or prototype retaining strap, no actuator inside.",
+      "stl_sha256": "48bdd31d1dcec4ff4bd2b640030d58aa7fa880573ff4fd00472b4ae744558e44"
+    },
+    {
+      "part_id": "P05R",
+      "name": "P05R \u2022 Side ear pod",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 508,
+      "print_bounds_mm": [
+        64.0,
+        64.0,
+        7.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 9.111,
+      "estimated_mass_g": 11.57,
+      "centroid_mm": [
+        -120.332,
+        8.0,
+        502.002
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Nonfunctional decorative pod; adhesive or prototype retaining strap, no actuator inside.",
+      "stl_sha256": "3c9409af51622a2ab1563e7e98308690fa6eab94732b3a3289b1c4a15ccd6636"
+    },
+    {
+      "part_id": "P06L",
+      "name": "P06L \u2022 Passive ear fin",
+      "material": "TPU 95A",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 670,
+      "print_bounds_mm": [
+        22.0,
+        38.0,
+        7.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 5.11,
+      "estimated_mass_g": 6.13,
+      "centroid_mm": [
+        100.0,
+        13.0,
+        575.239
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Flexible passive fin; top594 mm in zero pose. Prototype fixing must be checked on rear cover.",
+      "stl_sha256": "0e620626f49e5a7655ac4c934f0a45c68882b3ec2897c605b69e865f3c6ec1c9"
+    },
+    {
+      "part_id": "P06R",
+      "name": "P06R \u2022 Passive ear fin",
+      "material": "TPU 95A",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 670,
+      "print_bounds_mm": [
+        22.0,
+        38.0,
+        7.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 5.11,
+      "estimated_mass_g": 6.13,
+      "centroid_mm": [
+        -100.0,
+        13.0,
+        575.237
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Flexible passive fin; top594 mm in zero pose. Prototype fixing must be checked on rear cover.",
+      "stl_sha256": "fcfae882f92f7942f63289a3aeabd95104777981b4542b71dba6d8ab77d1f612"
+    },
+    {
+      "part_id": "P07L",
+      "name": "P07L \u2022 Ear amber insert",
+      "material": "TPU 95A",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 140,
+      "print_bounds_mm": [
+        6.0,
+        19.0,
+        1.6
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 0.177,
+      "estimated_mass_g": 0.21,
+      "centroid_mm": [
+        100.007,
+        8.601,
+        581.038
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Adhesive insert; cosmetic, not an antenna.",
+      "stl_sha256": "b5e9f0dca582de61d45e74cd8f1f48f34ac309627630c5b471f726c32425b52c"
+    },
+    {
+      "part_id": "P07R",
+      "name": "P07R \u2022 Ear amber insert",
+      "material": "TPU 95A",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 140,
+      "print_bounds_mm": [
+        6.0,
+        19.0,
+        1.6
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 0.177,
+      "estimated_mass_g": 0.21,
+      "centroid_mm": [
+        -100.007,
+        8.601,
+        581.036
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Adhesive insert; cosmetic, not an antenna.",
+      "stl_sha256": "7c93241c6cab014445d24c5c683e4bdacfc49cfcba1571508d10cc8ec9af6b78"
+    },
+    {
+      "part_id": "P08",
+      "name": "P08 \u2022 Crown accent",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 140,
+      "print_bounds_mm": [
+        52.0,
+        15.0,
+        2.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 1.544,
+      "estimated_mass_g": 1.96,
+      "centroid_mm": [
+        -0.0,
+        -8.0,
+        559.005
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Cosmetic crown panel; apply with removable adhesive after head fit.",
+      "stl_sha256": "00dceb0af140f80d1cd284e242161ecc61c29617a32829dd6f847a0668b6c58a"
+    },
+    {
+      "part_id": "P10",
+      "name": "P10 \u2022 Chest fairing",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 5580,
+      "print_bounds_mm": [
+        151.0,
+        117.0,
+        18.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 46.4,
+      "estimated_mass_g": 58.93,
+      "centroid_mm": [
+        -0.0,
+        -36.16,
+        373.178
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Cosmetic fit prototype; do not bridge moving joints.",
+      "stl_sha256": "3d52bb4ab1d523169747823564645b12c57712dab287d1927cbedff89ab8ab95"
+    },
+    {
+      "part_id": "P11",
+      "name": "P11 \u2022 Violet chest service panel",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 660,
+      "print_bounds_mm": [
+        38.0,
+        92.0,
+        2.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 6.924,
+      "estimated_mass_g": 8.79,
+      "centroid_mm": [
+        -0.0,
+        -41.0,
+        372.998
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Removable front trim; it does not replace the upstream electronics service cover.",
+      "stl_sha256": "dc2409dd70127dd31d1c49838da2383ffcb7a94baaf9b0be95f2ad76bf55ec08"
+    },
+    {
+      "part_id": "P12",
+      "name": "P12 \u2022 Pelvis armor",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 324,
+      "print_bounds_mm": [
+        106.0,
+        49.0,
+        14.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 15.672,
+      "estimated_mass_g": 19.9,
+      "centroid_mm": [
+        0.0,
+        -26.218,
+        270.0
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Cosmetic fit prototype; do not bridge moving joints.",
+      "stl_sha256": "71e3910627b4fbd364428d05f8f27023a4b4367e261d919df03f02a9628224ac"
+    },
+    {
+      "part_id": "P20L",
+      "name": "P20L \u2022 Shoulder cap",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 324,
+      "print_bounds_mm": [
+        51.0,
+        39.0,
+        12.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 6.459,
+      "estimated_mass_g": 8.2,
+      "centroid_mm": [
+        106.0,
+        -8.306,
+        413.999
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Cosmetic fit prototype; do not bridge moving joints.",
+      "stl_sha256": "45d87b22ef8cd1d4bbdaf881de97fe1a15cefa379747ccabf35ae39a05bb0ceb"
+    },
+    {
+      "part_id": "P20R",
+      "name": "P20R \u2022 Shoulder cap",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 324,
+      "print_bounds_mm": [
+        51.0,
+        39.0,
+        12.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 6.459,
+      "estimated_mass_g": 8.2,
+      "centroid_mm": [
+        -106.0,
+        -8.306,
+        414.0
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Cosmetic fit prototype; do not bridge moving joints.",
+      "stl_sha256": "a62262410c4d59d4cf5a2b80af2c19076b7c1a3cec44808da41c19dfc24917db"
+    },
+    {
+      "part_id": "P21L",
+      "name": "P21L \u2022 Forearm fairing",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 324,
+      "print_bounds_mm": [
+        47.0,
+        45.0,
+        12.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 6.759,
+      "estimated_mass_g": 8.58,
+      "centroid_mm": [
+        106.0,
+        -9.364,
+        326.002
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Cosmetic fit prototype; do not bridge moving joints.",
+      "stl_sha256": "4e5a39212eb5ad1088976e24146cc6867db30dcba6b4a7b142422a41ca3344bb"
+    },
+    {
+      "part_id": "P21R",
+      "name": "P21R \u2022 Forearm fairing",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 324,
+      "print_bounds_mm": [
+        47.0,
+        45.0,
+        12.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 6.759,
+      "estimated_mass_g": 8.58,
+      "centroid_mm": [
+        -106.001,
+        -9.365,
+        326.001
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Cosmetic fit prototype; do not bridge moving joints.",
+      "stl_sha256": "0df14dd3b39f9dab68fee160bc9bbce1d1da552441bda3e6ac1389752eb6ca2e"
+    },
+    {
+      "part_id": "P22L",
+      "name": "P22L \u2022 Forearm amber marker",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 140,
+      "print_bounds_mm": [
+        8.0,
+        25.0,
+        2.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 0.384,
+      "estimated_mass_g": 0.49,
+      "centroid_mm": [
+        117.997,
+        -14.0,
+        325.991
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Removable adhesive decoration.",
+      "stl_sha256": "9b0fbfbfdd90a968d31ca66dbd102fb2c5f4cf464e569f85508b9cba61d8a8e8"
+    },
+    {
+      "part_id": "P22R",
+      "name": "P22R \u2022 Forearm amber marker",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 140,
+      "print_bounds_mm": [
+        8.0,
+        25.0,
+        2.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 0.384,
+      "estimated_mass_g": 0.49,
+      "centroid_mm": [
+        -117.995,
+        -14.0,
+        325.988
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Removable adhesive decoration.",
+      "stl_sha256": "2537156fde68f92647d72b9e49de8db05e2a800e367c3405eafc0f16a814300d"
+    },
+    {
+      "part_id": "P23L",
+      "name": "P23L \u2022 Wrist guard",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 324,
+      "print_bounds_mm": [
+        47.0,
+        34.0,
+        12.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 5.424,
+      "estimated_mass_g": 6.89,
+      "centroid_mm": [
+        94.5,
+        -9.138,
+        257.0
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Cosmetic fit prototype; do not bridge moving joints.",
+      "stl_sha256": "dc1105a907d7667eb52685650d04f01859ee3104b418b571e605b50202330c25"
+    },
+    {
+      "part_id": "P23R",
+      "name": "P23R \u2022 Wrist guard",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 324,
+      "print_bounds_mm": [
+        47.0,
+        34.0,
+        12.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 5.424,
+      "estimated_mass_g": 6.89,
+      "centroid_mm": [
+        -94.5,
+        -9.138,
+        257.001
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Cosmetic fit prototype; do not bridge moving joints.",
+      "stl_sha256": "280f74f227fea7930324dc9f25ed63389cec587472e82f2c22da22187ec213c1"
+    },
+    {
+      "part_id": "P30L",
+      "name": "P30L \u2022 Upper leg fairing",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 324,
+      "print_bounds_mm": [
+        49.0,
+        36.0,
+        10.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 5.316,
+      "estimated_mass_g": 6.75,
+      "centroid_mm": [
+        37.0,
+        -11.964,
+        217.001
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Cosmetic fit prototype; do not bridge moving joints.",
+      "stl_sha256": "79c4d1ce99b99b58b5f32c1e66724acd66cd0c82db9905aee0d58716ae12f9d0"
+    },
+    {
+      "part_id": "P30R",
+      "name": "P30R \u2022 Upper leg fairing",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 324,
+      "print_bounds_mm": [
+        49.0,
+        36.0,
+        10.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 5.316,
+      "estimated_mass_g": 6.75,
+      "centroid_mm": [
+        -37.0,
+        -11.964,
+        217.0
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Cosmetic fit prototype; do not bridge moving joints.",
+      "stl_sha256": "98d8ce9649369fac21973c68cc7826903a79d23f31489f8ed7f052022570848a"
+    },
+    {
+      "part_id": "P31L",
+      "name": "P31L \u2022 Knee fairing",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 324,
+      "print_bounds_mm": [
+        53.0,
+        49.0,
+        12.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 7.994,
+      "estimated_mass_g": 10.15,
+      "centroid_mm": [
+        37.0,
+        -12.511,
+        161.0
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Cosmetic fit prototype; do not bridge moving joints.",
+      "stl_sha256": "1e6d5bc3f948447063de77078c4dc1e3a9984a43cedd4ce9501262ee06613455"
+    },
+    {
+      "part_id": "P31R",
+      "name": "P31R \u2022 Knee fairing",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 324,
+      "print_bounds_mm": [
+        53.0,
+        49.0,
+        12.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 7.994,
+      "estimated_mass_g": 10.15,
+      "centroid_mm": [
+        -37.0,
+        -12.511,
+        161.0
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Cosmetic fit prototype; do not bridge moving joints.",
+      "stl_sha256": "8a8112fa10c747cc263b3326f6831d483dad4e505a85dc7dd67bbebf0c7b03d9"
+    },
+    {
+      "part_id": "P32L",
+      "name": "P32L \u2022 Violet knee panel",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 140,
+      "print_bounds_mm": [
+        30.0,
+        29.0,
+        1.6
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 1.357,
+      "estimated_mass_g": 1.72,
+      "centroid_mm": [
+        37.0,
+        -16.8,
+        161.0
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Removable adhesive decoration.",
+      "stl_sha256": "1e4fa8fd437c85bcf7147051b03a170151127012f42870349f2e91168dcfa56a"
+    },
+    {
+      "part_id": "P32R",
+      "name": "P32R \u2022 Violet knee panel",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 140,
+      "print_bounds_mm": [
+        30.0,
+        29.0,
+        1.6
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 1.357,
+      "estimated_mass_g": 1.72,
+      "centroid_mm": [
+        -37.0,
+        -16.8,
+        161.0
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Removable adhesive decoration.",
+      "stl_sha256": "2c094b0787453bba4ca9bd720a5007023a9e2a34c3e8b6a94f047f5aea9f39df"
+    },
+    {
+      "part_id": "P33L",
+      "name": "P33L \u2022 Shin guard",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 324,
+      "print_bounds_mm": [
+        37.0,
+        64.0,
+        9.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 6.541,
+      "estimated_mass_g": 8.31,
+      "centroid_mm": [
+        37.0,
+        -8.943,
+        103.0
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Cosmetic fit prototype; do not bridge moving joints.",
+      "stl_sha256": "09a083c026e2e9ce30cacbbfedf836038473bdae6bdd33a18f59ee4c48628908"
+    },
+    {
+      "part_id": "P33R",
+      "name": "P33R \u2022 Shin guard",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 324,
+      "print_bounds_mm": [
+        37.0,
+        64.0,
+        9.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 6.541,
+      "estimated_mass_g": 8.31,
+      "centroid_mm": [
+        -37.0,
+        -8.943,
+        103.0
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Cosmetic fit prototype; do not bridge moving joints.",
+      "stl_sha256": "347ea7edba7797d6431cfb0e2a1dc86c622409ffc2dd0352d6a730c52b054b7f"
+    },
+    {
+      "part_id": "P34L",
+      "name": "P34L \u2022 Toe cowl",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 324,
+      "print_bounds_mm": [
+        43.0,
+        17.0,
+        27.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 5.896,
+      "estimated_mass_g": 7.49,
+      "centroid_mm": [
+        37.0,
+        -33.816,
+        16.0
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Decorative toe cowl only, no change to sole/contact polygon. Check ankle flexion and front ground clearance.",
+      "stl_sha256": "1a63c4911b5e054c5aa912bb1be07922e92a28d773478c5de16e6071cd964714"
+    },
+    {
+      "part_id": "P34R",
+      "name": "P34R \u2022 Toe cowl",
+      "material": "PETG",
+      "quantity": 1,
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "connected_components": 1,
+      "signed_volume_positive": true,
+      "triangles": 324,
+      "print_bounds_mm": [
+        43.0,
+        17.0,
+        27.0
+      ],
+      "fits_A1_with_4mm_brim": true,
+      "fits_Prusa_XL": true,
+      "material_volume_cm3": 5.896,
+      "estimated_mass_g": 7.49,
+      "centroid_mm": [
+        -37.0,
+        -33.816,
+        16.0
+      ],
+      "mesh_checks_pass": true,
+      "physical_release": "FIT PROTOTYPE; NOT WALKING VALIDATED",
+      "notes": "Decorative toe cowl only, no change to sole/contact polygon. Check ankle flexion and front ground clearance.",
+      "stl_sha256": "1437e61392afd023dceb37ab20a6d422488096a4a681d46e4e7c0ce446888734"
+    }
+  ]
+}

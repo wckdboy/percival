@@ -1,0 +1,21 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"status\": \"ok\",\n  \"result\": {\n    \"printed_prototypes\": 35,\n    \"file\": \"/Users/dearwolf/.t3/projects/percival/design/percival.blend\",\n    \"render\": \"/Users/dearwolf/.t3/projects/percival/renders/percival-hero.png\"\n  },\n  \"stdout\": \"Info: Saved copy as \\\"percival-shell-checkpoint.blend\\\"\\nInfo: Saved as \\\"percival.blend\\\"\\n\"\n}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": {
+    "status": "ok",
+    "result": {
+      "printed_prototypes": 35,
+      "file": "/Users/dearwolf/.t3/projects/percival/design/percival.blend",
+      "render": "/Users/dearwolf/.t3/projects/percival/renders/percival-hero.png"
+    },
+    "stdout": "Info: Saved copy as \"percival-shell-checkpoint.blend\"\nInfo: Saved as \"percival.blend\"\n"
+  },
+  "isError": false
+}

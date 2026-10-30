@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "stl_and_3mf_pairs_checked": 35,
+  "source_hashes_checked": 59,
+  "failures": [],
+  "unverified": [
+    "slicer toolpaths",
+    "minimum wall thickness across entire surface",
+    "continuous motion and containment collisions",
+    "physical assembly/retention",
+    "wiring and power",
+    "structural loads and thermal duty",
+    "walking"
+  ]
+}

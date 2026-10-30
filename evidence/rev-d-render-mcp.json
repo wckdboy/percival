@@ -1,0 +1,21 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"status\": \"ok\",\n  \"result\": {\n    \"views\": 4,\n    \"saved_file\": \"/Users/dearwolf/.t3/projects/percival/design/percival-rev-d-reference.blend\",\n    \"status\": \"Illustrative views only; not physical pose validation\"\n  },\n  \"stdout\": \"Info: Saved as \\\"percival-rev-d-reference.blend\\\"\\n\"\n}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": {
+    "status": "ok",
+    "result": {
+      "views": 4,
+      "saved_file": "/Users/dearwolf/.t3/projects/percival/design/percival-rev-d-reference.blend",
+      "status": "Illustrative views only; not physical pose validation"
+    },
+    "stdout": "Info: Saved as \"percival-rev-d-reference.blend\"\n"
+  },
+  "isError": false
+}

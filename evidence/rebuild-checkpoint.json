@@ -1,0 +1,20 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"status\": \"ok\",\n  \"result\": {\n    \"retained_scene\": \"Scene\",\n    \"checkpoint\": \"design/percival-before-grippers.blend\"\n  },\n  \"stdout\": \"Info: Saved copy as \\\"percival-before-grippers.blend\\\"\\n\"\n}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": {
+    "status": "ok",
+    "result": {
+      "retained_scene": "Scene",
+      "checkpoint": "design/percival-before-grippers.blend"
+    },
+    "stdout": "Info: Saved copy as \"percival-before-grippers.blend\"\n"
+  },
+  "isError": false
+}

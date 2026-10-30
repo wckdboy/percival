@@ -1,0 +1,32 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"status\": \"PASS\",\n  \"scene\": \"Percival \u2022 Rev D / reference proportions\",\n  \"saved_file\": \"/Users/dearwolf/.t3/projects/percival/design/percival-rev-d-reference.blend\",\n  \"rev_a_b_c_and_approved_checkpoint_unchanged\": true,\n  \"independently_measured_height_mm\": 547.21,\n  \"max_illustrated_gesture_height_mm\": 549.75,\n  \"hip_height_fraction\": 0.395,\n  \"full_size_servo_envelopes\": 4,\n  \"reference_status\": \"Visual approximation of supplied images; not measured drawings\",\n  \"unverified\": [\n    \"physical fit\",\n    \"printable wall construction\",\n    \"fastener mounting\",\n    \"torque\",\n    \"full-motion interference\",\n    \"balance\",\n    \"walking\"\n  ]\n}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": {
+    "status": "PASS",
+    "scene": "Percival \u2022 Rev D / reference proportions",
+    "saved_file": "/Users/dearwolf/.t3/projects/percival/design/percival-rev-d-reference.blend",
+    "rev_a_b_c_and_approved_checkpoint_unchanged": true,
+    "independently_measured_height_mm": 547.21,
+    "max_illustrated_gesture_height_mm": 549.75,
+    "hip_height_fraction": 0.395,
+    "full_size_servo_envelopes": 4,
+    "reference_status": "Visual approximation of supplied images; not measured drawings",
+    "unverified": [
+      "physical fit",
+      "printable wall construction",
+      "fastener mounting",
+      "torque",
+      "full-motion interference",
+      "balance",
+      "walking"
+    ]
+  },
+  "isError": false
+}

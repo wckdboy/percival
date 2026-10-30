@@ -1,0 +1,49 @@
+{
+  "scope": "Rev C visual and mechanical-layout concept; approved Rev B preserved",
+  "baseline": "evidence/rev-c-baseline.json and evidence/rev-c-rev-b-baseline-check.json",
+  "checks": [
+    {
+      "command": "/Users/dearwolf/.local/share/blender-mcp/1.0.3/.venv/bin/python scripts/blender_mcp.py scripts/check_rev_c.py --blend design/percival-rev-c-chamfer.blend --output evidence/rev-c-saved-check.json",
+      "result": "PASS"
+    },
+    {
+      "command": "python3 -m py_compile scripts/save_approved_rev_b.py scripts/build_rev_c.py scripts/render_rev_c.py scripts/check_rev_c.py",
+      "result": "PASS"
+    },
+    {
+      "command": "git diff --check",
+      "result": "PASS"
+    },
+    {
+      "check": "Visual inspection of final hero, side and head renders; inline HTML preview",
+      "result": "Completed; raised hand pose adjusted to improve separation from head hub"
+    },
+    {
+      "command": "./.agents/bin/eng verify --profile fast",
+      "result": "UNAVAILABLE: engineering kit is not installed; no installation performed"
+    }
+  ],
+  "dimensions": {
+    "status": "PASS",
+    "scene": "Percival \u2022 Rev C / compact industrial character",
+    "saved_file": "/Users/dearwolf/.t3/projects/percival/design/percival-rev-c-chamfer.blend",
+    "original_revisions_and_approved_checkpoint_unchanged": true,
+    "independently_measured_height_mm": 541.18,
+    "max_illustrated_gesture_height_mm": 545.99,
+    "shorter_than_rev_b_mm": 33.42,
+    "full_size_servo_envelopes": 4,
+    "concept_panels": 50,
+    "socket_screw_appearances": 140,
+    "unverified": [
+      "physical fit",
+      "printable wall construction",
+      "fastener mounting",
+      "torque",
+      "full-motion interference",
+      "balance",
+      "walking"
+    ]
+  },
+  "rollback": "Open the approved checkpoint recorded in evidence/rev-c-preserved-baseline.json; Rev A and Rev B remain unchanged",
+  "release_status": "Concept only. No print exports or hardware purchase release produced."
+}

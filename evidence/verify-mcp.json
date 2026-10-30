@@ -1,0 +1,49 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"status\": \"ok\",\n  \"result\": {\n    \"height_neutral_mm\": 594.0,\n    \"height_under_600mm\": true,\n    \"assembly_bounds_mm\": [\n      [\n        -131.5,\n        -54.828,\n        -0.0\n      ],\n      [\n        131.5,\n        115.508,\n        594.0\n      ]\n    ],\n    \"custom_parts\": 35,\n    \"mesh_passes\": 35,\n    \"custom_solid_material_estimate_g\": 536.65,\n    \"source_URDF_mass_kg\": 3.663095,\n    \"source_com_mm\": [\n      -1.079,\n      20.7,\n      281.48\n    ],\n    \"source_plus_shell_com_mm\": [\n      -0.941,\n      17.405,\n      299.482\n    ],\n    \"hardware_intersections\": [],\n    \"print_pair_surface_contacts\": [],\n    \"failed_parts\": []\n  },\n  \"stdout\": \"Info: Saved as \\\"percival.blend\\\"\\n\"\n}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": {
+    "status": "ok",
+    "result": {
+      "height_neutral_mm": 594.0,
+      "height_under_600mm": true,
+      "assembly_bounds_mm": [
+        [
+          -131.5,
+          -54.828,
+          -0.0
+        ],
+        [
+          131.5,
+          115.508,
+          594.0
+        ]
+      ],
+      "custom_parts": 35,
+      "mesh_passes": 35,
+      "custom_solid_material_estimate_g": 536.65,
+      "source_URDF_mass_kg": 3.663095,
+      "source_com_mm": [
+        -1.079,
+        20.7,
+        281.48
+      ],
+      "source_plus_shell_com_mm": [
+        -0.941,
+        17.405,
+        299.482
+      ],
+      "hardware_intersections": [],
+      "print_pair_surface_contacts": [],
+      "failed_parts": []
+    },
+    "stdout": "Info: Saved as \"percival.blend\"\n"
+  },
+  "isError": false
+}

@@ -1,0 +1,63 @@
+{
+  "status": "PROPORTION AND MECHANICAL-LAYOUT CONCEPT",
+  "source_rev_a_sha256": "715381a41356c1914b37bdb4403fb11e85f3ec3f07be45ec8952c7c1f5130425",
+  "source_rev_b_sha256": "76eed32cd0cc4e4bb17b1ac25f532ad98c36dff97554f46b4ca13aa4c0698100",
+  "source_rev_c_sha256": "0cdf36b17b752e35fc5cad6aedb8bd79ee57daee3ef2965623ca3e23693ffdb1",
+  "approved_rev_c_checkpoint": "/Users/dearwolf/.t3/projects/percival/design/percival-rev-c-approved-20261030-155239.blend",
+  "approved_rev_c_sha256": "4eb926204cbef7ec38497c2810cd3a98f07a7dd0e9d26d4e0ec65549111cbfa5",
+  "posed_height_mm": 547.21,
+  "max_idle_gesture_height_mm": 549.75,
+  "posed_bounds_mm": [
+    [
+      -173.5,
+      -88.8,
+      0.0
+    ],
+    [
+      149.44,
+      99.85,
+      547.21
+    ]
+  ],
+  "illustration_frames": 73,
+  "torso_envelope_mm": [
+    120,
+    96,
+    98
+  ],
+  "main_head_envelope_mm": [
+    234,
+    124,
+    112
+  ],
+  "sole_envelope_mm": [
+    88,
+    134,
+    9
+  ],
+  "leg_shell_widths_mm": [
+    61,
+    52
+  ],
+  "hip_axis_height_mm": 216,
+  "knee_axis_heights_mm": [
+    132,
+    138
+  ],
+  "ankle_axis_height_mm": 56,
+  "reference_ratios_are": "visual estimates from the supplied front/top/side images; not dimensional measurements of real hardware",
+  "mesh_objects": 560,
+  "full_size_servo_envelopes": 4,
+  "print_export": false,
+  "not_validated": [
+    "new structural links",
+    "joint torque and transmission",
+    "electronics packing/cooling",
+    "battery mount",
+    "camera optics",
+    "full-motion interference",
+    "balance and locomotion",
+    "printable wall construction"
+  ],
+  "look": "Reference proportions: lower hips, sculpted tapered chest and pelvis, wrapping leg armour, sloping boots, slimmer articulated arms, smaller recessed optics and central sensor capsule."
+}

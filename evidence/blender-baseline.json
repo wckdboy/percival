@@ -1,0 +1,26 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"status\": \"ok\",\n  \"result\": {\n    \"version\": \"5.2.1 LTS\",\n    \"filepath\": \"\",\n    \"dirty\": false,\n    \"scenes\": [\n      {\n        \"name\": \"Scene\",\n        \"objects\": 3\n      }\n    ]\n  }\n}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": {
+    "status": "ok",
+    "result": {
+      "version": "5.2.1 LTS",
+      "filepath": "",
+      "dirty": false,
+      "scenes": [
+        {
+          "name": "Scene",
+          "objects": 3
+        }
+      ]
+    }
+  },
+  "isError": false
+}

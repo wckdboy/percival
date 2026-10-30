@@ -1,0 +1,22 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"status\": \"PASS\",\n  \"saved_file\": \"/Users/dearwolf/.t3/projects/percival/design/percival-rev-b-bdx_mcp_0001.blend\",\n  \"scene\": \"Percival \u2022 Rev B / BDX character study\",\n  \"full_size_servo_envelopes\": 4,\n  \"original_rev_a_unchanged\": true,\n  \"posed_height_mm\": 574.6,\n  \"measured_gesture_maximum_mm\": 579.48,\n  \"limits\": \"Design illustration only; no print, full-motion, packing, balance or hardware validation.\"\n}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": {
+    "status": "PASS",
+    "saved_file": "/Users/dearwolf/.t3/projects/percival/design/percival-rev-b-bdx_mcp_0001.blend",
+    "scene": "Percival \u2022 Rev B / BDX character study",
+    "full_size_servo_envelopes": 4,
+    "original_rev_a_unchanged": true,
+    "posed_height_mm": 574.6,
+    "measured_gesture_maximum_mm": 579.48,
+    "limits": "Design illustration only; no print, full-motion, packing, balance or hardware validation."
+  },
+  "isError": false
+}

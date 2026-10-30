@@ -1,0 +1,22 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"status\": \"ok\",\n  \"result\": {\n    \"file\": \"/Users/dearwolf/.t3/projects/percival/design/percival-rev-d-reference.blend\",\n    \"render\": \"/Users/dearwolf/.t3/projects/percival/renders/rev-d/percival-rev-d-hero.png\",\n    \"height_mm\": 547.21,\n    \"max_gesture_height_mm\": 549.75\n  },\n  \"stdout\": \"Info: Saved copy as \\\"percival-rev-d-first-pass.blend\\\"\\nInfo: Saved as \\\"percival-rev-d-reference.blend\\\"\\n\"\n}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": {
+    "status": "ok",
+    "result": {
+      "file": "/Users/dearwolf/.t3/projects/percival/design/percival-rev-d-reference.blend",
+      "render": "/Users/dearwolf/.t3/projects/percival/renders/rev-d/percival-rev-d-hero.png",
+      "height_mm": 547.21,
+      "max_gesture_height_mm": 549.75
+    },
+    "stdout": "Info: Saved copy as \"percival-rev-d-first-pass.blend\"\nInfo: Saved as \"percival-rev-d-reference.blend\"\n"
+  },
+  "isError": false
+}

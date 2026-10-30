@@ -1,0 +1,52 @@
+{
+  "status": "PROPORTION AND MECHANICAL-LAYOUT CONCEPT",
+  "source_rev_a_sha256": "715381a41356c1914b37bdb4403fb11e85f3ec3f07be45ec8952c7c1f5130425",
+  "posed_height_mm": 574.6,
+  "max_idle_gesture_height_mm": 579.48,
+  "posed_bounds_mm": [
+    [
+      -160.5,
+      -112.36,
+      0.0
+    ],
+    [
+      171.39,
+      114.0,
+      574.6
+    ]
+  ],
+  "illustration_frames": 73,
+  "torso_envelope_mm": [
+    146,
+    102,
+    78
+  ],
+  "main_head_envelope_mm": [
+    234,
+    112,
+    112
+  ],
+  "sole_envelope_mm": [
+    96,
+    144,
+    16
+  ],
+  "leg_shell_widths_mm": [
+    77,
+    70
+  ],
+  "mesh_objects": 314,
+  "full_size_servo_envelopes": 4,
+  "print_export": false,
+  "not_validated": [
+    "new structural links",
+    "joint torque and transmission",
+    "electronics packing/cooling",
+    "battery mount",
+    "camera optics",
+    "full-motion interference",
+    "balance and locomotion",
+    "printable wall construction"
+  ],
+  "look": "Big bent legs; short rounded torso; small greeting arm; unequal binocular eyes; curious head roll; asymmetric listening fins."
+}

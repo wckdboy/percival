@@ -1,0 +1,19 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"status\": \"ok\",\n  \"result\": {\n    \"render\": \"/Users/dearwolf/.t3/projects/percival/renders/hardware-baseline.png\"\n  },\n  \"stdout\": \"Info: Saved as \\\"percival.blend\\\"\\n\"\n}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": {
+    "status": "ok",
+    "result": {
+      "render": "/Users/dearwolf/.t3/projects/percival/renders/hardware-baseline.png"
+    },
+    "stdout": "Info: Saved as \"percival.blend\"\n"
+  },
+  "isError": false
+}

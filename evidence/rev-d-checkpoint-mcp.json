@@ -1,0 +1,25 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"status\": \"ok\",\n  \"result\": {\n    \"status\": \"SAVED\",\n    \"approved_checkpoint\": \"/Users/dearwolf/.t3/projects/percival/design/percival-rev-c-approved-20261030-155239.blend\",\n    \"approved_checkpoint_sha256\": \"4eb926204cbef7ec38497c2810cd3a98f07a7dd0e9d26d4e0ec65549111cbfa5\",\n    \"active_scene\": \"Percival \u2022 Rev C / compact industrial character\",\n    \"original_rev_a_sha256\": \"715381a41356c1914b37bdb4403fb11e85f3ec3f07be45ec8952c7c1f5130425\",\n    \"original_rev_b_sha256\": \"76eed32cd0cc4e4bb17b1ac25f532ad98c36dff97554f46b4ca13aa4c0698100\",\n    \"original_rev_c_sha256\": \"0cdf36b17b752e35fc5cad6aedb8bd79ee57daee3ef2965623ca3e23693ffdb1\"\n  },\n  \"stdout\": \"Info: Saved copy as \\\"percival-rev-c-approved-20261030-155239.blend\\\"\\n\"\n}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": {
+    "status": "ok",
+    "result": {
+      "status": "SAVED",
+      "approved_checkpoint": "/Users/dearwolf/.t3/projects/percival/design/percival-rev-c-approved-20261030-155239.blend",
+      "approved_checkpoint_sha256": "4eb926204cbef7ec38497c2810cd3a98f07a7dd0e9d26d4e0ec65549111cbfa5",
+      "active_scene": "Percival \u2022 Rev C / compact industrial character",
+      "original_rev_a_sha256": "715381a41356c1914b37bdb4403fb11e85f3ec3f07be45ec8952c7c1f5130425",
+      "original_rev_b_sha256": "76eed32cd0cc4e4bb17b1ac25f532ad98c36dff97554f46b4ca13aa4c0698100",
+      "original_rev_c_sha256": "0cdf36b17b752e35fc5cad6aedb8bd79ee57daee3ef2965623ca3e23693ffdb1"
+    },
+    "stdout": "Info: Saved copy as \"percival-rev-c-approved-20261030-155239.blend\"\n"
+  },
+  "isError": false
+}

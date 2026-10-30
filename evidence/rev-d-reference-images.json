@@ -1,0 +1,22 @@
+[
+  {
+    "path": "reference/design-images/reference-hero.png",
+    "source": "User-provided Rev D reference image",
+    "sha256": "0643e61bd0340460b0fb40982c5ce8233a48f06b4a111f22765d9ac1d4b220d4"
+  },
+  {
+    "path": "reference/design-images/reference-top.png",
+    "source": "User-provided Rev D reference image",
+    "sha256": "33c046b1d1bc795e89c2fb31f51ca7ebfd8a6b03a7a28491a11c4d9f8c03c490"
+  },
+  {
+    "path": "reference/design-images/reference-side.png",
+    "source": "User-provided Rev D reference image",
+    "sha256": "11dc0ccd1c80b87c95bd24b677ea2e9ad85132a3cfc7e657bf6eca286a33630b"
+  },
+  {
+    "path": "reference/design-images/reference-front.png",
+    "source": "User-provided Rev D reference image",
+    "sha256": "6040578b5216048052cd3236a7747d513ba408ef7cde02d8f6bb95e65364be9c"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"status\": \"ok\",\n  \"result\": {\n    \"views\": [\n      \"percival-front.png\",\n      \"percival-side.png\",\n      \"percival-top.png\",\n      \"percival-cutaway.png\"\n    ],\n    \"saved_scene\": \"Percival \u2022 engineering assembly\"\n  },\n  \"stdout\": \"Info: Saved as \\\"percival.blend\\\"\\n\"\n}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": {
+    "status": "ok",
+    "result": {
+      "views": [
+        "percival-front.png",
+        "percival-side.png",
+        "percival-top.png",
+        "percival-cutaway.png"
+      ],
+      "saved_scene": "Percival \u2022 engineering assembly"
+    },
+    "stdout": "Info: Saved as \"percival.blend\"\n"
+  },
+  "isError": false
+}

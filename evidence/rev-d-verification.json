@@ -1,0 +1,51 @@
+{
+  "scope": "Rev D reference-led proportion and mechanical-layout concept",
+  "baseline": [
+    "evidence/rev-d-baseline.json",
+    "evidence/rev-d-rev-c-baseline-check.json"
+  ],
+  "checks": [
+    {
+      "command": "/Users/dearwolf/.local/share/blender-mcp/1.0.3/.venv/bin/python scripts/blender_mcp.py scripts/check_rev_d.py --blend design/percival-rev-d-reference.blend --output evidence/rev-d-saved-check.json",
+      "result": "PASS"
+    },
+    {
+      "command": "python3 -m py_compile scripts/save_approved_rev_c.py scripts/build_rev_d.py scripts/render_rev_d.py scripts/check_rev_d.py",
+      "result": "PASS"
+    },
+    {
+      "command": "git diff --check",
+      "result": "PASS"
+    },
+    {
+      "check": "Visual inspection of hero, side and top views; reference comparison by independent read-only agent; inline HTML preview",
+      "result": "Completed. Adjusted raised palm, side-pod diameter and sole profile."
+    },
+    {
+      "command": "./.agents/bin/eng verify --profile fast",
+      "result": "UNAVAILABLE: engineering kit not installed; no installation performed"
+    }
+  ],
+  "saved_file_checks": {
+    "status": "PASS",
+    "scene": "Percival \u2022 Rev D / reference proportions",
+    "saved_file": "/Users/dearwolf/.t3/projects/percival/design/percival-rev-d-reference.blend",
+    "rev_a_b_c_and_approved_checkpoint_unchanged": true,
+    "independently_measured_height_mm": 547.21,
+    "max_illustrated_gesture_height_mm": 549.75,
+    "hip_height_fraction": 0.395,
+    "full_size_servo_envelopes": 4,
+    "reference_status": "Visual approximation of supplied images; not measured drawings",
+    "unverified": [
+      "physical fit",
+      "printable wall construction",
+      "fastener mounting",
+      "torque",
+      "full-motion interference",
+      "balance",
+      "walking"
+    ]
+  },
+  "rollback": "Open approved Rev C checkpoint from evidence/rev-d-preserved-baseline.json. Rev A, B and C files are unchanged.",
+  "release_status": "Concept only. No new printable-part or hardware purchase release."
+}

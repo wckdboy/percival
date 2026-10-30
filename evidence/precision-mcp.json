@@ -1,0 +1,406 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"status\": \"ok\",\n  \"result\": {\n    \"cleanup_grid_mm\": 0.001,\n    \"parts\": [\n      {\n        \"part\": \"P01\",\n        \"before\": [\n          2113,\n          1072\n        ],\n        \"after\": [\n          2083,\n          4198\n        ]\n      },\n      {\n        \"part\": \"P02\",\n        \"before\": [\n          5101,\n          2628\n        ],\n        \"after\": [\n          5085,\n          10374\n        ]\n      },\n      {\n        \"part\": \"P03\",\n        \"before\": [\n          2005,\n          1024\n        ],\n        \"after\": [\n          2001,\n          4058\n        ]\n      },\n      {\n        \"part\": \"P04R\",\n        \"before\": [\n          1033,\n          524\n        ],\n        \"after\": [\n          965,\n          1946\n        ]\n      },\n      {\n        \"part\": \"P05R\",\n        \"before\": [\n          256,\n          132\n        ],\n        \"after\": [\n          256,\n          508\n        ]\n      },\n      {\n        \"part\": \"P05AR\",\n        \"before\": [\n          128,\n          66\n        ],\n        \"after\": [\n          128,\n          252\n        ]\n      },\n      {\n        \"part\": \"P06R\",\n        \"before\": [\n          333,\n          170\n        ],\n        \"after\": [\n          333,\n          670\n        ]\n      },\n      {\n        \"part\": \"P07R\",\n        \"before\": [\n          72,\n          38\n        ],\n        \"after\": [\n          72,\n          140\n        ]\n      },\n      {\n        \"part\": \"P04L\",\n        \"before\": [\n          1033,\n          524\n        ],\n        \"after\": [\n          965,\n          1946\n        ]\n      },\n      {\n        \"part\": \"P05L\",\n        \"before\": [\n          256,\n          132\n        ],\n        \"after\": [\n          256,\n          508\n        ]\n      },\n      {\n        \"part\": \"P05AL\",\n        \"before\": [\n          128,\n          66\n        ],\n        \"after\": [\n          128,\n          252\n        ]\n      },\n      {\n        \"part\": \"P06L\",\n        \"before\": [\n          333,\n          170\n        ],\n        \"after\": [\n          333,\n          670\n        ]\n      },\n      {\n        \"part\": \"P07L\",\n        \"before\": [\n          72,\n          38\n        ],\n        \"after\": [\n          72,\n          140\n        ]\n      },\n      {\n        \"part\": \"P08\",\n        \"before\": [\n          72,\n          38\n        ],\n        \"after\": [\n          72,\n          140\n        ]\n      },\n      {\n        \"part\": \"P10\",\n        \"before\": [\n          2748,\n          1402\n        ],\n        \"after\": [\n          2748,\n          5580\n        ]\n      },\n      {\n        \"part\": \"P11\",\n        \"before\": [\n          328,\n          170\n        ],\n        \"after\": [\n          328,\n          660\n        ]\n      },\n      {\n        \"part\": \"P12\",\n        \"before\": [\n          160,\n          88\n        ],\n        \"after\": [\n          160,\n          324\n        ]\n      },\n      {\n        \"part\": \"P20L\",\n        \"before\": [\n          160,\n          88\n        ],\n        \"after\": [\n          160,\n          324\n        ]\n      },\n      {\n        \"part\": \"P21L\",\n        \"before\": [\n          160,\n          88\n        ],\n        \"after\": [\n          160,\n          324\n        ]\n      },\n      {\n        \"part\": \"P22L\",\n        \"before\": [\n          72,\n          38\n        ],\n        \"after\": [\n          72,\n          140\n        ]\n      },\n      {\n        \"part\": \"P23L\",\n        \"before\": [\n          160,\n          88\n        ],\n        \"after\": [\n          160,\n          324\n        ]\n      },\n      {\n        \"part\": \"P30L\",\n        \"before\": [\n          160,\n          88\n        ],\n        \"after\": [\n          160,\n          324\n        ]\n      },\n      {\n        \"part\": \"P31L\",\n        \"before\": [\n          160,\n          88\n        ],\n        \"after\": [\n          160,\n          324\n        ]\n      },\n      {\n        \"part\": \"P32L\",\n        \"before\": [\n          72,\n          38\n        ],\n        \"after\": [\n          72,\n          140\n        ]\n      },\n      {\n        \"part\": \"P33L\",\n        \"before\": [\n          160,\n          88\n        ],\n        \"after\": [\n          160,\n          324\n        ]\n      },\n      {\n        \"part\": \"P34L\",\n        \"before\": [\n          160,\n          88\n        ],\n        \"after\": [\n          160,\n          324\n        ]\n      },\n      {\n        \"part\": \"P20R\",\n        \"before\": [\n          160,\n          88\n        ],\n        \"after\": [\n          160,\n          324\n        ]\n      },\n      {\n        \"part\": \"P21R\",\n        \"before\": [\n          160,\n          88\n        ],\n        \"after\": [\n          160,\n          324\n        ]\n      },\n      {\n        \"part\": \"P22R\",\n        \"before\": [\n          72,\n          38\n        ],\n        \"after\": [\n          72,\n          140\n        ]\n      },\n      {\n        \"part\": \"P23R\",\n        \"before\": [\n          160,\n          88\n        ],\n        \"after\": [\n          160,\n          324\n        ]\n      },\n      {\n        \"part\": \"P30R\",\n        \"before\": [\n          160,\n          88\n        ],\n        \"after\": [\n          160,\n          324\n        ]\n      },\n      {\n        \"part\": \"P31R\",\n        \"before\": [\n          160,\n          88\n        ],\n        \"after\": [\n          160,\n          324\n        ]\n      },\n      {\n        \"part\": \"P32R\",\n        \"before\": [\n          72,\n          38\n        ],\n        \"after\": [\n          72,\n          140\n        ]\n      },\n      {\n        \"part\": \"P33R\",\n        \"before\": [\n          160,\n          88\n        ],\n        \"after\": [\n          160,\n          324\n        ]\n      },\n      {\n        \"part\": \"P34R\",\n        \"before\": [\n          160,\n          88\n        ],\n        \"after\": [\n          160,\n          324\n        ]\n      }\n    ]\n  },\n  \"stdout\": \"Info: Saved copy as \\\"percival-before-export-cleanup.blend\\\"\\nInfo: Saved as \\\"percival.blend\\\"\\n\"\n}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": {
+    "status": "ok",
+    "result": {
+      "cleanup_grid_mm": 0.001,
+      "parts": [
+        {
+          "part": "P01",
+          "before": [
+            2113,
+            1072
+          ],
+          "after": [
+            2083,
+            4198
+          ]
+        },
+        {
+          "part": "P02",
+          "before": [
+            5101,
+            2628
+          ],
+          "after": [
+            5085,
+            10374
+          ]
+        },
+        {
+          "part": "P03",
+          "before": [
+            2005,
+            1024
+          ],
+          "after": [
+            2001,
+            4058
+          ]
+        },
+        {
+          "part": "P04R",
+          "before": [
+            1033,
+            524
+          ],
+          "after": [
+            965,
+            1946
+          ]
+        },
+        {
+          "part": "P05R",
+          "before": [
+            256,
+            132
+          ],
+          "after": [
+            256,
+            508
+          ]
+        },
+        {
+          "part": "P05AR",
+          "before": [
+            128,
+            66
+          ],
+          "after": [
+            128,
+            252
+          ]
+        },
+        {
+          "part": "P06R",
+          "before": [
+            333,
+            170
+          ],
+          "after": [
+            333,
+            670
+          ]
+        },
+        {
+          "part": "P07R",
+          "before": [
+            72,
+            38
+          ],
+          "after": [
+            72,
+            140
+          ]
+        },
+        {
+          "part": "P04L",
+          "before": [
+            1033,
+            524
+          ],
+          "after": [
+            965,
+            1946
+          ]
+        },
+        {
+          "part": "P05L",
+          "before": [
+            256,
+            132
+          ],
+          "after": [
+            256,
+            508
+          ]
+        },
+        {
+          "part": "P05AL",
+          "before": [
+            128,
+            66
+          ],
+          "after": [
+            128,
+            252
+          ]
+        },
+        {
+          "part": "P06L",
+          "before": [
+            333,
+            170
+          ],
+          "after": [
+            333,
+            670
+          ]
+        },
+        {
+          "part": "P07L",
+          "before": [
+            72,
+            38
+          ],
+          "after": [
+            72,
+            140
+          ]
+        },
+        {
+          "part": "P08",
+          "before": [
+            72,
+            38
+          ],
+          "after": [
+            72,
+            140
+          ]
+        },
+        {
+          "part": "P10",
+          "before": [
+            2748,
+            1402
+          ],
+          "after": [
+            2748,
+            5580
+          ]
+        },
+        {
+          "part": "P11",
+          "before": [
+            328,
+            170
+          ],
+          "after": [
+            328,
+            660
+          ]
+        },
+        {
+          "part": "P12",
+          "before": [
+            160,
+            88
+          ],
+          "after": [
+            160,
+            324
+          ]
+        },
+        {
+          "part": "P20L",
+          "before": [
+            160,
+            88
+          ],
+          "after": [
+            160,
+            324
+          ]
+        },
+        {
+          "part": "P21L",
+          "before": [
+            160,
+            88
+          ],
+          "after": [
+            160,
+            324
+          ]
+        },
+        {
+          "part": "P22L",
+          "before": [
+            72,
+            38
+          ],
+          "after": [
+            72,
+            140
+          ]
+        },
+        {
+          "part": "P23L",
+          "before": [
+            160,
+            88
+          ],
+          "after": [
+            160,
+            324
+          ]
+        },
+        {
+          "part": "P30L",
+          "before": [
+            160,
+            88
+          ],
+          "after": [
+            160,
+            324
+          ]
+        },
+        {
+          "part": "P31L",
+          "before": [
+            160,
+            88
+          ],
+          "after": [
+            160,
+            324
+          ]
+        },
+        {
+          "part": "P32L",
+          "before": [
+            72,
+            38
+          ],
+          "after": [
+            72,
+            140
+          ]
+        },
+        {
+          "part": "P33L",
+          "before": [
+            160,
+            88
+          ],
+          "after": [
+            160,
+            324
+          ]
+        },
+        {
+          "part": "P34L",
+          "before": [
+            160,
+            88
+          ],
+          "after": [
+            160,
+            324
+          ]
+        },
+        {
+          "part": "P20R",
+          "before": [
+            160,
+            88
+          ],
+          "after": [
+            160,
+            324
+          ]
+        },
+        {
+          "part": "P21R",
+          "before": [
+            160,
+            88
+          ],
+          "after": [
+            160,
+            324
+          ]
+        },
+        {
+          "part": "P22R",
+          "before": [
+            72,
+            38
+          ],
+          "after": [
+            72,
+            140
+          ]
+        },
+        {
+          "part": "P23R",
+          "before": [
+            160,
+            88
+          ],
+          "after": [
+            160,
+            324
+          ]
+        },
+        {
+          "part": "P30R",
+          "before": [
+            160,
+            88
+          ],
+          "after": [
+            160,
+            324
+          ]
+        },
+        {
+          "part": "P31R",
+          "before": [
+            160,
+            88
+          ],
+          "after": [
+            160,
+            324
+          ]
+        },
+        {
+          "part": "P32R",
+          "before": [
+            72,
+            38
+          ],
+          "after": [
+            72,
+            140
+          ]
+        },
+        {
+          "part": "P33R",
+          "before": [
+            160,
+            88
+          ],
+          "after": [
+            160,
+            324
+          ]
+        },
+        {
+          "part": "P34R",
+          "before": [
+            160,
+            88
+          ],
+          "after": [
+            160,
+            324
+          ]
+        }
+      ]
+    },
+    "stdout": "Info: Saved copy as \"percival-before-export-cleanup.blend\"\nInfo: Saved as \"percival.blend\"\n"
+  },
+  "isError": false
+}
